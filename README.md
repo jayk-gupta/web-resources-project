@@ -1,5 +1,5 @@
 # web-resources
-Hackathon project
+Devjam Hackathon project
 # Steps to run locally
 1. Clone repo
 2. install dependencies:

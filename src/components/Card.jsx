@@ -11,18 +11,18 @@ const Card = ({ title, link, description, i, img }) => {
       animate={{ opacity: 1, translateX: 0 }}
       transition={{ duration: 0.2, delay: i * 0.2 }}
     >
-      <div className="img border-2 self-center">
+      <div className="img w-40  self-center">
         {/* src={`'${img}'`} */}
-        <img className="rounded-lg" src={img} alt="html" />
+        <img className="rounded-sm" src={img} alt="html" />
       </div>
 
       <div className="content flex flex-col gap-4 items-center">
         <a href={link} target={"_blank"} rel="noreferrer">
-          <h2 className="text-grape-200 hover:text-grape-300 text-xl font-bold hover:text-orange-500">
+          <h2 className="text-grape-200 hover:text-grape-300 text-lg font-bold hover:text-orange-500">
             {title}
           </h2>{" "}
         </a>
-        <p className="text-sm text-[#402E32] w-4/5 font-inter tracking-wide leading-5">
+        <p className="text-[0.9rem] text-[#402E32] w-4/5 font-inter tracking-wide leading-5">
           {description.slice(0, 120) + "..."}
         </p>
       </div>

@@ -10,5 +10,35 @@
     "description": "CSS Gradient is a little website and free tool that lets you create a gradient background and color palette for sites.",
     "link": "https://mycolor.space/gradient",
     "img": ""
+  },
+  {
+    "title": "CSS Tricks - Button Maker",
+    "description": "It is a useful Button CSS code generator which allows to add transparency, hover color, background color and much more.",
+    "link": "https://css-tricks.com/examples/ButtonMaker/",
+    "img": ""
+  },
+  {
+    "title": "Fancy Border Radius",
+    "description": "It lets one add fancy border radius to elements and also customize them according to user's need ",
+    "link": "https://9elements.github.io/fancy-border-radius/",
+    "img": ""
+  },
+  {
+    "title": "Patternify",
+    "description": "Lets one add custom pattern to their websites and copy the code generated.",
+    "link": "http://www.patternify.com/",
+    "img": ""
+  },
+  {
+    "title": "Smooth Shadow",
+    "description": "Lets one add smooth shadow to websites and copy the custom code generated.",
+    "link": "https://shadows.brumm.af/",
+    "img": ""
+  },
+  {
+    "title": "Wait Animate!",
+    "description": "It adds custom animation to website and lets one copy the code generated.",
+    "link": "https://waitanimate.wstone.uk/",
+    "img": ""
   }
 ]

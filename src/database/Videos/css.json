@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Web Dev Simplified",
+    "description": "Web Dev Simplified is all about teaching web development skills and techniques in an efficient and practical manner. If you are just getting started in web development Web Dev Simplified has all the tools you need to learn the newest and most popular technologies to convert you from a no stack to full stack developer. Web Dev Simplified also deep dives into advanced topics using the latest best practices for you seasoned web develop",
+    "link": "https://www.youtube.com/@WebDevSimplified/featured",
+    "img": ""
+  },
+  {
+    "title": "Kevin Powell",
+    "description": "This channel is a treasure trove of in-depth tutorials, insightful discussions, and practical coding challenges. From HTML and CSS to JavaScript and responsive design, Kevin covers it all, ensuring you gain a solid foundation in key web technologies.",
+    "link": "https://www.youtube.com/@KevinPowell/videos",
+    "img": ""
+  },
+  {
+    "title": "FreeCodeCamp.org",
+    "description": "Learn to code for free. Number of instructors and industry level experts with years of experience teach for free. Quality content of all technologies at one stop destination.",
+    "link": "https://www.youtube.com/@freecodecamp",
+    "img": ""
+  },
+  {
+    "title": "Programming with Mosh",
+    "description": "I train professional software engineers that companies love to hire",
+    "link": "https://www.youtube.com/@programmingwithmosh",
+    "img": ""
+  },
+  {
+    "title": "CSS - The Complete Guide 2023 ",
+    "description": "Learn CSS for the first time or brush up your CSS skills and dive in even deeper. EVERY web developer has to know CSS.",
+    "link": "https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/",
+    "img": ""
+  },
+  {
+    "title": "Traversy Media",
+    "description": "He features the best online web development and programming tutorials for all of the latest web technologies from the building blocks of HTML, CSS & JavaScript to frontend frameworks like React and Vue.",
+    "link": "https://www.youtube.com/@TraversyMedia",
+    "img": ""
+  },
+  {
+    "title": "Advanced Styling with Responsive Design",
+    "description": "It used to be the case that everyone viewed webpages on about the same size screen.  But with the explosion of the use of smartphones to access the Internet, the landscape of design has completely changed.  People viewing your site will now expect that it will perform regardless of the platform (smartphone, tablet, laptop, or desktop computer).  This ability to respond to any platform is called responsive design.",
+    "link": "https://www.coursera.org/learn/responsivedesign",
+    "img": ""
+  }
+]

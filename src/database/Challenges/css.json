@@ -1,0 +1,26 @@
+[
+  {
+    "title": "CodeWell",
+    "description": "Improve your HTML and CSS skills by practicing on real design templates.With Codewell, you can browse high quality Figma templates that you can use to sharpen your HTML and CSS skills.",
+    "link": "https://www.codewell.cc/",
+    "img": ""
+  },
+  {
+    "title": "CSSBattle",
+    "description": "CSS code-golfing game is here! Use your CSS skills to replicate targets with smallest possible code. Feel free to check out the targets below and put your CSS skills to test.",
+    "link": "https://cssbattle.dev/",
+    "img": ""
+  },
+  {
+    "title": "CoderByte",
+    "description": "Evaluate candidates quickly, affordably, and accurately.The industrys #1 code assessment platform for screening, interviews, and take-home projects.All plans include unlimited candidates, assessments, and user accounts.",
+    "link": "https://coderbyte.com/organizations?utm_term=byteboard&utm_campaign=2020+%7C+Main+%E2%80%93+Screening+low-end+alternatives&utm_source=adwords&utm_medium=ppc&hsa_acc=9961249630&hsa_net=adwords&hsa_grp=115036778098&hsa_ver=3&hsa_kw=byteboard&hsa_tgt=kwd-1018898631307&hsa_mt=b&hsa_ad=482283515409&hsa_src=g&hsa_cam=10101005652&gad=1",
+    "img": ""
+  },
+  {
+    "title": "Frontend Mentor",
+    "description": "Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs. Join 616,636 developers building projects, reviewing code, and helping each other get better.",
+    "link": "https://www.frontendmentor.io/",
+    "img": ""
+  }
+]

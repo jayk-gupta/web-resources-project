@@ -1,0 +1,44 @@
+[
+  {
+    "title": "FreeCodeCamp",
+    "description": "Learn to code for free. Number of instructors and industry level experts with years of experience teach for free. Quality content of all technologies at one stop destination.",
+    "link": "https://www.youtube.com/@freecodecamp",
+    "img": ""
+  },
+  {
+    "title": "Traversy Media",
+    "description": "Traversy Media features the best online web development and programming tutorials for all of the latest web technologies from the building blocks of HTML, CSS & JavaScript to frontend frameworks like React and Vue to backend technologies like Node.js, Python and PHP",
+    "link": "https://www.youtube.com/@TraversyMedia",
+    "img": ""
+  },
+  {
+    "title": "Namaste Javascript",
+    "description": "help people with Interview preparation, Tech Tutorials, and my personal Tips and Tricks to advance their career. Interview based learning diving deep into concepts with easy language and good teaching.",
+    "link": "https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP",
+    "img": ""
+  },
+  {
+    "title": "Web Dev Simplified",
+    "description": "Web Dev Simplified is all about teaching web development skills and techniques in an efficient and practical manner. If you are just getting started in web development Web Dev Simplified has all the tools you need to learn the newest and most popular technologies to convert you from a no stack to full stack developer. Web Dev Simplified also deep dives into advanced topics using the latest best practices for you seasoned web developers.",
+    "link": "https://www.youtube.com/@WebDevSimplified",
+    "img": ""
+  },
+  {
+    "title": "The New Boston",
+    "description": "Tons of sweet computer related tutorials and some other awesome videos too! Interactive learning making complex topics easier to read and digest.",
+    "link": "https://www.youtube.com/@thenewboston",
+    "img": ""
+  },
+  {
+    "title": "Programming with Mosh",
+    "description": "I train professional software engineers that companies love to hire. Detailed explanations with cool animations and interative teaching. Short concise videos of complex topics. Easy learning with visual effect understanding.",
+    "link": "https://www.youtube.com/@programmingwithmosh",
+    "img": ""
+  },
+  {
+    "title": "The Complete JavaScript Course: From Zero to Expert!",
+    "description": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!. Detailed behind the scenes of every important topic of JS. Industry level projects, behind the stage thinking, architecture and more.",
+    "link": "https://www.udemy.com/course/the-complete-javascript-course/",
+    "img": ""
+  }
+]

@@ -3,7 +3,7 @@ import { Link} from "react-router-dom";
 
 const TagsNav = () => {
   return (
-    <nav className="categories text-lg py-2 bg-[#f3d9fa] flex  gap-12 text-[#562c35] px-28">
+    <nav className="categories text-lg py-2 bg-[#f3d9fa] flex  gap-12 text-[#562c35] px-28 sticky top-0">
       {/* <Link to="all-categories" className="hover:text-orange-500 font-roboto">
         <p className="tracking-wider hover:cursor-pointer hover">
           All Categories{" "}

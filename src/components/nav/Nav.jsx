@@ -10,7 +10,11 @@ const Nav = () => {
   return (
     <div className="flex flex-col fixed h-screen bg-[#76118f] py-8 px-4 text-xl w-[5%] items-center gap-36 z-50 ">
       <NavLink to="/">
-        <img className="s" src="../src/assets/logo.png" alt="logo" />
+        <img
+          className="s"
+          src="https://user-images.githubusercontent.com/100681165/238192169-5ed8ffdb-c8fb-4a69-8f91-d4d376271ae3.png"
+          alt="logo"
+        />
       </NavLink>
 
       <div className="flex flex-col gap-12 ">

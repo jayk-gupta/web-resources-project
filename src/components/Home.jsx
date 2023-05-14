@@ -23,10 +23,17 @@ export default function Home() {
       </motion.div>
 
       <div className="flex items-center w-1/2">
-        <img className="w-full" src="../public/illus.svg" alt="logo" />
+        <img
+          className="w-full"
+          src="https://user-images.githubusercontent.com/100681165/238192164-570dad2f-ba6d-4a35-8ae0-7fb364560653.svg"
+          alt="logo"
+        />
       </div>
       <div className=" w-full z-[-10] absolute left-0 bottom-0">
-        <img className="" src="../src/assets/wave.svg"></img>
+        <img
+          className=""
+          src="https://user-images.githubusercontent.com/100681165/238192175-4ed7ca3a-48f3-433b-84fd-f5e84aab3714.svg"
+        ></img>
       </div>
     </div>
   );

@@ -7,6 +7,13 @@
 
 
 <!-- CSS -->
+![cssv_ advanced styling and design coursera video](https://github.com/jayk-gupta/web-resources-project/assets/77445758/92e6da6e-59dd-4d5b-a407-26b19293b54e)
+![cssv_Css the complete guide video](https://github.com/jayk-gupta/web-resources-project/assets/77445758/bf3b2b4a-19c5-4831-b22e-6850874a861e)
+![cssv_freecodecamp youtube](https://github.com/jayk-gupta/web-resources-project/assets/77445758/990e1599-761e-4d0a-b909-c12a896143db)
+![cssv_kevin powell video](https://github.com/jayk-gupta/web-resources-project/assets/77445758/63e563ee-64b8-4a30-a882-8657c03d3fa2)
+![cssv_programming with mosh video](https://github.com/jayk-gupta/web-resources-project/assets/77445758/a1d7c738-902c-4207-a388-497aa44e1a0c)
+![cssv_traversy media video](https://github.com/jayk-gupta/web-resources-project/assets/77445758/cb352944-b03b-417a-bfa9-f2ef35825a8b)
+![cssv_webdevsimplified video](https://github.com/jayk-gupta/web-resources-project/assets/77445758/9f93463f-7e9d-4e57-9946-34e21851081d)
 
 <!-- JS -->
 ![jsv_aniak](https://github.com/jayk-gupta/web-resources-project/assets/100681165/dd7c61a6-4675-4f80-826d-2955e33a4d8e)

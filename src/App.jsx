@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 // nav
 import Nav from "./components/nav/Nav.jsx";
 // components

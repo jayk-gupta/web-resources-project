@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <div className=" w-full  flex mx-auto ml-16">
+    <div className=" w-full  flex mx-auto ml-16 mt-12">
       <motion.div
         className=" w-3/5 p-12 flex flex-col gap-12"
         initial={{ opacity: 0, translateX: -100 }}

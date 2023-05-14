@@ -18,10 +18,14 @@ const Tools = () => {
           Web Dev Resources
         </h2>
         <Link to="html" className="hover:text-orange-500 font-roboto">
-          <p className="tracking-wider hover:cursor-pointer hover">HTML</p>
+          <p className="tracking-wider hover:cursor-pointer hover:text-[#d63afd]">
+            HTML
+          </p>
         </Link>
         <Link to="css" className="hover:text-orange-500 font-roboto">
-          <p className="tracking-wider hover:cursor-pointer hover">CSS</p>
+          <p className="tracking-wider hover:cursor-pointer hover:text-[#d63afd]">
+            CSS
+          </p>
         </Link>
       </nav>
 

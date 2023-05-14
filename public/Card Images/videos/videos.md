@@ -16,13 +16,13 @@
 ![cssv_webdevsimplified video](https://github.com/jayk-gupta/web-resources-project/assets/77445758/9f93463f-7e9d-4e57-9946-34e21851081d)
 
 <!-- JS -->
-![jsv_aniak](https://github.com/jayk-gupta/web-resources-project/assets/100681165/dd7c61a6-4675-4f80-826d-2955e33a4d8e)
-![jsv_hitesh](https://github.com/jayk-gupta/web-resources-project/assets/100681165/596eb81b-cfdf-403f-9932-ee975d368360)
-![jsv_mosh](https://github.com/jayk-gupta/web-resources-project/assets/100681165/31b7498d-c27e-40fb-a1ee-acd6cbfbd620)
-![jsv_webdevsimp](https://github.com/jayk-gupta/web-resources-project/assets/100681165/a3f96695-b4f1-4ab7-afca-c9882c28c2e5)
-![jsv_namasteJS](https://github.com/jayk-gupta/web-resources-project/assets/100681165/ea3eab22-8d87-4387-a452-63c3891584c1)
-![jsv_traversy](https://github.com/jayk-gupta/web-resources-project/assets/100681165/ab7e45a7-a6b5-46ee-8fd5-f4794273b766)
-![jsv_freecodecamp](https://github.com/jayk-gupta/web-resources-project/assets/100681165/e21e26e9-ab2c-43f7-b4a4-fb8b962e4688)
+![jsv_aniak](https://github.com/jayk-gupta/web-resources-project/assets/100681165/edf1ad71-314d-46c9-bf2f-f992b6983cf5)
+![jsv_freecodecamp](https://github.com/jayk-gupta/web-resources-project/assets/100681165/a3778ffe-f6d2-4541-86a2-82b12348a841)
+![jsv_hitesh](https://github.com/jayk-gupta/web-resources-project/assets/100681165/7296f3ac-aaac-4035-8c8b-f1819e4158fe)
+![jsv_mosh](https://github.com/jayk-gupta/web-resources-project/assets/100681165/c5e96d7d-a044-40b8-b954-a72ba3f2df7f)
+![jsv_namasteJS](https://github.com/jayk-gupta/web-resources-project/assets/100681165/352b93a0-2a15-49a4-bffb-e699fa779268)
+![jsv_traversy](https://github.com/jayk-gupta/web-resources-project/assets/100681165/4626bcd1-b000-43b2-8bf7-ce8d75af6b3b)
+![jsv_webdevsimp](https://github.com/jayk-gupta/web-resources-project/assets/100681165/559c3eff-33a4-4c55-b7ff-4907c06c2e05)
 
 
 

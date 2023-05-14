@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Learn React - Scrimba",
+    "description": "The ultimate React 101 - the perfect starting point for any React beginner. Learn the basics of modern React by solving 140+ interactive coding challenges and building eight fun projects.",
+    "link": "https://scrimba.com/",
+    "img": ""
+  },
+  {
+    "title": "Pedro Tech",
+    "description": "Videos about Web Development! ReactJS, NodeJS, MySQL, Express, MongoDB, GraphQL and much more!",
+    "link": "https://www.youtube.com/@PedroTechnologies",
+    "img": ""
+  },
+
+  {
+    "title": "Javascript Mastery",
+    "description": "12 hours of React content, from the basics to the advanced topics. This course is a great starting point for beginners.",
+    "link": "  https://www.youtube.com/watch?v=XxXyfkrP298&t=2069s",
+    "img": ""
+  },
+
+  {
+    "title": "FreeCodeCamp React Course ",
+    "description": "Learn react from scratch with this free course from FreeCodeCamp. This course is a great starting point for beginners.",
+    "link": "  https://www.youtube.com/watch?v=bMknfKXIFA8&t=8110s",
+    "img": ""
+  },
+  {
+    "title": "Codevolution",
+    "description": "Tutorials on the latest tech in web development! Structured and comprehensive videos with examples and therotical aspects in detail. Crisp and clear explanations of more complex topics like React Hooks.",
+    "link": "https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+    "img": ""
+  },
+
+  {
+    "title": "The Net Ninja",
+    "description": "It covers all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
+    "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d",
+    "img": ""
+  },
+  {
+    "title": "Thapa Technical",
+    "description": "This channel is all about Website Development, Technical, Tips and Tricks, Designs Principle and Programming videos in the Hindi Language. All explanation made in simple terms",
+    "link": "https://www.youtube.com/@ThapaTechnical",
+    "img": ""
+  }
+]

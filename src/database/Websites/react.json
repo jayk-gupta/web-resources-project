@@ -1,0 +1,20 @@
+[
+  {
+    "title": "React.dev",
+    "description": "The Official Documentation of the React. The library for web and native user interfaces. React lets you build user interfaces out of individual pieces called components. Create your own React components like Thumbnail, LikeButton, and Video. Then combine them into entire screens, pages, and apps.",
+    "link": "https://react.dev/",
+    "img": ""
+  },
+  {
+    "title": "Freecodecamp",
+    "description": "Our mission: to help people learn to code for free. We accomplish this by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public. We also have thousands of freeCodeCamp study groups around the world.",
+    "link": "https://www.freecodecamp.org/",
+    "img": ""
+  },
+   {
+    "title": "React tutorial app",
+    "description": "Learn in an interactive environment. Understand how React works not just how to build with React.",
+    "link": "  https://react-tutorial.app/",
+    "img": ""
+  }
+]

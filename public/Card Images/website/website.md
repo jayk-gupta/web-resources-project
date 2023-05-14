@@ -13,6 +13,20 @@
 
 
 
+![cssw_w3](https://github.com/jayk-gupta/web-resources-project/assets/100681165/58fbc724-1ac7-440b-98ad-16f88b35acf6)
+![cssw_webdev](https://github.com/jayk-gupta/web-resources-project/assets/100681165/a6d69334-4d7f-4bf6-acaa-b0693c27d2e3)
+![cssw_csstricks](https://github.com/jayk-gupta/web-resources-project/assets/100681165/101214e0-7317-45e2-88f8-36ea64b3ae95)
+![cssw_learnhtmlcssonline](https://github.com/jayk-gupta/web-resources-project/assets/100681165/afd01faf-7275-41e2-b856-5640b7b20d36)
+![cssw_mdn](https://github.com/jayk-gupta/web-resources-project/assets/100681165/49cbfd5a-a203-419a-80a7-7cb55f72f346)
+
+
+
+
+
+
+
+
+
 # Javascript
 
 ![jsw_jsinfo](https://github.com/jayk-gupta/web-resources-project/assets/100681165/6469009c-e38c-4f60-aa70-0551d7ca196a)

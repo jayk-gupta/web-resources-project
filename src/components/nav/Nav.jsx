@@ -63,7 +63,7 @@ const Nav = () => {
           <div className="group flex flex-col gap-3 justify-center items-center">
             <BsBookHalf className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />
             <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
-              Tools
+              Books
             </h6>
           </div>
         </NavLink>

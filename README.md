@@ -12,3 +12,26 @@ Web Resource Hub is an open-source project developed for the DevJam Hackathon or
 
 5. Navigate Back: To explore more resources within the same section, simply use the navigation buttons or links provided. You can go back to the list of tags, choose a different tag, or select another resource.
 
+# Getting Started
+To clone the repository to your local machine, follow these steps:
+
+1. Go to the main page of the repository on Github.
+2. Click on the "Code" button and copy the URL provided.
+3. Open the terminal or command prompt on your computer.
+4. Navigate to the directory where you want to clone the repository.
+5. Type the command git clone [https://github.com/jayk-gupta/Code-Nexus] (This will download the repository to your local machine)
+
+
+# Running the Project Locally
+1. Open a terminal or command prompt on your computer.
+2. Navigate to the directory where the repository was cloned.
+3. pnpm install (Install dependencies)
+4. pnpm dev (This will launch the project in your local browser or terminal)
+
+# Adding new resource 
+1. Navigate to the appropriate section directory (videos, websites or challenges etc) based on the type of resource you want to add. 
+2. Create a new file for your resource, using a meaningful and descriptive name. 
+3. Make sure the file format is compatible with the section (e.g., for videos, consider using .jsx or .md).
+
+
+

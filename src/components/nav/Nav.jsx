@@ -19,19 +19,44 @@ const Nav = () => {
 
       <div className="flex flex-col gap-12 ">
         <NavLink to="/">
-          <FaHome className="text-[white]  hover:text-grape-100" />
+          <div className="group flex flex-col gap-3 justify-center items-center">
+            <FaHome className="text-[white]  hover:text-grape-100 group-hover:scale-125" />
+            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
+              Home
+            </h6>
+          </div>
         </NavLink>
         <NavLink to="/Videos">
-          <BsFillCameraVideoFill className="text-[white] hover:text-grape-100" />
+          <div className="group flex flex-col gap-3 justify-center items-center">
+            <BsFillCameraVideoFill className="text-[white] hover:text-grape-100 group-hover:scale-125" />
+            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
+              Videos
+            </h6>
+          </div>
         </NavLink>
         <NavLink to="/Websites">
-          <CgWebsite className="text-[white] hover:text-grape-100" />
+          <div className="group flex flex-col gap-3 justify-center items-center">
+            <CgWebsite className="text-[white] hover:text-grape-100 group-hover:scale-125" />
+            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
+              Websites
+            </h6>
+          </div>
         </NavLink>
         <NavLink to="/Challenges">
-          <FaLaptopCode className="text-[white] hover:text-grape-100" />
+          <div className="group flex flex-col gap-3 justify-center items-center">
+            <FaLaptopCode className="text-[white] hover:text-grape-100 group-hover:scale-125" />
+            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
+              Challenges
+            </h6>
+          </div>
         </NavLink>
         <NavLink to="/Tools">
-          <BsTools className="text-[white] hover:text-grape-100" />
+          <div className="group flex flex-col gap-3 justify-center items-center">
+            <BsTools className="text-[white] hover:text-grape-100 group-hover:scale-125" />
+            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
+              Tools
+            </h6>
+          </div>
         </NavLink>
       </div>
     </div>

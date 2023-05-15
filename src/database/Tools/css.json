@@ -3,42 +3,42 @@
     "title": "CSS Gradient IO",
     "description": "CSS Gradient is a happy little website and free tool that lets you create a gradient background for websites. Besides being a css gradient generator, the site is also chock-full of colorful content about gradients from technical articles to real life gradient examples like Stripe and Instagram.",
     "link": "https://cssgradient.io/",
-    "img": ""
+    "img": "https://user-images.githubusercontent.com/100681165/238249828-51c1fa3a-c8b3-499a-b153-72cd616429d6.png"
   },
   {
     "title": "My Color Space",
     "description": "CSS Gradient is a little website and free tool that lets you create a gradient background and color palette for sites.",
     "link": "https://mycolor.space/gradient",
-    "img": ""
+    "img": "https://user-images.githubusercontent.com/100681165/238249824-38de9da5-975b-4469-a1c6-cb9165fea282.png"
   },
   {
     "title": "CSS Tricks - Button Maker",
     "description": "It is a useful Button CSS code generator which allows to add transparency, hover color, background color and much more.",
     "link": "https://css-tricks.com/examples/ButtonMaker/",
-    "img": ""
+    "img": "https://user-images.githubusercontent.com/100681165/238249823-2b667b17-db22-4939-b056-6d79ba1577d2.png"
   },
   {
     "title": "Fancy Border Radius",
     "description": "It lets one add fancy border radius to elements and also customize them according to user's need ",
     "link": "https://9elements.github.io/fancy-border-radius/",
-    "img": ""
+    "img": "https://user-images.githubusercontent.com/100681165/238249826-1b91be97-79a5-4894-96e9-49dc066e9384.png"
   },
   {
     "title": "Patternify",
     "description": "Lets one add custom pattern to their websites and copy the code generated.",
     "link": "http://www.patternify.com/",
-    "img": ""
+    "img": "https://user-images.githubusercontent.com/100681165/238249831-8c1e480b-7647-48b1-be2f-cd3b8af2edd1.png"
   },
   {
     "title": "Smooth Shadow",
     "description": "Lets one add smooth shadow to websites and copy the custom code generated.",
     "link": "https://shadows.brumm.af/",
-    "img": ""
+    "img": "https://user-images.githubusercontent.com/100681165/238249816-d4057030-ef56-4d62-b59b-8f5f46d3dce3.png"
   },
   {
     "title": "Wait Animate!",
     "description": "It adds custom animation to website and lets one copy the code generated.",
     "link": "https://waitanimate.wstone.uk/",
-    "img": ""
+    "img": "https://user-images.githubusercontent.com/100681165/238249819-86a142f4-a383-4711-a978-b42ca7ad3059.png"
   }
 ]

@@ -19,7 +19,7 @@ To clone the repository to your local machine, follow these steps:
 2. Click on the "Code" button and copy the URL provided.
 3. Open the terminal or command prompt on your computer.
 4. Navigate to the directory where you want to clone the repository.
-5. Type the command git clone [https://github.com/jayk-gupta/Code-Nexus] (This will download the repository to your local machine)
+5. Type the command git clone [https://github.com/jayk-gupta/web-resources-project.git] (This will download the repository to your local machine)
 
 
 # Running the Project Locally

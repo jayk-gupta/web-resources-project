@@ -7,3 +7,9 @@
 ![cssc_cssbattle](https://github.com/jayk-gupta/web-resources-project/assets/100681165/6534a6f4-f996-4fef-893b-25eb2948e4f5)
 ![cssc_coderbyte](https://github.com/jayk-gupta/web-resources-project/assets/100681165/27f8bc9b-d779-4fb3-9ad5-da817db34e60)
 ![cssc_codewell](https://github.com/jayk-gupta/web-resources-project/assets/100681165/00725538-ef4d-4ece-8fd7-11e6b999b895)
+
+# js
+
+![jsc_leet](https://github.com/jayk-gupta/web-resources-project/assets/100681165/3fae4e49-7400-4fda-bc78-1b514e2f7df7)
+![jsc-jschallenger](https://github.com/jayk-gupta/web-resources-project/assets/100681165/f7caa1f9-dec0-4774-98f2-aeb40fe095f9)
+![jsc_exercism](https://github.com/jayk-gupta/web-resources-project/assets/100681165/c13410df-0181-45d2-8bc6-598c9648672c)

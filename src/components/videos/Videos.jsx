@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 import TagsNav from "../nav/TagsNav.jsx";
+import { motion } from "framer-motion";
 
 export default function Videos() {
   return (

@@ -1,11 +1,15 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 // import TagsNav from "../nav/TagsNav";
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const Tools = () => {
   return (
-    <div className="border-l-2 border-[#ffdd77]  h-[16rem]  flex flex-col w-screen  gap-6 ">
+    <div
+      className="border-l-2 border-[#ffdd77]  h-[16rem]  flex flex-col w-screen  gap-6 "
+
+    >
       {/* <TagsNav /> */}
 
       <nav className="categories text-lg py-2 bg-[#f3d9fa] flex  gap-12 text-[#562c35] px-28 sticky top-0">

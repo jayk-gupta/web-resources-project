@@ -1,11 +1,12 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 import TagsNav from "../nav/TagsNav.jsx";
 import { Link, Outlet } from "react-router-dom";
 export default function Websites() {
 
   return (
-    <div className="border-l-2 border-[#ffdd77]  h-[16rem]  flex flex-col w-screen  gap-6 ">
+    <div
+    >
       {/* BUTTON */}
       <TagsNav />
       <div className="mx-auto text-center">

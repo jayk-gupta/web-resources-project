@@ -9,7 +9,8 @@ export default {
       montserrat: ['Montserrat', "sans-serif"],
       ultra: ["Ultra", "serif"],
       francois: ["Francois One", "sans-serif"],
-      merriweather : ["Merriweather", "serif"],
+      merriweather: ["Merriweather", "serif"],
+      lobster: ['Lobster', "cursive"]
     },
     boxShadow: {
       "3xl": "0 1px 8px 2px rgba(75,0,94,0.2)",

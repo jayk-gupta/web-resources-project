@@ -1,11 +1,14 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 import TagsNav from "../nav/TagsNav";
 import { Outlet } from "react-router-dom";
 
 export default function Challenges() {
   return (
-    <div className="border-l-2 border-[#ffdd77]  h-[16rem]  flex flex-col w-screen  gap-6">
+    <div
+      className="border-l-2 border-[#ffdd77]  h-[16rem]  flex flex-col w-screen  gap-6"
+
+    >
       {/* categories */}
       <TagsNav />
       <div className="mx-auto text-center">

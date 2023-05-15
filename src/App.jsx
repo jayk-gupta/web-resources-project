@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
+import { Route, Routes, useLocation } from "react-router-dom";
 // nav
 import Nav from "./components/nav/Nav.jsx";
 // components
@@ -9,7 +11,7 @@ import Challenges from "./components/challenges/Challenges.jsx";
 import Home from "./components/Home.jsx";
 import Videos from "./components/videos/Videos.jsx";
 import Tools from "./components/tools/Tools.jsx";
-import { Route, Routes } from "react-router-dom";
+
 //-------------Videos-------------
 import { HtmlV } from "./components/videos/HtmlV.jsx";
 import { JavascriptV } from "./components/videos/JavascriptV.jsx";
@@ -44,7 +46,7 @@ const App = () => {
   return (
     <div className="flex">
       <Nav className=""></Nav>
-      <Routes>
+      <Routes location={location} key = {location.key}>
         {/* Home */}
         <Route path="/" element={<Home />}></Route>
         <Route path="/Websites" element={<Websites />}></Route>
@@ -88,58 +90,10 @@ const App = () => {
           <Route path="javascript" element={<Javascript />}></Route>
           <Route path="react" element={<Reactt />}></Route>
         </Route>
-      </Routes>
+        </Routes>
     </div>
   );
 };
 
 export default App;
 
-// import React from "react";
-// // nav
-// import Nav from "./components/nav/Nav.jsx";
-// // components
-// import Websites from "./components/websites/Websites.jsx";
-// import Books from "./components/books/Books.jsx";
-// import Challenges from "./components/challenges/Challenges.jsx";
-// import Home from "./components/Home.jsx";
-// import Videos from "./components/videos/Videos.jsx";
-// import { Route, Routes } from "react-router-dom";
-// import { Html } from "./components/videos/Html.jsx";
-// import { Css } from "./components/videos/Css.jsx";
-// import { Javascript } from "./components/videos/Javascript.jsx";
-// import { Reactt } from "./components/videos/Reactt.jsx";
-
-// const App = () => {
-//   return (
-//     <div className="flex">
-//       <Nav className=""></Nav>
-//       <Routes>
-//         {/* Home */}
-//         <Route path="/" element={<Home />}></Route>
-//         <Route path="/Websites" element={<Websites />}></Route>
-//         <Route path="/Challenges" element={<Challenges />}></Route>
-//         <Route path="/Books" element={<Books />}></Route>
-//         {/***********  Videos ************************/}
-//         <Route path="/Videos" element={<Videos />}>
-//           {/* All Categories */}
-//           <Route path="html" element={<Html />}></Route>
-//           <Route path="css" element={<Css />}></Route>
-//           <Route path="javascript" element={<Javascript />}></Route>
-//           <Route path="react" element={<Reactt />}></Route>
-//         </Route>
-//         {/************  Websites *************/}
-//         <Route path="/Websites" element={<Websites />}>
-//           {/* All Categories */}
-//           <Route path="html" element={<Html />}></Route>
-//           <Route path="css" element={<Css />}></Route>
-//           <Route path="javascript" element={<Javascript />}></Route>
-//           <Route path="react" element={<Reactt />}></Route>
-//         </Route>
-//         {/*  */}
-//       </Routes>
-//     </div>
-//   );
-// };
-
-// export default App;

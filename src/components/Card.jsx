@@ -10,9 +10,9 @@ const Card = ({ title, link, description, i, img }) => {
       animate={{ opacity: 1, translateX: 0 }}
       transition={{ duration: 0.2, delay: i * 0.2 }}
     >
-      <div className="img w-40  self-center">
+      <div className="img  self-center">
         {/* src={`'${img}'`} */}
-        <img className="rounded-sm" src={img} alt="img" />
+        <img className="rounded-sm w-40 h-20" src={img} alt="img" />
       </div>
 
       <div className="content flex flex-col gap-4 items-center">

@@ -5,6 +5,7 @@ import { FaLaptopCode } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
 import { NavLink } from "react-router-dom";
 import { BsTools } from "react-icons/bs";
+import {BsBookHalf} from "react-icons/bs";
 
 const Nav = () => {
   return (
@@ -53,6 +54,14 @@ const Nav = () => {
         <NavLink to="/Tools">
           <div className="group flex flex-col gap-3 justify-center items-center">
             <BsTools className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />
+            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
+              Tools
+            </h6>
+          </div>
+        </NavLink>
+        <NavLink to="/Books">
+          <div className="group flex flex-col gap-3 justify-center items-center">
+            <BsBookHalf className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />
             <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
               Tools
             </h6>

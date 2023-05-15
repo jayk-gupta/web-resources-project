@@ -6,7 +6,7 @@ export const Reactt = () => {
   const cardComponents = jsonData.map((item, i) => (
     //  CARD
     <Card
-      key={item.id}
+      key={i}
       title={item.title}
       link={item.link}
       description={item.description}

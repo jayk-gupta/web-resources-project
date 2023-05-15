@@ -35,5 +35,9 @@ To clone the repository to your local machine, follow these steps:
 3. Create a new object for your resource in the appropriate json file.
 4. Add the details of your resource: title,description,link,image link.
 
+# Contributing
+We welcome contributions from the community! If you're interested in contributing to this project, please read our contribution guidelines for more information on how to get started.
 
+# License
+MIT License
 

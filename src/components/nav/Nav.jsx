@@ -20,7 +20,7 @@ const Nav = () => {
       <div className="flex flex-col gap-12 ">
         <NavLink to="/">
           <div className="group flex flex-col gap-3 justify-center items-center">
-            <FaHome className="text-[white]  hover:text-grape-100 group-hover:scale-125" />
+            <FaHome className="text-[white]  hover:text-grape-100 group-hover:scale-125 duration-200" />
             <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
               Home
             </h6>
@@ -28,7 +28,7 @@ const Nav = () => {
         </NavLink>
         <NavLink to="/Videos">
           <div className="group flex flex-col gap-3 justify-center items-center">
-            <BsFillCameraVideoFill className="text-[white] hover:text-grape-100 group-hover:scale-125" />
+            <BsFillCameraVideoFill className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />
             <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
               Videos
             </h6>
@@ -36,7 +36,7 @@ const Nav = () => {
         </NavLink>
         <NavLink to="/Websites">
           <div className="group flex flex-col gap-3 justify-center items-center">
-            <CgWebsite className="text-[white] hover:text-grape-100 group-hover:scale-125" />
+            <CgWebsite className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />
             <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
               Websites
             </h6>
@@ -44,7 +44,7 @@ const Nav = () => {
         </NavLink>
         <NavLink to="/Challenges">
           <div className="group flex flex-col gap-3 justify-center items-center">
-            <FaLaptopCode className="text-[white] hover:text-grape-100 group-hover:scale-125" />
+            <FaLaptopCode className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />
             <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
               Challenges
             </h6>
@@ -52,7 +52,7 @@ const Nav = () => {
         </NavLink>
         <NavLink to="/Tools">
           <div className="group flex flex-col gap-3 justify-center items-center">
-            <BsTools className="text-[white] hover:text-grape-100 group-hover:scale-125" />
+            <BsTools className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />
             <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
               Tools
             </h6>

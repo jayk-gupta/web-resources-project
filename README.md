@@ -29,9 +29,11 @@ To clone the repository to your local machine, follow these steps:
 4. pnpm dev (This will launch the project in your local browser or terminal)
 
 # Adding new resource 
-1. Navigate to the appropriate section directory (videos, websites or challenges etc) based on the type of resource you want to add. 
-2. Create a new file for your resource, using a meaningful and descriptive name. 
-3. Make sure the file format is compatible with the section (e.g., for videos, consider using .jsx or .md).
+1. Navigate to the database folder in the src folder.
+2. Navigate to the appropriate section directory (videos, websites or challenges etc) based on the type of resource you want to add. 
+3. Each directory has technology json file
+3. Create a new object for your resource in the appropriate json file.
+4. Add the details of your resource: title,description,link,image link.
 
 
 

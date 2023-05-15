@@ -17,7 +17,7 @@ const Nav = () => {
         />
       </NavLink>
 
-      <div className="flex flex-col gap-12 ">
+      <div className="flex flex-col gap-10">
         <NavLink to="/">
           <div className="group flex flex-col gap-3 justify-center items-center">
             <FaHome className="text-[white]  hover:text-grape-100 group-hover:scale-125 duration-200" />

@@ -39,6 +39,14 @@ To clone the repository to your local machine, follow these steps:
 3. Create a new object for your resource in the appropriate json file.
 4. Add the details of your resource: title,description,link,image link.
 
+## Adding images
+The size of the image should be less than 300 Kb
+1. Navigate to the public folder.
+2. Now navigate in the Card Images folder
+3. There you will find folders of all the sections, navigate to the appropriate folder.
+4. Each folder has a .md file
+5. Drag and drop your image in the .md file in the appropriate position.
+
 # Contributing
 We welcome contributions from the community! If you're interested in contributing to this project, please read our contribution guidelines for more information on how to get started.
 

@@ -13,7 +13,7 @@ export default function Challenges() {
           Welcome to Challenges section!
         </h2>
         <p className="font-roboto tracking-wider">
-          Select a tag to view videos
+          Select a tag to view challenges
         </p>
       </div>
 

@@ -16,7 +16,7 @@ export default function Websites() {
           Welcome to Website section!
         </h2>
         <p className="font-roboto tracking-wider">
-          Select a tag to view videos
+          Select a tag to view websites
         </p>
       </div>
 

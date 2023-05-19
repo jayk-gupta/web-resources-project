@@ -19,7 +19,7 @@ const Tools = () => {
           Welcome to Tools section!
         </h2>
         <p className="font-roboto tracking-wider">
-          Select a tag to view videos
+          Select a tag to view tools
         </p>
       </div>
       <Outlet></Outlet>

@@ -9,10 +9,10 @@ export default function Books() {
       <TagsNav />
       <div className="mx-auto text-center">
         <h2 className="text-4xl font-roboto tracking-wider mb-2">
-          Welcome to Website section!
+          Welcome to Books section!
         </h2>
         <p className="font-roboto tracking-wider">
-          Select a tag to view videos
+          Select a tag to view Books
         </p>
       </div>
 

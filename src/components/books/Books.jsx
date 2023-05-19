@@ -12,7 +12,9 @@ export default function Books() {
           Welcome to Books section!
         </h2>
         <p className="font-roboto tracking-wider">
-          Select a tag to view books
+
+          Select a tag to view Books
+
         </p>
       </div>
 

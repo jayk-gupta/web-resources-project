@@ -106,7 +106,8 @@ Go to pull request section in your forked repository (not the main repository)
 
 Click on "New Pull Request".
 Then this will appear.
-<!--  -->
+![Screenshot 2023-05-20 202205](https://github.com/jayk-gupta/web-resources-project/assets/100681165/4d95390d-5120-4a5e-85d8-bfb6bd207d0a)
+
 
 Provide a clear and informative title and description for your pull request. Explain the changes you have made and why they should be incorporated into the original repository.
 

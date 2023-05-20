@@ -5,11 +5,11 @@ import { FaLaptopCode } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
 import { NavLink } from "react-router-dom";
 import { BsTools } from "react-icons/bs";
-import {BsBookHalf} from "react-icons/bs";
+import { BsBookHalf } from "react-icons/bs";
 
 const Nav = () => {
   return (
-    <div className="flex flex-col fixed h-screen bg-[#76118f] py-8 px-4 text-xl w-[5%] items-center gap-36 z-50 ">
+    <div className="flex flex-col fixed h-screen bg-[#76118f] py-2 px-4 text-xl w-[5%] items-center gap-20 z-50 ">
       <NavLink to="/">
         <img
           className="s"
@@ -18,7 +18,7 @@ const Nav = () => {
         />
       </NavLink>
 
-      <div className="flex flex-col gap-10">
+      <div className="flex flex-col gap-6">
         <NavLink to="/">
           <div className="group flex flex-col gap-3 justify-center items-center">
             <FaHome className="text-[white]  hover:text-grape-100 group-hover:scale-125 duration-200" />

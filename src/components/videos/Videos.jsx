@@ -21,7 +21,6 @@ export default function Videos() {
         </button> */}
       </div>
       <Outlet></Outlet>
-
       {/* BUTTON */}
     </div>
   );

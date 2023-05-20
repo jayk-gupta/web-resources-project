@@ -106,8 +106,7 @@ Go to pull request section in your forked repository (not the main repository)
 
 Click on "New Pull Request".
 Then this will appear.
-
-![App Screenshot](https://pbs.twimg.com/media/FvsA1M8aYAErAAE?format=png&name=small)
+<!--  -->
 
 Provide a clear and informative title and description for your pull request. Explain the changes you have made and why they should be incorporated into the original repository.
 

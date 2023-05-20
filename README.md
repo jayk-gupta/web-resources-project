@@ -17,11 +17,10 @@ Web Resource Hub is an open-source project developed for the DevJam Hackathon or
 5. Navigate Back: To explore more resources within the same section, simply use the navigation buttons or links provided. You can go back to the list of tags, choose a different tag, or select another resource.
 
 # Getting Started
-1. Fork the project
+1. Fork the project,click on create new fork.
+![s3](https://github.com/jayk-gupta/web-resources-project/assets/100681165/b6fdab7f-61cd-48ba-9462-9ae89c50e4c6)
 
 2. To clone the repository to your local machine, follow these steps:
-
-1. Go to the main page of the repository on Github.
 
 1. Click on the "Code" button.
 ![s1](https://github.com/jayk-gupta/web-resources-project/assets/100681165/c6b5a565-212a-467a-a697-2106ba3911a4)

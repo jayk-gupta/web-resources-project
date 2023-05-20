@@ -2,8 +2,6 @@ import cssData from "/src/database/Books/css.json";
 import Card from "../Card";
 const jsonData = cssData;
 
-console.log(jsonData);
-
 export const CssB = () => {
   const cardComponents = jsonData.map((item, i) => (
     //  CARD

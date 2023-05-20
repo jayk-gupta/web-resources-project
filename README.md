@@ -29,8 +29,8 @@ To clone the repository to your local machine, follow these steps:
 # Running the Project Locally
 1. Open a terminal or command prompt on your computer.
 2. Navigate to the directory where the repository was cloned.
-3. pnpm install (Install dependencies)
-4. pnpm dev (This will launch the project in your local browser or terminal)
+3. Run the following command: `pnpm install` (This command installs the project dependencies).
+4. After the installation is complete, run the following command: `pnpm dev` (This command launches the project in your local browser or terminal).
 
 # Adding new resource 
 1. Navigate to the database folder in the src folder.

@@ -58,7 +58,8 @@ The size of the image should be less than 300 Kb
 5. Drag and drop your image in the .md file in the appropriate position.
 
 # Contributing
-We welcome contributions from the community! If you're interested in contributing to this project, please read our contribution guidelines for more information on how to get started.
+We welcome contributions from the community! If you're interested in contributing to this project, please read our [Contributing Guidelines](./CONTRIBUTING.md)
+ for more information on how to get started.
 
 # License
 MIT License

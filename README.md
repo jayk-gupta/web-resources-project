@@ -17,17 +17,24 @@ Web Resource Hub is an open-source project developed for the DevJam Hackathon or
 5. Navigate Back: To explore more resources within the same section, simply use the navigation buttons or links provided. You can go back to the list of tags, choose a different tag, or select another resource.
 
 # Getting Started
-To clone the repository to your local machine, follow these steps:
+1. Fork the project
+
+2. To clone the repository to your local machine, follow these steps:
 
 1. Go to the main page of the repository on Github.
-2. Click on the "Code" button and copy the URL provided.
+
+1. Click on the "Code" button.
 ![s1](https://github.com/jayk-gupta/web-resources-project/assets/100681165/c6b5a565-212a-467a-a697-2106ba3911a4)
-3. Copy the HTTPS Link.
-![s2](https://github.com/jayk-gupta/web-resources-project/assets/100681165/eb19610e-4355-4dee-b481-ea56df90c634)
+
+2. Copy the HTTPS Link.
+![s2](https://github.com/jayk-gupta/web-resources-project/assets/100681165/a0193d9a-85bc-457f-9edc-d24b93ce9f9d)
 
 4. Open the terminal or command prompt on your computer.
+
 5. Navigate to the directory where you want to clone the repository.
-6. Type the command `git clone [https://github.com/jayk-gupta/web-resources-project.git]` (This will download the repository to your local machine)
+
+
+6. Type the command `git clone [https://github.com/<your_github_username>/web-resources-project.git]` (This will download the repository to your local machine)
 
 
 # Running the Project Locally

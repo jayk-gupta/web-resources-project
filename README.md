@@ -21,9 +21,13 @@ To clone the repository to your local machine, follow these steps:
 
 1. Go to the main page of the repository on Github.
 2. Click on the "Code" button and copy the URL provided.
-3. Open the terminal or command prompt on your computer.
-4. Navigate to the directory where you want to clone the repository.
-5. Type the command git clone [https://github.com/jayk-gupta/web-resources-project.git] (This will download the repository to your local machine)
+![s1](https://github.com/jayk-gupta/web-resources-project/assets/100681165/c6b5a565-212a-467a-a697-2106ba3911a4)
+3. Copy the HTTPS Link.
+![s2](https://github.com/jayk-gupta/web-resources-project/assets/100681165/eb19610e-4355-4dee-b481-ea56df90c634)
+
+4. Open the terminal or command prompt on your computer.
+5. Navigate to the directory where you want to clone the repository.
+6. Type the command `git clone [https://github.com/jayk-gupta/web-resources-project.git]` (This will download the repository to your local machine)
 
 
 # Running the Project Locally

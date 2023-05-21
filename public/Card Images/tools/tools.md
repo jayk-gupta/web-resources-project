@@ -14,6 +14,8 @@
 ![csst_grdio](https://github.com/jayk-gupta/web-resources-project/assets/100681165/51c1fa3a-c8b3-499a-b153-72cd616429d6)
 ![csst_shadowaf](https://github.com/jayk-gupta/web-resources-project/assets/100681165/d4057030-ef56-4d62-b59b-8f5f46d3dce3)
 ![csst_wait_animate](https://github.com/jayk-gupta/web-resources-project/assets/100681165/86a142f4-a383-4711-a978-b42ca7ad3059)
+![Screenshot 2023-05-21 231156](https://github.com/jayk-gupta/web-resources-project/assets/100681165/57d05932-3a96-4ebd-86bb-9ea49a81e157)
+
 
 # javascript
 ![jst_programiz](https://github.com/jayk-gupta/web-resources-project/assets/100681165/444f892c-4ba1-450d-aeab-2bd5b388a118)

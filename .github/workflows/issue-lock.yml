@@ -1,0 +1,22 @@
+name: "Lock new issues"
+
+on:
+  issues:
+    types: opened
+
+permissions:
+  issues: write
+
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dessant/repo-lockdown@v3
+        with:
+          close-issue: false
+          exclude-issue-labels: "🏁 status: ready for dev"
+          process-only: "issues"
+          skip-closed-issue-comment: true
+          issue-comment: >
+            To reduce notifications, issues are locked. Your issue will be unlock when we will add label as `🏁 status: ready for dev`.  Check out the [contributing guide](https://github.com/jayk-gupta/web-resources-project/blob/main/CONTRIBUTING.md) for more information. Also, if you're in GSSoC'23 please check the [discussion](https://github.com/jayk-gupta/web-resources-project/discussions/59)
+            

@@ -27,6 +27,8 @@ Web Resource Hub is an open-source project developed for the DevJam Hackathon or
 
 6. Type the command `git clone [https://github.com/<your_github_username>/web-resources-project.git]` (This will download the repository to your local machine)
 
+# Prerequites
+
 
 # Running the Project Locally
 1. Open a terminal or command prompt on your computer.
@@ -39,15 +41,23 @@ Web Resource Hub is an open-source project developed for the DevJam Hackathon or
 2. Navigate to the appropriate section directory (videos, websites or challenges etc) based on the type of resource you want to add. 
 3. Each directory has technology json file
 3. Create a new object for your resource in the appropriate json file.
-4. Add the details of your resource: title,description,link,image link.
+4. Add the details of your resource: Here's an eaxmple
+```
+{
+    "title": "CodeWell",
+    "description": "Improve your HTML and CSS skills by practicing on real design templates.With Codewell, you can browse high quality Figma templates that you can use to sharpen your HTML and CSS skills.",
+    "link": "https://www.codewell.cc/",
+    "img": "https://user-images.githubusercontent.com/100681165/238244473-00725538-ef4d-4ece-8fd7-11e6b999b895.png"
+  },
+
+```
 
 ## Adding images
-The size of the image should be less than 300 Kb
-1. Navigate to the public folder.
-2. Now navigate in the Card Images folder
+The size of the image should be less than **300 Kb**
+1. Navigate to the `public/Card Images`
 3. There you will find folders of all the sections, navigate to the appropriate folder.
-4. Each folder has a .md file
-5. Drag and drop your image in the .md file in the appropriate position.
+4. Each folder has a **.md file**
+5. **Drag and drop your image** in the .md file in the appropriate position.
 
 # Contributing
 We welcome contributions from the community! If you're interested in contributing to this project, please read our [Contributing Guidelines](./CONTRIBUTING.md)

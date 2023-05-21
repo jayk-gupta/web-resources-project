@@ -1,5 +1,5 @@
 ---
-name: Add Resource
+name: 📚 Add Resource
 about: Use this template to add new resources
 title: ''
 labels: ''

@@ -1,5 +1,5 @@
 ---
-name: Styling
+name: 🪄 Styling
 about: Improve styling of project
 title: "[STYLE]"
 labels: ''

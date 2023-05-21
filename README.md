@@ -28,7 +28,8 @@ Web Resource Hub is an open-source project developed for the DevJam Hackathon or
 6. Type the command `git clone [https://github.com/<your_github_username>/web-resources-project.git]` (This will download the repository to your local machine)
 
 # Prerequites
-
+  - Node JS
+  -  pnpm
 
 # Running the Project Locally
 1. Open a terminal or command prompt on your computer.
@@ -41,7 +42,7 @@ Web Resource Hub is an open-source project developed for the DevJam Hackathon or
 2. Navigate to the appropriate section directory (videos, websites or challenges etc) based on the type of resource you want to add. 
 3. Each directory has technology json file
 3. Create a new object for your resource in the appropriate json file.
-4. Add the details of your resource: Here's an eaxmple
+4. Add the details of your resource: Here's an example
 ```
 {
     "title": "CodeWell",

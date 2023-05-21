@@ -3,11 +3,15 @@ import TagsNav from "../nav/TagsNav.jsx";
 import {Outlet, useLocation, useNavigate} from "react-router-dom";
 
 export default function Websites() {
-	const location = useLocation();
+	const {pathname} = useLocation();
 	const navigate = useNavigate();
+	
 	useEffect(() => {
-		navigate(`${location.pathname}/html`);
-	}, []);
+		let lastRoute = pathname.split("/").pop();
+		if (lastRoute === "Websites") {
+			navigate(`${pathname}/html`);
+		}
+	}, [pathname]);
 
 	return (
 		<div

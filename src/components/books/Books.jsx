@@ -5,7 +5,7 @@ import Welcome from "../Welcome.jsx";
 export default function Books({sectionName}) {
   const outletRendered = useOutlet();
   return (
-    <div className="border-l-2 border-[#ffdd77]  h-[16rem]  flex flex-col w-screen  gap-6 ">
+    <div className="border-l-2 border-[#ffdd77]  flex flex-col w-screen  h-screen">
       {/* BUTTON */}
       <TagsNav />
       <Welcome section={sectionName} isOutletRendered={outletRendered} />

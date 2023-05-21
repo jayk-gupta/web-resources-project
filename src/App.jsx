@@ -49,7 +49,6 @@ const App = () => {
       <Routes location={location} key = {location.key}>
         {/* Home */}
         <Route path="/" element={<Home />}></Route>
-        <Route path="/Websites" element={<Websites />}></Route>
         <Route path="/Challenges" element={<Challenges />}></Route>
         <Route path="/Books" element={<Books />}></Route>
 

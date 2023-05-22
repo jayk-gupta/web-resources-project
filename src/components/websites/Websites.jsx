@@ -1,10 +1,9 @@
 import {useEffect} from "react";
 import TagsNav from "../nav/TagsNav.jsx";
-import {Outlet, useOutlet, useLocation, useNavigate} from "react-router-dom";
+import {Outlet, useLocation, useNavigate} from "react-router-dom";
 import Welcome from "../Welcome.jsx";
 
 export default function Websites({sectionName}) {
-  const outletRendered = useOutlet();
 	const {pathname} = useLocation();
 	const navigate = useNavigate();
 	
@@ -21,7 +20,7 @@ export default function Websites({sectionName}) {
     >
 			{/* BUTTON */}
 			<TagsNav />
-			<Welcome section={sectionName} isOutletRendered={outletRendered} />
+			<Welcome section={sectionName}/>
 			<Outlet></Outlet>
 		</div>
 	);

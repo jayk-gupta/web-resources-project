@@ -1,15 +1,14 @@
 import React from "react";
-import { Outlet , useOutlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import TagsNav from "../nav/TagsNav.jsx";
 import Welcome from "../Welcome.jsx";
 export default function Videos({sectionName}) {
-  const outletRendered = useOutlet();
   return (
     <div
     className="border-l-2 border-[#ffdd77]  h-[16rem]  flex flex-col w-screen  gap-6 "
     >
       <TagsNav />
-      <Welcome section={sectionName} isOutletRendered={outletRendered} />
+      <Welcome section={sectionName}/>
       <Outlet></Outlet>
       {/* BUTTON */}
     </div>

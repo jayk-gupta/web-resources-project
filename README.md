@@ -64,6 +64,7 @@ The size of the image should be less than **300 Kb**
 We welcome contributions from the community! If you're interested in contributing to this project, please read our [Contributing Guidelines](./CONTRIBUTING.md)
  for more information on how to get started.
  
+
 ## Our Contributors  !! ✨
 ### Thanks to these wonderful people: ✨
 
@@ -77,6 +78,15 @@ We welcome contributions from the community! If you're interested in contributin
 		</td>
 	</tr>
 </table>
+
+ # My Awesome Project
+
+🌟 **If you find this project helpful or interesting, please consider giving it a star!** 🌟
+
+Starring the repository helps to raise awareness and attract more users. It shows your appreciation for the project and provides motivation for further development and improvements. It's a simple way to show support!
+
+To star this repository, simply click on the **Star** button at the top-right corner of the page. Thank you for your support! 😊
+
 
 # License
 MIT License

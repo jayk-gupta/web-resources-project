@@ -1,17 +1,28 @@
-import React from "react";
+import {useEffect} from "react";
 import TagsNav from "../nav/TagsNav.jsx";
-import { Outlet, useOutlet } from "react-router-dom";
+import {Outlet, useOutlet, useLocation, useNavigate} from "react-router-dom";
 import Welcome from "../Welcome.jsx";
+
 export default function Websites({sectionName}) {
   const outletRendered = useOutlet();
-  return (
-    <div
+	const {pathname} = useLocation();
+	const navigate = useNavigate();
+	
+	useEffect(() => {
+		let lastRoute = pathname.split("/").pop();
+		if (lastRoute === "Websites") {
+			navigate(`${pathname}/html`);
+		}
+	}, [pathname]);
+
+	return (
+		<div
     className="border-l-2 border-[#ffdd77]  h-[16rem]  flex flex-col w-screen  gap-6 "
     >
-      {/* BUTTON */}
-      <TagsNav />
-      <Welcome section={sectionName} isOutletRendered={outletRendered} />
-      <Outlet></Outlet>
-    </div>
-  );
+			{/* BUTTON */}
+			<TagsNav />
+			<Welcome section={sectionName} isOutletRendered={outletRendered} />
+			<Outlet></Outlet>
+		</div>
+	);
 }

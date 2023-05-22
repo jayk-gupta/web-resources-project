@@ -5,8 +5,8 @@
 
 ![htmlt_codebeautify](https://github.com/jayk-gupta/web-resources-project/assets/100681165/25cae2b0-8d4f-4291-af73-7a7de7630217)
 
-
 # css
+
 ![csst_patternify](https://github.com/jayk-gupta/web-resources-project/assets/100681165/8c1e480b-7647-48b1-be2f-cd3b8af2edd1)
 ![csst_buttonmaker](https://github.com/jayk-gupta/web-resources-project/assets/100681165/2b667b17-db22-4939-b056-6d79ba1577d2)
 ![csst_colospace](https://github.com/jayk-gupta/web-resources-project/assets/100681165/38de9da5-975b-4469-a1c6-cb9165fea282)
@@ -16,13 +16,13 @@
 ![csst_wait_animate](https://github.com/jayk-gupta/web-resources-project/assets/100681165/86a142f4-a383-4711-a978-b42ca7ad3059)
 
 # javascript
+
 ![jst_programiz](https://github.com/jayk-gupta/web-resources-project/assets/100681165/444f892c-4ba1-450d-aeab-2bd5b388a118)
 
 ![jst_playcodio](https://github.com/jayk-gupta/web-resources-project/assets/100681165/65d5f55c-5eb1-44f8-a564-bf05deb17b89)
 
-
+![jst_codepenio](https://github.com/jayk-gupta/web-resources-project/assets/74124037/a55161fa-d722-474a-b29e-c58899bc178a)
 
 # react
 
 ![reactt_playio](https://github.com/jayk-gupta/web-resources-project/assets/100681165/0e88c56a-9bc3-4678-a06c-61824996af68)
-

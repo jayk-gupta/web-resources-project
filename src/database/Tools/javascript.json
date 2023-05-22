@@ -1,14 +1,20 @@
 [
-{
-  "title": "Programiz JS Online Editor",
-  "description" :"Online Javascript Editor to write,edit and execute your code online. ", 
-  "link":"https://www.programiz.com/javascript/online-compiler/",
-  "img":"https://user-images.githubusercontent.com/100681165/238285091-444f892c-4ba1-450d-aeab-2bd5b388a118.png"
-},
-{
-  "title": "Playcode IO",
-  "description" :"The easy-to-use and fast JavaScript compiler. Write JavaScript code and run it online. Save time & effort with live view results, ready-to-use templates. ", 
-  "link":"https://playcode.io/javascript-compiler",
-  "img":"https://user-images.githubusercontent.com/100681165/238285084-65d5f55c-5eb1-44f8-a564-bf05deb17b89.png"
-}
+  {
+    "title": "Programiz JS Online Editor",
+    "description": "Online Javascript Editor to write,edit and execute your code online. ",
+    "link": "https://www.programiz.com/javascript/online-compiler/",
+    "img": "https://user-images.githubusercontent.com/100681165/238285091-444f892c-4ba1-450d-aeab-2bd5b388a118.png"
+  },
+  {
+    "title": "Playcode IO",
+    "description": "The easy-to-use and fast JavaScript compiler. Write JavaScript code and run it online. Save time & effort with live view results, ready-to-use templates. ",
+    "link": "https://playcode.io/javascript-compiler",
+    "img": "https://user-images.githubusercontent.com/100681165/238285084-65d5f55c-5eb1-44f8-a564-bf05deb17b89.png"
+  },
+  {
+    "title": "Codepen IO",
+    "description": "CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets, called 'pens,' and test them. ",
+    "link": "https://codepen.io/",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/74124037/a55161fa-d722-474a-b29e-c58899bc178a"
+  }
 ]

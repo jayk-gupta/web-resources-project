@@ -1,0 +1,35 @@
+name: First Time PR Message
+
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  send_message:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check if it's the first pull request for the sender
+        id: check_first_pr
+        run: |
+          SENDER=$(echo "${{ github.event.pull_request.user.login }}")
+          PULL_REQUESTS_COUNT=$(curl -s "https://api.github.com/repos/${{ github.repository }}/pulls?state=open&user=${SENDER}" -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" | jq '. | length')
+
+          if [ "$PULL_REQUESTS_COUNT" -eq 1 ]; then
+            echo "::set-output name=first_pr::true"
+          else
+            echo "::set-output name=first_pr::false"
+          fi
+
+      - name: Send message on first pull request
+        if: steps.check_first_pr.outputs.first_pr == 'true'
+        uses: peter-evans/send-comment@v1
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          message: |
+            :tada: Congratulations, @{${{ github.event.pull_request.user.login }}}, on your first pull request!
+
+            We're excited to see your contribution to this repository. Thank you for taking the initiative and getting involved. If you have any questions or need assistance, feel free to reach out.
+
+            Keep up the great work! :rocket:

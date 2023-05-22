@@ -5,16 +5,8 @@ Web Resource Hub is an open-source project developed for the DevJam Hackathon or
 
 
 
-# How to Use 
-1. Choose a Section:Start by selecting the section that corresponds to the type of resource you're interested in. You can choose from Videos, Websites, Books, or Tools.
-
-2. Explore Tags: Within each section, you'll find tags representing different technologies such as HTML, CSS, JavaScript, and React. Click on a specific tag to filter the resources and display only those relevant to the chosen technology. For example, clicking on the "HTML" tag will show resources specifically related to HTML.
-
-3. Browse Resource Cards: Once you've selected a tag, resource cards related to that technology will be displayed. Each card represents a specific resource, such as a video tutorial, website, book, or tool. The cards typically contain a brief description, title, and relevant details about the resource.
-
-4. Access Resource Details: Click on a resource card to access more details about the resource. This may include a link to the video, website, or book, as well as additional information, ratings, or reviews.
-
-5. Navigate Back: To explore more resources within the same section, simply use the navigation buttons or links provided. You can go back to the list of tags, choose a different tag, or select another resource.
+# Tech Stack
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)     ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 # Getting Started
 1. Fork the project,click on create new fork.
@@ -35,6 +27,9 @@ Web Resource Hub is an open-source project developed for the DevJam Hackathon or
 
 6. Type the command `git clone [https://github.com/<your_github_username>/web-resources-project.git]` (This will download the repository to your local machine)
 
+# Prerequites
+  - Node JS
+  -  pnpm
 
 # Running the Project Locally
 1. Open a terminal or command prompt on your computer.
@@ -47,19 +42,51 @@ Web Resource Hub is an open-source project developed for the DevJam Hackathon or
 2. Navigate to the appropriate section directory (videos, websites or challenges etc) based on the type of resource you want to add. 
 3. Each directory has technology json file
 3. Create a new object for your resource in the appropriate json file.
-4. Add the details of your resource: title,description,link,image link.
+4. Add the details of your resource: Here's an example
+```
+{
+    "title": "CodeWell",
+    "description": "Improve your HTML and CSS skills by practicing on real design templates.With Codewell, you can browse high quality Figma templates that you can use to sharpen your HTML and CSS skills.",
+    "link": "https://www.codewell.cc/",
+    "img": "https://user-images.githubusercontent.com/100681165/238244473-00725538-ef4d-4ece-8fd7-11e6b999b895.png"
+  },
+
+```
 
 ## Adding images
-The size of the image should be less than 300 Kb
-1. Navigate to the public folder.
-2. Now navigate in the Card Images folder
+The size of the image should be less than **300 Kb**
+1. Navigate to the `public/Card Images`
 3. There you will find folders of all the sections, navigate to the appropriate folder.
-4. Each folder has a .md file
-5. Drag and drop your image in the .md file in the appropriate position.
+4. Each folder has a **.md file**
+5. **Drag and drop your image** in the .md file in the appropriate position.
 
 # Contributing
 We welcome contributions from the community! If you're interested in contributing to this project, please read our [Contributing Guidelines](./CONTRIBUTING.md)
  for more information on how to get started.
+ 
+
+## Our Contributors  !! ✨
+### Thanks to these wonderful people: ✨
+
+<table>
+	<tr>
+		<td>
+			<a href="https://github.com/jayk-gupta/web-resources-project/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jayk-gupta/web-resources-project" />
+
+</a>
+		</td>
+	</tr>
+</table>
+
+ # My Awesome Project
+
+🌟 **If you find this project helpful or interesting, please consider giving it a star!** 🌟
+
+Starring the repository helps to raise awareness and attract more users. It shows your appreciation for the project and provides motivation for further development and improvements. It's a simple way to show support!
+
+To star this repository, simply click on the **Star** button at the top-right corner of the page. Thank you for your support! 😊
+
 
 # License
 MIT License

@@ -1,0 +1,41 @@
+
+.hamburger {
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    z-index: 100;
+    cursor: pointer;
+  }
+  
+  .hamburger .bar {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    margin-bottom: 6px;
+    transition: all 0.3s ease;
+  }
+  
+  .hamburger .bar:last-child {
+    margin-bottom: 0;
+  }
+  
+  .hamburger.open .bar:first-child {
+    transform: rotate(45deg) translate(5px, 8.5px);
+  }
+  
+  .hamburger.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.open .bar:last-child {
+    transform: rotate(-45deg) translate(5px, -8.5px);
+  }
+
+ 
+.icon {
+    color: white;
+    font-size: 1.26rem;
+  }
+  
+  

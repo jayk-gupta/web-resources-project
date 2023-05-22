@@ -28,5 +28,11 @@
     "description": "Simon of SuperSimpleDev Youtube Channel breaks down complex coding barriers into simple step-wise and easy-to-understand processes. No beating around the bush, just direct to the point.I really do like his flagship Youtube course, where he built the Youtube interface with just HTML and CSS, so sleek and interesting.Consider trying out one or more of such fun projects.",
     "link": "https://www.youtube.com/watch?v=G3e-cpL7ofc",
     "img": "https://user-images.githubusercontent.com/100681165/238191200-0444b48d-5761-4d8d-b936-1b1e5440f555.png"
+  },
+  {
+    "title": "developedbyed",
+    "description": "developedbyed Youtube channel provides informative tutorials and tips specifically focused on frontend development and responsive design. This helps users enhance their skills in creating visually appealing and user-friendly websites and applications. The clear and beginner-friendly explanations make it easier for users to grasp important concepts and apply them effectively.",
+    "link": "https://www.youtube.com/@developedbyed",
+    "img": ""
   }
 ]

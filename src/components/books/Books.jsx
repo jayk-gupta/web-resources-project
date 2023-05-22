@@ -1,23 +1,23 @@
-import React from "react";
-
+import {useEffect} from "react";
+import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import TagsNav from "../nav/TagsNav.jsx";
-import { Link, Outlet } from "react-router-dom";
-export default function Books() {
+import Welcome from "../Welcome.jsx";
+
+export default function Books({sectionName}) {
+  const {pathname} = useLocation();
+	const navigate = useNavigate();
+	
+	useEffect(() => {
+		let lastRoute = pathname.split("/").pop();
+		if (lastRoute === "Books") {
+			navigate(`${pathname}/html`);
+		}
+	}, [pathname]);
   return (
-    <div className="border-l-2 border-[#ffdd77]  flex flex-col w-screen  h-screen">
+    <div className="border-l-2 border-[#ffdd77]  flex flex-col w-screen  h-screen gap-6">
       {/* BUTTON */}
       <TagsNav />
-      <div className="m-auto text-center pt-6">
-        <h2 className="text-4xl font-merriweather tracking-wider mb-2">
-          Welcome to Books section!
-        </h2>
-        <p className="font-roboto tracking-wider">
-
-          Select a tag to view Books
-
-        </p>
-      </div>
-
+      <Welcome section={sectionName}/>
       <Outlet></Outlet>
     </div>
   );

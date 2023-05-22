@@ -29,6 +29,7 @@ export default function Home() {
 
       <div className="hidden sm:flex items-center w-1/2">
         <img
+          className="w-full object-fill object-center"
           src="https://user-images.githubusercontent.com/100681165/238192164-570dad2f-ba6d-4a35-8ae0-7fb364560653.svg"
           alt="logo"
         />

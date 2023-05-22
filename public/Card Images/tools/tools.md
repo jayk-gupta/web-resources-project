@@ -23,9 +23,11 @@
 
 ![jst_playcodio](https://github.com/jayk-gupta/web-resources-project/assets/100681165/65d5f55c-5eb1-44f8-a564-bf05deb17b89)
 
+<img width="1440" alt="minify" src="https://github.com/jayk-gupta/web-resources-project/assets/111020648/a88c0faf-c050-4b47-b5a5-180f8a3734a4">
+
 ![jst_codepenio](https://github.com/jayk-gupta/web-resources-project/assets/74124037/a55161fa-d722-474a-b29e-c58899bc178a)
 
-<img width="1440" alt="minify" src="https://github.com/jayk-gupta/web-resources-project/assets/111020648/a88c0faf-c050-4b47-b5a5-180f8a3734a4">
+
 
 # react
 

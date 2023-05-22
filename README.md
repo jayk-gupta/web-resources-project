@@ -63,6 +63,20 @@ The size of the image should be less than **300 Kb**
 # Contributing
 We welcome contributions from the community! If you're interested in contributing to this project, please read our [Contributing Guidelines](./CONTRIBUTING.md)
  for more information on how to get started.
+ 
+## Our Contributors  !! ✨
+### Thanks to these wonderful people: ✨
+
+<table>
+	<tr>
+		<td>
+			<a href="https://github.com/jayk-gupta/web-resources-project/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jayk-gupta/web-resources-project" />
+
+</a>
+		</td>
+	</tr>
+</table>
 
 # License
 MIT License

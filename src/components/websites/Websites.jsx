@@ -1,6 +1,6 @@
 import {useEffect} from "react";
-import TagsNav from "../nav/TagsNav.jsx";
 import {Outlet, useLocation, useNavigate} from "react-router-dom";
+import TagsNav from "../nav/TagsNav.jsx";
 import Welcome from "../Welcome.jsx";
 
 export default function Websites({sectionName}) {

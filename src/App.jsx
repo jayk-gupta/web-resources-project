@@ -49,12 +49,9 @@ const App = () => {
       <Routes location={location} key = {location.key}>
         {/* Home */}
         <Route path="/" element={<Home />}></Route>
-        <Route path="/Websites" element={<Websites />}></Route>
-        <Route path="/Challenges" element={<Challenges />}></Route>
-        <Route path="/Books" element={<Books />}></Route>
 
         {/***********  Videos ************************/}
-        <Route path="/Videos" element={<Videos />}>
+        <Route path="/Videos" element={<Videos sectionName="Videos"/>}>
           <Route path="html" element={<HtmlV />}></Route>
           <Route path="css" element={<CssV />}></Route>
           <Route path="javascript" element={<JavascriptV />}></Route>
@@ -62,7 +59,7 @@ const App = () => {
         </Route>
 
         {/************  Websites *************/}
-        <Route path="/Websites" element={<Websites />}>
+        <Route path="/Websites" element={<Websites sectionName="Websites"/>}>
           {/* All Categories */}
           <Route path="html" element={<Htmlw />}></Route>
           <Route path="css" element={<Cssw />}></Route>
@@ -70,21 +67,21 @@ const App = () => {
           <Route path="react" element={<Reactw />}></Route>
         </Route>
         {/*  Challenges*/}
-        <Route path="challenges" element={<Challenges />}>
+        <Route path="/Challenges" element={<Challenges sectionName="Challenges"/>}>
           <Route path="html" element={<HtmlC />}></Route>
           <Route path="css" element={<CssC />}></Route>
           <Route path="javascript" element={<JavascriptC />}></Route>
           <Route path="react" element={<ReactC></ReactC>}></Route>
         </Route>
         {/* Books */}
-        <Route path="books" element={<Books />}>
+        <Route path="/Books" element={<Books sectionName="Books"/>}>
           <Route path="html" element={<HtmlB />}></Route>
           <Route path="css" element={<CssB />}></Route>
           <Route path="javascript" element={<JavascriptB />}></Route>
           <Route path="react" element={<ReactB />}></Route>
         </Route>
         {/* Tools */}
-        <Route path="tools" element={<Tools />}>
+        <Route path="/Tools" element={<Tools sectionName="Tools"/>}>
           <Route path="html" element={<Html />}></Route>
           <Route path="css" element={<Css />}></Route>
           <Route path="javascript" element={<Javascript />}></Route>

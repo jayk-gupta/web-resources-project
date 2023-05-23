@@ -85,7 +85,7 @@ We welcome contributions from the community! If you're interested in contributin
                         src="https://avatars.githubusercontent.com/u/42708550?v=4" width="100px;"><br><sub><b> Mentor Name
                         </b></sub></a><br></td> </a></td>
             <td align="center"><a href="https://github.com/github-username"><img alt=""
-                        src="link to the mentor's github profile photo" width="100px;"><br><sub><b> Mentor Name
+                        src="https://avatars.githubusercontent.com/u/47475007?v=4" width="100px;"><br><sub><b> Mentor Name
                         </b></sub></a><br></td></a></td>
 </table>
 

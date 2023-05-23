@@ -53,7 +53,7 @@ Web Resource Hub is an open-source project developed for the DevJam Hackathon or
 
 ```
 ### Watch this video 
- https://youtu.be/eRVFZDIWPj8
+[![Youtube Video](https://i.ytimg.com/vi/eRVFZDIWPj8/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFUoVTAP&rs=AOn4CLCvHosmljs19P9PRHlDr7ule1T8AA)](https://www.youtube.com/watch?v=eRVFZDIWPj8)
 
 ## Adding images
 The size of the image should be less than **300 Kb**

@@ -13,7 +13,7 @@
 ![jsc_leet](https://github.com/jayk-gupta/web-resources-project/assets/100681165/3fae4e49-7400-4fda-bc78-1b514e2f7df7)
 ![jsc-jschallenger](https://github.com/jayk-gupta/web-resources-project/assets/100681165/f7caa1f9-dec0-4774-98f2-aeb40fe095f9)
 ![jsc_exercism](https://github.com/jayk-gupta/web-resources-project/assets/100681165/c13410df-0181-45d2-8bc6-598c9648672c)
-![jsc_javascript30](https://github.com/mhdamaan79/J-web-resources-project/assets/118375524/56085ebc-979a-4c85-906d-683829d7bf2b)
+![jsc_javascript30](https://github.com/mhdamaan79/J-web-resources-project/assets/118375524/20790183-4a85-4c1a-9cb1-1f8d3d031411)
 
 # react
 ![reactc_codewars](https://github.com/jayk-gupta/web-resources-project/assets/100681165/dd52070d-6b42-41a4-9c29-2d62826daaa9)

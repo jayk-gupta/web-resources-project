@@ -21,7 +21,7 @@ export default function Websites({sectionName}) {
 			{/* BUTTON */}
 			<TagsNav />
 			<Welcome section={sectionName}/>
-			<Outlet></Outlet>
+			<Outlet key={pathname}></Outlet>
 		</div>
 	);
 }

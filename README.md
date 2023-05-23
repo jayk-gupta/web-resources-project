@@ -65,7 +65,29 @@ The size of the image should be less than **300 Kb**
 # Contributing
 We welcome contributions from the community! If you're interested in contributing to this project, please read our [Contributing Guidelines](./CONTRIBUTING.md)
  for more information on how to get started.
- 
+ <hr>
+
+<h1 align=center> Project Admins </h1>
+<p align="center">
+<table>
+        <tr>
+            <td align="center"><a href="https://github.com/github-username"><img alt=""
+                        src="https://avatars.githubusercontent.com/u/100681165?v=4" width="100px;"><br><sub><b> Project Admin Name
+                        </b></sub></a><br></td> </a></td>
+
+</table>
+
+<h1 align=center> Project Mentors </h1>
+<p align="center">
+<table>
+        <tr>
+            <td align="center"><a href="https://github.com/github-username"><img alt=""
+                        src="https://avatars.githubusercontent.com/u/42708550?v=4" width="100px;"><br><sub><b> Mentor Name
+                        </b></sub></a><br></td> </a></td>
+            <td align="center"><a href="https://github.com/github-username"><img alt=""
+                        src="link to the mentor's github profile photo" width="100px;"><br><sub><b> Mentor Name
+                        </b></sub></a><br></td></a></td>
+</table>
 
 ## Our Contributors  !! ✨
 ### Thanks to these wonderful people: ✨

@@ -6,6 +6,7 @@ import { CgWebsite } from "react-icons/cg";
 import { NavLink } from "react-router-dom";
 import { BsTools } from "react-icons/bs";
 import { BsBookHalf } from "react-icons/bs";
+import { BsFillChatSquareFill } from "react-icons/bs";
 
 const Nav = () => {
   return (
@@ -64,6 +65,14 @@ const Nav = () => {
             <BsBookHalf className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />
             <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
               Books
+            </h6>
+          </div>
+        </NavLink>
+        <NavLink to="/about">
+          <div className="group flex flex-col gap-3 justify-center items-center">
+            <BsFillChatSquareFill className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />
+            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
+              About
             </h6>
           </div>
         </NavLink>

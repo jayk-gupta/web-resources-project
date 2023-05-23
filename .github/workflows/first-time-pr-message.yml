@@ -1,35 +1,16 @@
-name: First Time PR Message
+name: Greetings
 
-on:
-  pull_request:
-    types:
-      - opened
+on: [pull_request_target, issues]
 
 jobs:
-  send_message:
+  greeting:
     runs-on: ubuntu-latest
-
+    permissions:
+      issues: write
+      pull-requests: write
     steps:
-      - name: Check if it's the first pull request for the sender
-        id: check_first_pr
-        run: |
-          SENDER=$(echo "${{ github.event.pull_request.user.login }}")
-          PULL_REQUESTS_COUNT=$(curl -s "https://api.github.com/repos/${{ github.repository }}/pulls?state=open&user=${SENDER}" -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" | jq '. | length')
-
-          if [ "$PULL_REQUESTS_COUNT" -eq 1 ]; then
-            echo "::set-output name=first_pr::true"
-          else
-            echo "::set-output name=first_pr::false"
-          fi
-
-      - name: Send message on first pull request
-        if: steps.check_first_pr.outputs.first_pr == 'true'
-        uses: peter-evans/send-comment@v1
+      - uses: actions/first-interaction@v1
         with:
-          issue-number: ${{ github.event.pull_request.number }}
-          message: |
-            :tada: Congratulations, @{${{ github.event.pull_request.user.login }}}, on your first pull request!
-
-            We're excited to see your contribution to this repository. Thank you for taking the initiative and getting involved. If you have any questions or need assistance, feel free to reach out.
-
-            Keep up the great work! :rocket:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "Congratulations, @${{ github.actor }}! 🎉 Thank you for creating your first issue. Your contribution is greatly appreciated and we look forward to working with you to resolve the issue. Keep up the great work!"
+          pr-message: "Great job, @${{ github.actor }}! 🎉 Thank you for submitting your first pull request. Your contribution is valuable and we appreciate your efforts to improve our project. We'll review your changes and provide feedback as soon as possible. Keep up the great work!"

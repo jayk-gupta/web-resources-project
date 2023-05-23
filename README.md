@@ -52,15 +52,15 @@ Web Resource Hub is an open-source project developed for the DevJam Hackathon or
   },
 
 ```
-### Watch this video 
-[![Youtube Video](https://i.ytimg.com/vi/eRVFZDIWPj8/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFUoVTAP&rs=AOn4CLCvHosmljs19P9PRHlDr7ule1T8AA)](https://www.youtube.com/watch?v=eRVFZDIWPj8)
-
 ## Adding images
 The size of the image should be less than **300 Kb**
 1. Navigate to the `public/Card Images`
 3. There you will find folders of all the sections, navigate to the appropriate folder.
 4. Each folder has a **.md file**
 5. **Drag and drop your image** in the .md file in the appropriate position.
+
+## Watch this Video 
+[![Youtube Video](https://i.ytimg.com/vi/eRVFZDIWPj8/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFUoVTAP&rs=AOn4CLCvHosmljs19P9PRHlDr7ule1T8AA)](https://www.youtube.com/watch?v=eRVFZDIWPj8)
 
 # Contributing
 We welcome contributions from the community! If you're interested in contributing to this project, please read our [Contributing Guidelines](./CONTRIBUTING.md)

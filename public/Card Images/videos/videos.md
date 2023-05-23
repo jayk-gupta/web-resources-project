@@ -4,6 +4,9 @@
 ![htmlv_netNinja](https://github.com/jayk-gupta/web-resources-project/assets/100681165/fdf90f18-2706-4131-8bcb-2b2e6bfb0a54)
 ![htmlv_supersimp](https://github.com/jayk-gupta/web-resources-project/assets/100681165/0444b48d-5761-4d8d-b936-1b1e5440f555)
 ![htmlv_mosh](https://github.com/jayk-gupta/web-resources-project/assets/100681165/c0bf1a4f-8c1d-4cf2-b3ec-a2430afd4811)
+![developedby](https://github.com/devasyarajguru/web-resources-project/assets/84851506/7cfe9942-18c0-4bb7-904b-b1374524688d)
+
+
 
 
 <!-- CSS -->

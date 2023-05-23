@@ -1,0 +1,39 @@
+name: Update Contributors
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  update-contributors:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Update Contributors List
+        run: |
+        
+          contributors=$(curl -s https://api.github.com/repos/jayk-gupta/web-resources-project/contributors | jq -r '.[].login')
+          content="## Contributors\n\n"
+          
+          for contributor in $contributors
+          do
+            content+="* $contributor\n"
+          done
+
+          # Replace "README.md" with the path to your README file.
+          echo -e "$content" > https://github.com/jayk-gupta/web-resources-project/blob/main/README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add README.md
+          git commit -m "Update contributors list"
+          git push

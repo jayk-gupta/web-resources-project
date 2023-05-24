@@ -11,20 +11,16 @@ const Card = ({ title, link, description, i, img }) => {
       animate={{ opacity: 1, translateX: 0 }}
       transition={{ duration: 0.2, delay: i * 0.2 }}
     >
-      <div className="img  self-center">
-        {/* src={`'${img}'`} */}
+      <div className="img self-left mt-2 ml-2">
         <img className="rounded-sm w-40 h-20" src={img} alt="img" />
       </div>
-
-      <div className="content flex flex-col gap-4 items-center">
-        
+      <div className="ml-2 content flex flex-col gap-2 items-left">
           <h2 className="text-grape-200 hover:text-grape-300 text-lg font-bold hover:text-orange-500">
             {title}
           </h2>
-        
-        <p className="text-[0.9rem] text-[#402E32] w-4/5 font-inter tracking-wide leading-5">
-          {description.slice(0, 120) + "..."}
-        </p>
+          <p className="text-[0.9rem] text-[#402E32] w-4/5 font-inter tracking-wide leading-5">
+            {description.slice(0, 120) + "..."}
+          </p>
       </div>
     </motion.div>
     </a>

@@ -28,5 +28,11 @@
     "description": "Learn how to use JavaScript — a powerful and flexible programming language for adding website interactivity.",
     "link": "https://www.codecademy.com/learn/introduction-to-javascript",
     "img": "https://user-images.githubusercontent.com/118375524/240303440-0021fd59-c451-4ea5-a514-1ed18a529e20.png"
+  },
+  {
+    "title": "DevDocs",
+    "description": "DevDocs is a centralized documentation hub that provides quick access to JavaScript documentation from various sources, including MDN, ECMA, and more.",
+    "link": "https://devdocs.io/javascript/",
+    "img": "https://user-images.githubusercontent.com/118375524/240479092-701a5ed6-1fd9-4710-8966-5f533ef7631a.png"
   }
 ]

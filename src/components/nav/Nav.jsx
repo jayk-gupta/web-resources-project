@@ -1,15 +1,23 @@
-import React from 'react';
-import { FaHome } from 'react-icons/fa';
-import { BsFillCameraVideoFill } from 'react-icons/bs';
-import { FaLaptopCode } from 'react-icons/fa';
-import { CgWebsite } from 'react-icons/cg';
-import { NavLink } from 'react-router-dom';
-import { BsTools } from 'react-icons/bs';
-import { BsBookHalf } from 'react-icons/bs';
+import React from "react";
+import { FaHome } from "react-icons/fa";
+import { BsFillCameraVideoFill } from "react-icons/bs";
+import { FaLaptopCode } from "react-icons/fa";
+import { CgWebsite } from "react-icons/cg";
+import { NavLink } from "react-router-dom";
+import { BsTools } from "react-icons/bs";
+import { BsBookHalf } from "react-icons/bs";
 
 const Nav = () => {
   return (
     <div className="flex flex-col fixed h-screen bg-[#76118f] py-2 px-4 text-xl w-[5%] items-center gap-20 z-50 ">
+      <NavLink to="/">
+        <img
+          className="s"
+          src="https://user-images.githubusercontent.com/100681165/238192169-5ed8ffdb-c8fb-4a69-8f91-d4d376271ae3.png"
+          alt="logo"
+        />
+      </NavLink>
+
       <div className="flex flex-col gap-6 pt-2">
         <NavLink to="/">
           <div className="group flex flex-col gap-3 justify-center items-center">

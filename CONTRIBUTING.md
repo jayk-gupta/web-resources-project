@@ -94,7 +94,8 @@ Once you have committed your changes, it's time to push them to your forked repo
 Use the following command to push your changes:
 
 ``` bash
-git push origin branch-name
+  `git push origin branch-name`
+  `git push origin dev`
 ```
 Replace branch-name with the name of the branch you created earlier.
 

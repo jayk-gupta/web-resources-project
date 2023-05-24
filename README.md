@@ -1,7 +1,7 @@
 <h1 align="center">Web Resource Hub 👨‍💻</h1>
 
 ## 🚀 About 
-+ [**Web Resource Hub**](https://web-resources-hub-project.vercel.app/) is an open-source project developed for the DevJam Hackathon organized by Social Summer of Code. 
++ [**Web Resource Hub**](https://web-resources-project-dev.vercel.app/) is an open-source project developed for the DevJam Hackathon organized by Social Summer of Code. 
 + It serves as a comprehensive collection of **frontend web resources, including HTML, CSS, JavaScript, and React.** 
 + The project aims to provide developers with a **centralized platform** to access a wide range of frontend tools and resources, making their development process more efficient and productive.
 

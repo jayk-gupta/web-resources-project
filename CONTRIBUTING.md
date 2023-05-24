@@ -101,9 +101,6 @@ Once you have committed your changes, it's time to push them to your forked repo
 Use the following command to push your changes:
 
 ``` bash
-git push origin dev
-=======
-  `git push origin branch-name`
   `git push origin dev`
 
 ```
@@ -117,7 +114,8 @@ Go to pull request section in your forked repository (not the main repository)
 
 Click on "New Pull Request".
 Then this will appear.
-![Screenshot 2023-05-20 202205](https://github.com/jayk-gupta/web-resources-project/assets/100681165/4d95390d-5120-4a5e-85d8-bfb6bd207d0a)
+
+![Screenshot 2023-05-24 131129](https://github.com/jayk-gupta/web-resources-project/assets/100681165/d23c07c2-dce7-4eb9-b03b-e21b950b705c)
 
 
 Provide a clear and informative title and description for your pull request. Explain the changes you have made and why they should be incorporated into the original repository.

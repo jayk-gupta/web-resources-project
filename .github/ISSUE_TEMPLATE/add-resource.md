@@ -1,9 +1,10 @@
 ---
-name: 📚 Add Resource
+name: "\U0001F4DA Add Resource"
 about: Use this template to add new resources
 title: ''
 labels: ''
 assignees: ''
+
 ---
 
 **Issue Description**

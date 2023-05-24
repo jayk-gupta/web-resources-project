@@ -1,5 +1,5 @@
 ---
-name: 🪄 Styling
+name: "\U0001FA84 Styling"
 about: Improve styling of project
 title: "[STYLE]"
 labels: ''

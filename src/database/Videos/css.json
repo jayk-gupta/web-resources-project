@@ -34,5 +34,11 @@
     "description": "It used to be the case that everyone viewed webpages on about the same size screen.  But with the explosion of the use of smartphones to access the Internet, the landscape of design has completely changed.  People viewing your site will now expect that it will perform regardless of the platform (smartphone, tablet, laptop, or desktop computer).  This ability to respond to any platform is called responsive design.",
     "link": "https://www.coursera.org/learn/responsivedesign",
     "img": "https://user-images.githubusercontent.com/77445758/238195652-92e6da6e-59dd-4d5b-a407-26b19293b54e.png"
+  },
+  {
+    "title": "Hyperplexed",
+    "description": "This channel teaches web development in a very intuitive manner by recreating easy yet awesome stuff in a very short amount of time.",
+    "link": "https://www.youtube.com/@Hyperplexed",
+    "img": ""
   }
 ]

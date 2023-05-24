@@ -1,3 +1,9 @@
+**NOTE**
+-
+The Contributing guidelines have changed so please do check the [Contributing Guidelines](./CONTRIBUTING.md)
+-
+
+
 <h1 align="center">Web Resource Hub 👨‍💻</h1>
 
 ## 🚀 About 

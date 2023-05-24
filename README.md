@@ -11,6 +11,14 @@
 + It serves as a comprehensive collection of **frontend web resources, including HTML, CSS, JavaScript, and React.** 
 + The project aims to provide developers with a **centralized platform** to access a wide range of frontend tools and resources, making their development process more efficient and productive.
 
+## Deployed Links
+
+### Main ->  https://web-resources-hub-project.vercel.app/
+### Dev  ->  https://web-resources-project-dev.vercel.app/
+### qa   ->  https://web-resources-project-qa.vercel.app/
+
+
+
 
 ## 📷 Screenshot 
 ![Screenshot 2023-05-15 094313](https://github.com/jayk-gupta/web-resources-project/assets/100681165/1f5db7da-e30c-4075-bab7-719cac80cae4)

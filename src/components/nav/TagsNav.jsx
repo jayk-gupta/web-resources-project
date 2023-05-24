@@ -4,7 +4,7 @@ import { NavLink} from "react-router-dom";
 import "./TagsNav.css";
 const TagsNav = () => {
   return (
-    <nav className="categories text-lg py-2 bg-[#f3d9fa] flex  gap-12 text-[#562c35] pl-28 pr-6 sticky top-0 items-center justify-between">
+    <nav className="categories text-lg py-2 bg-[#EEBEFA] flex  gap-12 text-[#562c35] pl-28 pr-6 sticky top-0 items-center justify-between">
       <div className='flex gap-10'>
         <h2 className="text-xl font-merriweather tracking-wider mr-12">
           Web Dev Resources

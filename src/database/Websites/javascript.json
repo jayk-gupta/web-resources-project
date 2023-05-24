@@ -34,5 +34,11 @@
     "description": "DevDocs is a centralized documentation hub that provides quick access to JavaScript documentation from various sources, including MDN, ECMA, and more.",
     "link": "https://devdocs.io/javascript/",
     "img": "https://user-images.githubusercontent.com/118375524/240479092-701a5ed6-1fd9-4710-8966-5f533ef7631a.png"
+  },
+  {
+    "title": "The Odin Project",
+    "description": "The Odin Project provides a free open source coding curriculum that can be taken entirely online. Since its inception, it has helped many students get hired as developers and has assisted countless others in learning enough programming to work on their own personal projects.",
+    "link": "https://www.theodinproject.com/",
+    "img": "https://i.postimg.cc/tCQ1761W/image-2023-05-24-19-03-24.png"
   }
 ]

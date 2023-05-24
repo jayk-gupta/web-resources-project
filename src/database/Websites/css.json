@@ -28,5 +28,11 @@
     "description": "The easiest way to learn semantic anaccessible HTML and CSS step by step.Learn in an interactive environment.Read short lessons, take notes, and complete challenges directly in your browser.",
     "link": "https://learnhtmlcss.online/",
     "img": "https://user-images.githubusercontent.com/100681165/238203641-afd01faf-7275-41e2-b856-5640b7b20d36.png"
+  },
+  {
+    "title": "The Odin Project",
+    "description": "The Odin Project provides a free open source coding curriculum that can be taken entirely online. Since its inception, it has helped many students get hired as developers and has assisted countless others in learning enough programming to work on their own personal projects.",
+    "link": "https://www.theodinproject.com/",
+    "img": "https://i.postimg.cc/tCQ1761W/image-2023-05-24-19-03-24.png"
   }
 ]

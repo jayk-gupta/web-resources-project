@@ -5,6 +5,7 @@
 ![htmlw_w3](https://github.com/jayk-gupta/web-resources-project/assets/100681165/41682e54-ee23-41ac-8e62-5e1de9bf7503)
 ![htmlw_webdev](https://github.com/jayk-gupta/web-resources-project/assets/100681165/fd65e9ce-7a71-415d-b8c7-83a5125d96c0)
 ![htmlw_htmlcom](https://github.com/jayk-gupta/web-resources-project/assets/100681165/9453a77d-56bc-499b-a70a-8684df7df195)
+![htmlw_odin](../../images%20original/htmlw_odin.png)
 
 # CSS
 

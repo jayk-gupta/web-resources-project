@@ -44,8 +44,14 @@ The yourUsername is nothing but your github username.
 
 Congratulations! You have successfully cloned the repository to your local machine. You can now make changes, add new features, or fix issues in the codebase.
 
+## Step 3: Switch to Dev branch
 
-## Step 3: Create a New Branch
+``` bash
+git checkout dev
+
+```
+
+## Step 4: Create a New Branch
 After making the necessary changes, it's recommended to create a new branch for your changes. This helps keep your modifications separate from the main branch, making it easier to manage and review your contributions.
 
 Use the following command to create a new branch:
@@ -61,7 +67,7 @@ The git checkout -b branch-name command in Git creates a new branch with the spe
 **checkout branch-name** : switches to the branch branch-name.
 
 **-b** : this creates the branch if it not exists already of name branch-name. 
-## Step 4: Make Your Changes
+## Step 5: Make Your Changes
 
 Make the necessary changes or additions to the codebase.
 Once you have added changes in your local, its time to push them, for that run this command to bring the modification to staging area.
@@ -82,7 +88,7 @@ and then run this command:
   git add .
 ```
 
-## Step 5: Commit Your Changes
+## Step 6: Commit Your Changes
 
 Commit your changes with a meaningful commit message using the following command:
 ``` bash
@@ -90,18 +96,12 @@ Commit your changes with a meaningful commit message using the following command
 ```
 Once you have committed your changes, it's time to push them to your forked repository on GitHub.
 
-## Step 6: Switch to Dev branch
-
-``` bash
-git checkout dev
-
-```
-## Step 6: Push Your Changes
+## Step 7: Push Your Changes
 
 Use the following command to push your changes:
 
 ``` bash
-git push origin branch-name
+git push origin dev
 ```
 Replace branch-name with the name of the branch you created earlier.
 

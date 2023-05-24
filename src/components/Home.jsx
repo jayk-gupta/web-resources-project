@@ -1,11 +1,10 @@
-import { motion } from "framer-motion";
-
+import { motion } from 'framer-motion';
 
 export default function Home() {
   return (
     <div className=" w-full  flex mx-auto ml-16 mt-6">
       <motion.div
-        className="w-3/5 p-12 flex flex-col gap-8"
+        className=" w-3/5 p-12 flex flex-col gap-8"
         initial={{ opacity: 0, translateX: -100 }}
         animate={{ opacity: 1, translateX: 0 }}
         transition={{ duration: 0.5 }}
@@ -22,11 +21,9 @@ export default function Home() {
         <p className="text-lg w-4/5 text-[#862e9c]">
           Explore our vast collection of web development resources,
           <br></br>
-          designed to
-          give you the knowledge and tools you need to
-          <br/>
-          succeed in the world of
-          web development!
+          designed to give you the knowledge and tools you need to
+          <br />
+          succeed in the world of web development!
         </p>
       </motion.div>
 

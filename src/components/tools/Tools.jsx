@@ -21,7 +21,7 @@ const Tools = ({sectionName}) => {
 
       <TagsNav />
       <Welcome section={sectionName}/>
-      <Outlet></Outlet>
+      <Outlet key={pathname}></Outlet>
     </div>
   );
 };

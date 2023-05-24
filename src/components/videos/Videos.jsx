@@ -20,7 +20,7 @@ export default function Videos({sectionName}) {
     >
       <TagsNav />
       <Welcome section={sectionName}/>
-      <Outlet></Outlet>
+      <Outlet key={pathname}></Outlet>
       {/* BUTTON */}
     </div>
   );

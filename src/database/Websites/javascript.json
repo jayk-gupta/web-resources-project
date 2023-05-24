@@ -28,5 +28,11 @@
     "description": "Learn how to use JavaScript — a powerful and flexible programming language for adding website interactivity.",
     "link": "https://www.codecademy.com/learn/introduction-to-javascript",
     "img": "https://user-images.githubusercontent.com/118375524/240303440-0021fd59-c451-4ea5-a514-1ed18a529e20.png"
+  },
+  {
+    "title": "freecodecamp",
+    "description": "This complete 134-part JavaScript course for beginners will teach you everything you need to know to get started with the JavaScript programming language.",
+    "link": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+    "img": "https://github.com/Phyozawhein/web-resources-project/assets/23288033/15f65509-89e7-406f-8093-0ade3510d547"
   }
 ]

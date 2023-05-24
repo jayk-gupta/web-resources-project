@@ -102,6 +102,10 @@ Use the following command to push your changes:
 
 ``` bash
 git push origin dev
+=======
+  `git push origin branch-name`
+  `git push origin dev`
+
 ```
 Replace branch-name with the name of the branch you created earlier.
 

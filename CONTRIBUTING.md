@@ -44,6 +44,7 @@ The yourUsername is nothing but your github username.
 
 Congratulations! You have successfully cloned the repository to your local machine. You can now make changes, add new features, or fix issues in the codebase.
 
+
 ## Step 3: Create a New Branch
 After making the necessary changes, it's recommended to create a new branch for your changes. This helps keep your modifications separate from the main branch, making it easier to manage and review your contributions.
 
@@ -89,6 +90,12 @@ Commit your changes with a meaningful commit message using the following command
 ```
 Once you have committed your changes, it's time to push them to your forked repository on GitHub.
 
+## Step 6: Switch to Dev branch
+
+``` bash
+git checkout dev
+
+```
 ## Step 6: Push Your Changes
 
 Use the following command to push your changes:

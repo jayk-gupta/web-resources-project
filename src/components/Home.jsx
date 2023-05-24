@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className=" w-full  flex mx-auto ml-16 mt-6">
       <motion.div
-        className=" w-3/5 p-12 flex flex-col gap-8"
+        className="w-3/5 p-12 flex flex-col gap-8"
         initial={{ opacity: 0, translateX: -100 }}
         animate={{ opacity: 1, translateX: 0 }}
         transition={{ duration: 0.5 }}

@@ -42,6 +42,12 @@
     "img": "https://user-images.githubusercontent.com/77445758/238195652-92e6da6e-59dd-4d5b-a407-26b19293b54e.png"
   },
   {
+    "title": "Hyperplexed",
+    "description": "This channel teaches web development in a very intuitive manner by recreating easy yet awesome stuff in a very short amount of time.",
+    "link": "https://www.youtube.com/@Hyperplexed",
+    "img": ""
+  },
+  {
     "tag": "html",
     "title": "FreeCodeCamp.org",
     "description": "Learn to code for free. Number of instructors and industry level experts with years of experience teach for free. Quality content of all technologies at one stop destination.",
@@ -133,6 +139,12 @@
     "description": "Learn Javascript ",
     "link": "   https://www.youtube.com/watch?v=2md4HQNRqJA&list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD",
     "img": "https://user-images.githubusercontent.com/100681165/238198099-7296f3ac-aaac-4035-8c8b-f1819e4158fe.png"
+  },
+  {
+    "title": "Hyperplexed",
+    "description": "This channel teaches web development in a very intuitive manner by recreating easy yet awesome stuff in a very short amount of time.",
+    "link": "https://www.youtube.com/@Hyperplexed",
+    "img": ""
   },
   {
     "tag": "react",

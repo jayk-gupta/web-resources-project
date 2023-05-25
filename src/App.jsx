@@ -2,11 +2,11 @@ import React from 'react';
 import { Route, Routes,NavLink } from 'react-router-dom';
 import Nav from './components/nav/Nav.jsx';
 import Home from './components/Home.jsx';
-import Book from './components/books/index.jsx';
-import Tools from './components/tools/index.jsx';
-import Videos from './components/videos/index.jsx';
-import Websites from './components/websites/index.jsx';
-import Challenges from './components/challenges/index.jsx';
+import Book from './components/books/Index.jsx'
+import Tools from './components/tools/Index.jsx';
+import Videos from './components/videos/Index.jsx';
+import Websites from './components/websites/Index.jsx';
+import Challenges from './components/challenges/Index.jsx';
 import { BsGithub } from "react-icons/bs";
 
 

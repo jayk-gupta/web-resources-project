@@ -3,7 +3,7 @@ import Card from '../Card';
 import Filter from "../filter/index"
 import bookData from '../../database/books.json';
 
-const index = () => {
+const Index = () => {
 
   const [filter, setFilter] = useState('html');
 
@@ -14,7 +14,7 @@ const index = () => {
   return (
     <div className='m-10'>
       <Filter onStateChange = {handleFilterChange}/>
-      <div className='flex flex-wrap'>
+      <div className='flex flex-wrap gap-6'>
         {bookData.map(
           (res, i) =>
             filter === res.tag && (
@@ -34,4 +34,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

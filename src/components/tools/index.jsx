@@ -13,7 +13,7 @@ const index = () => {
   return (
     <div className="m-10">
       <Filter onStateChange={handleFilterChange} />
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap gap-6">
         {toolsData.map(
           (res, i) =>
             filter === res.tag && (

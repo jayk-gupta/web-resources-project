@@ -1,5 +1,4 @@
-import { motion } from 'framer-motion';
-
+import { motion } from "framer-motion";
 export default function Home() {
   return (
     <div className=" w-full  flex mx-auto ml-16 mt-6">

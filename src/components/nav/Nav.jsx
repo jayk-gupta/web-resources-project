@@ -18,11 +18,11 @@ const Nav = () => {
         />
       </NavLink>
 
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-6 pt-2">
         <NavLink to="/">
           <div className="group flex flex-col gap-3 justify-center items-center">
             <FaHome className="text-[white]  hover:text-grape-100 group-hover:scale-125 duration-200" />
-            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
+            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100 text-[white]">
               Home
             </h6>
           </div>
@@ -30,7 +30,7 @@ const Nav = () => {
         <NavLink to="/Videos">
           <div className="group flex flex-col gap-3 justify-center items-center">
             <BsFillCameraVideoFill className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />
-            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
+            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100 text-[white]">
               Videos
             </h6>
           </div>
@@ -38,7 +38,7 @@ const Nav = () => {
         <NavLink to="/Websites">
           <div className="group flex flex-col gap-3 justify-center items-center">
             <CgWebsite className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />
-            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
+            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100 text-[white]">
               Websites
             </h6>
           </div>
@@ -46,7 +46,7 @@ const Nav = () => {
         <NavLink to="/Challenges">
           <div className="group flex flex-col gap-3 justify-center items-center">
             <FaLaptopCode className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />
-            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
+            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100 text-[white]">
               Challenges
             </h6>
           </div>
@@ -54,7 +54,7 @@ const Nav = () => {
         <NavLink to="/Tools">
           <div className="group flex flex-col gap-3 justify-center items-center">
             <BsTools className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />
-            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
+            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100 text-[white]">
               Tools
             </h6>
           </div>
@@ -62,7 +62,7 @@ const Nav = () => {
         <NavLink to="/Books">
           <div className="group flex flex-col gap-3 justify-center items-center">
             <BsBookHalf className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />
-            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100">
+            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100 text-[white]">
               Books
             </h6>
           </div>

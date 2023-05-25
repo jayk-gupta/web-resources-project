@@ -53,7 +53,7 @@ git checkout dev
 
 ## Step 4: Create a New Branch
 After making the necessary changes, it's recommended to create a new branch for your changes. This helps keep your modifications separate from the main branch, making it easier to manage and review your contributions.
-The branch name should be the name of the task you are performing.
+
 
 Use the following command to create a new branch:
 

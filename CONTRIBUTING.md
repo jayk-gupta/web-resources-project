@@ -54,10 +54,11 @@ git checkout dev
 ## Step 4: Create a New Branch
 After making the necessary changes, it's recommended to create a new branch for your changes. This helps keep your modifications separate from the main branch, making it easier to manage and review your contributions.
 
+
 Use the following command to create a new branch:
 
 ``` bash
-git checkout -b my-branch-name
+git checkout -b your-branch-name
 ```
 Replace my-branch-name with a name of your choice for your branch.
 
@@ -101,7 +102,7 @@ Once you have committed your changes, it's time to push them to your forked repo
 Use the following command to push your changes:
 
 ``` bash
-  git push origin dev
+git push --set-upstream origin your-branch-name
 ```
 Replace branch-name with the name of the branch you created earlier.
 

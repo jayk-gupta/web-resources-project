@@ -105,6 +105,13 @@
     "img": "https://user-images.githubusercontent.com/118375524/240303440-0021fd59-c451-4ea5-a514-1ed18a529e20.png"
   },
   {
+    "tag": "js",
+    "title": "Learn Javascript",
+    "description": "Discover the world of JavaScript with Scrimba's no-cost course, featuring video tutorials and practical examples for effective learning.",
+    "link": "https://scrimba.com/learn/learnjavascript",
+    "img": "https://user-images.githubusercontent.com/118375524/240918531-1b35bee0-7c1f-4e82-a8a4-8d0428912e08.png"
+  },
+  {
     "tag": "react",
     "title": "React.dev",
     "description": "The Official Documentation of the React. The library for web and native user interfaces. React lets you build user interfaces out of individual pieces called components. Create your own React components like Thumbnail, LikeButton, and Video. Then combine them into entire screens, pages, and apps.",

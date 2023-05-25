@@ -1,0 +1,19 @@
+name: Add Contributors
+on:
+  push:
+    branches:
+      - master
+jobs:
+  add-contributors:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        with:
+          path: ~/.cache/node
+          key: ${{ runner.os }}-node-${{ hashFiles('package.json') }}
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 16
+      - run: npm install -g @actions/github-script
+      - run: github-script run add-contributors.js

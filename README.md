@@ -106,8 +106,8 @@ We welcome contributions from the community! If you're interested in contributin
             <td align="center"><a href="https://github.com/debajit13"><img alt=""
                         src="https://avatars.githubusercontent.com/u/42708550?v=4" width="100px;"><br><sub><b>Debajit Mallick
                         </b></sub></a><br></td> </a></td>
-            <td align="center"><a href="https://github.com/varun-singhh"><img alt=""
-                        src="https://avatars.githubusercontent.com/u/47475007?v=4" width="100px;"><br><sub><b>Varun Singh
+            <td align="center"><a href="[https://github.com/varuns-zop"><img alt=""
+                        src="https://avatars.githubusercontent.com/u/100130076?v=4" width="100px;"><br><sub><b>Varun Singh
                         </b></sub></a><br></td></a></td>
 </table>
 

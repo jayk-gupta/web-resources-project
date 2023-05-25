@@ -17,6 +17,7 @@
 ![cssv_programming with mosh video](https://github.com/jayk-gupta/web-resources-project/assets/77445758/a1d7c738-902c-4207-a388-497aa44e1a0c)
 ![cssv_traversy media video](https://github.com/jayk-gupta/web-resources-project/assets/77445758/cb352944-b03b-417a-bfa9-f2ef35825a8b)
 ![cssv_webdevsimplified video](https://github.com/jayk-gupta/web-resources-project/assets/77445758/9f93463f-7e9d-4e57-9946-34e21851081d)
+![Hyperplexed](https://github.com/Atharva-3000/web-resources-project/assets/72994819/0edd6ea2-8f19-4bb5-baf7-0e4d6586cd57)
 
 <!-- JS -->
 ![jsv_aniak](https://github.com/jayk-gupta/web-resources-project/assets/100681165/edf1ad71-314d-46c9-bf2f-f992b6983cf5)
@@ -26,7 +27,7 @@
 ![jsv_namasteJS](https://github.com/jayk-gupta/web-resources-project/assets/100681165/352b93a0-2a15-49a4-bffb-e699fa779268)
 ![jsv_traversy](https://github.com/jayk-gupta/web-resources-project/assets/100681165/4626bcd1-b000-43b2-8bf7-ce8d75af6b3b)
 ![jsv_webdevsimp](https://github.com/jayk-gupta/web-resources-project/assets/100681165/559c3eff-33a4-4c55-b7ff-4907c06c2e05)
-
+![Hyperplexed](https://github.com/Atharva-3000/web-resources-project/assets/72994819/0edd6ea2-8f19-4bb5-baf7-0e4d6586cd57)
 
 
 

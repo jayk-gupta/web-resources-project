@@ -3,7 +3,7 @@ import Card from '../Card';
 import Filter from '../filter/index';
 import videoData from '../../database/videos.json';
 
-const index = () => {
+const Index = () => {
   const [filter, setFilter] = useState('html');
 
   const handleFilterChange = (target) => {
@@ -33,4 +33,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

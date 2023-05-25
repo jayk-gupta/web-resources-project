@@ -34,5 +34,11 @@
     "description": "DevDocs is a centralized documentation hub that provides quick access to JavaScript documentation from various sources, including MDN, ECMA, and more.",
     "link": "https://devdocs.io/javascript/",
     "img": "https://user-images.githubusercontent.com/118375524/240479092-701a5ed6-1fd9-4710-8966-5f533ef7631a.png"
+  },
+  {
+    "title": "TutorialsPoint",
+    "description": "Learn javascript From Tutorials Point in a simple way.",
+    "link": "https://www.tutorialspoint.com/javascript/index.htm",
+    "img": "https://www.tutorialspoint.com/javascript/images/javascript.jpg"
   }
 ]

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Card from '../Card';
 import Filter from '../filter/index';
 import videoData from '../../database/videos.json';
@@ -11,9 +11,9 @@ const Index = () => {
   };
 
   return (
-    <div className="m-10">
+    <div className='m-10'>
       <Filter onStateChange={handleFilterChange} />
-      <div className="flex flex-wrap gap-6">
+      <div className='flex flex-wrap gap-6'>
         {videoData.map(
           (res, i) =>
             filter === res.tag && (

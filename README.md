@@ -1,6 +1,7 @@
  ✨ **NOTE**
 
-🚀🚀 The Contributing guidelines have changed so please do check the [Contributing Guidelines](./CONTRIBUTING.md)
+### The Issues will open in 2 days!
+### Please go through the discussion section!
 
 
 

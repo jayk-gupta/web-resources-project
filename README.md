@@ -1,7 +1,5 @@
- ✨ **NOTE**
-
-### The Issues will open in 2 days!
-### Please go through the discussion section!
+## Note: 
+### UI of site is under-development
 
 
 

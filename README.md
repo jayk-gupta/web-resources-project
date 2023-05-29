@@ -1,6 +1,5 @@
- ✨ **NOTE**
-
-🚀🚀 The Contributing guidelines have changed so please do check the [Contributing Guidelines](./CONTRIBUTING.md)
+## Note: 
+### UI of site is under-development
 
 
 

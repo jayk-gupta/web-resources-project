@@ -23,6 +23,7 @@
 ![jsv_namasteJS](https://github.com/jayk-gupta/web-resources-project/assets/100681165/352b93a0-2a15-49a4-bffb-e699fa779268)
 ![jsv_traversy](https://github.com/jayk-gupta/web-resources-project/assets/100681165/4626bcd1-b000-43b2-8bf7-ce8d75af6b3b)
 ![jsv_webdevsimp](https://github.com/jayk-gupta/web-resources-project/assets/100681165/559c3eff-33a4-4c55-b7ff-4907c06c2e05)
+<img width="1440" alt="Screenshot 2023-05-31 at 1 57 56 AM" src="https://github.com/yashpreet2707/web-resources-project/assets/111020648/198d63ed-1f14-47cc-bdbc-ce23598258cc">
 
 
 

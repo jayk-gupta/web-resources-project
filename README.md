@@ -57,13 +57,13 @@
 4. After the installation is complete, run the following command: `pnpm dev` (This command launches the project in your local browser or terminal).
 
 ## 💪 Adding new resource 
-1. Navigate to the database folder in the src folder.
-2. Navigate to the appropriate section directory (videos, websites or challenges etc) based on the type of resource you want to add. 
-3. Each directory has technology json file
+1. Navigate to the `src/database`.
+2. There is a json file for each section.
 3. Create a new object for your resource in the appropriate json file.
 4. Add the details of your resource: Here's an example
 ```
 {
+    "tag" : "css"
     "title": "CodeWell",
     "description": "Improve your HTML and CSS skills by practicing on real design templates.With Codewell, you can browse high quality Figma templates that you can use to sharpen your HTML and CSS skills.",
     "link": "https://www.codewell.cc/",

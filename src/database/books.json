@@ -82,6 +82,13 @@
       "description": "Create large-scale web applications with code that is extensible and easy to understand using React Hooks. Explore effective strategies for migrating your state management from Redux and MobX to React Hooks",
       "link": "https://www.oreilly.com/library/view/learn-react-hooks/9781838641443/",
       "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
+    },
+   {
+      "tag": "react",
+      "title": "Learning REACT",
+      "description": "This book is a comprehensive guide that teaches you how to build modern web applications using the React JavaScript library",
+      "link": "https://drive.google.com/file/d/1AZwshgVyazeIJ95ng6Pg1zUbVQoYX93t/view?usp=share_link",
+      "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
     }
   ]
   

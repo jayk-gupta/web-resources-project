@@ -13,7 +13,7 @@ const Index = () => {
   return (
     <div className="m-10">
       <Filter onStateChange={handleFilterChange} />
-      <div className="flex flex-wrap gap-6">
+      <div className="flex flex-wrap gap-8">
         {videoData.map(
           (res, i) =>
             filter === res.tag && (

@@ -11,25 +11,25 @@ const index = ({onStateChange}) => {
   return (
     <div className="flex space-x-6 items-center mb-10">
       <p
-        className={`px-3 py-1 rounded-xl cursor-pointer ${filter === "html" ? 'border':''}`}
+        className={`px-3 py-1 rounded-xl cursor-pointer  tracking-wider border-[#865E9C] ${filter === "html" ? 'border-[3px]':''}`}
         onClick={() => handleFilterChange('html')}
       >
         HTML
       </p>
       <p
-        className={`px-3 py-1 rounded-xl cursor-pointer ${filter === "css" ? 'border':''}`}
+        className={`px-3 py-1 rounded-xl cursor-pointer tracking-wider border-[#865E9C] ${filter === "css" ? 'border-[3px]':''}`}
         onClick={() => handleFilterChange('css')}
       >
         CSS
       </p>
       <p
-        className={`px-3 py-1 rounded-xl cursor-pointer ${filter === "js" ? 'border':''}`}
+        className={`px-3 py-1 rounded-xl cursor-pointer tracking-wider border-[#865E9C] ${filter === "js" ? 'border-[3px]':''}`}
         onClick={() => handleFilterChange('js')}
       >
         Javascript
       </p>
       <p
-        className={`px-3 py-1 rounded-xl cursor-pointer ${filter === "react" ? 'border':''}`}
+        className={`px-3 py-1 rounded-xl cursor-pointer tracking-wider border-[#865E9C] ${filter === "react" ? 'border-[3px]':''}`}
         onClick={() => handleFilterChange('react')}
       >
         ReactJS

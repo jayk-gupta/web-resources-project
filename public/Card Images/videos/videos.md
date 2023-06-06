@@ -38,5 +38,5 @@
 ![reactv_netninja](https://github.com/jayk-gupta/web-resources-project/assets/100681165/9310a468-c7ce-4514-b5bb-761f9a4b3d7a)
 ![reactv_pedro](https://github.com/jayk-gupta/web-resources-project/assets/100681165/4b816e7f-7bb6-4185-8dc4-af61c63e12aa)
 ![reactv_scrimba](https://github.com/jayk-gupta/web-resources-project/assets/100681165/a9da5321-8618-4c6f-8f3c-9a494a6d3e10)
-
+![reactv_thapaTechnical](public/images original/ThapaTechnical React1.jpg)
 

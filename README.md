@@ -2,8 +2,26 @@
 ### UI of site is under-development
 
 
-
+<div id="top">
 <h1 align="center">Web Resource Hub 👨‍💻</h1>
+<div align="center">
+<img src="https://forthebadge.com/images/badges/built-with-love.svg" />
+<img src="https://forthebadge.com/images/badges/uses-brains.svg" />
+<img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg" />
+   <br>
+   <img src="https://img.shields.io/github/repo-size/jayk-gupta/web-resources-project?style=for-the-badge" />
+   <img src="https://img.shields.io/github/issues/jayk-gupta/web-resources-project?style=for-the-badge" />
+   <img src="https://img.shields.io/github/issues-closed-raw/jayk-gupta/web-resources-project?style=for-the-badge" />
+    <img src="https://img.shields.io/github/license/jayk-gupta/web-resources-project?style=for-the-badge" />
+
+   <img src="https://img.shields.io/github/issues-pr/jayk-gupta/web-resources-project?style=for-the-badge" />
+    <img src="https://img.shields.io/github/contributors/jayk-gupta/web-resources-project?style=for-the-badge" />
+    <img src="https://img.shields.io/github/stars/jayk-gupta/web-resources-project?style=for-the-badge" />
+
+   <img src="https://img.shields.io/github/issues-pr-closed-raw/jayk-gupta/web-resources-project?style=for-the-badge" />
+   <img src="https://img.shields.io/github/forks/jayk-gupta/web-resources-project?style=for-the-badge" />
+  <img src="https://img.shields.io/github/last-commit/jayk-gupta/web-resources-project?style=for-the-badge" />
+     </div>
 
 ## 🚀 About 
 + [**Web Resource Hub**](https://web-resources-project-dev.vercel.app/) is an open-source project developed for the DevJam Hackathon organized by Social Summer of Code. 
@@ -135,8 +153,8 @@ To star this repository, simply click on the **Star** button at the top-right co
 
 # License
 MIT License. This project is licensed under the MIT License.
-
-
+<p align="right"><a href="#top">Back to top</a></p>
+</div>
 
 
 

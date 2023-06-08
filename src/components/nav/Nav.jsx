@@ -6,16 +6,12 @@ import { CgWebsite } from "react-icons/cg";
 import { NavLink } from "react-router-dom";
 import { BsTools } from "react-icons/bs";
 import { BsBookHalf } from "react-icons/bs";
-
+import { GiHamburgerMenu } from "react-icons/gi";
 const Nav = () => {
   return (
-    <div className="flex flex-col fixed h-screen bg-[#76118f] py-2 px-4 text-xl w-[5%] items-center gap-20 z-50 ">
+    <div className="flex flex-col fixed h-screen bg-[#6603a8] py-2 px-4 text-xl w-[5%] items-center gap-20 z-50 ">
       <NavLink to="/">
-        <img
-          className="s"
-          src="https://user-images.githubusercontent.com/100681165/238192169-5ed8ffdb-c8fb-4a69-8f91-d4d376271ae3.png"
-          alt="logo"
-        />
+        <GiHamburgerMenu className="" />
       </NavLink>
 
       <div className="flex flex-col gap-6 pt-2">
@@ -73,4 +69,3 @@ const Nav = () => {
 };
 
 export default Nav;
-

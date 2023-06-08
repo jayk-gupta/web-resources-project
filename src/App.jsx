@@ -1,19 +1,19 @@
-import React from 'react';
-import { Route, Routes,NavLink } from 'react-router-dom';
-import Nav from './components/nav/Nav.jsx';
-import Home from './components/Home.jsx';
-import Book from './components/books/Index.jsx'
-import Tools from './components/tools/Index.jsx';
-import Videos from './components/videos/Index.jsx';
-import Websites from './components/websites/Index.jsx';
-import Challenges from './components/challenges/Index.jsx';
+import React from "react";
+import { Route, Routes, NavLink } from "react-router-dom";
+import Nav from "./components/nav/Nav.jsx";
+import Home from "./components/Home.jsx";
+import Book from "./components/books/Index.jsx";
+import Tools from "./components/tools/Index.jsx";
+import Videos from "./components/videos/Index.jsx";
+import Websites from "./components/websites/Index.jsx";
+import Challenges from "./components/challenges/Index.jsx";
 import { BsGithub } from "react-icons/bs";
-
+import SideNav from "./components/nav/SIdeNav.jsx";
 
 const App = () => {
   return (
     <div className="flex">
-      <Nav />
+      <SideNav />
       <div className="mx-20">
         <Routes location={location} key={location.key}>
           {/* Home */}
@@ -24,7 +24,6 @@ const App = () => {
           <Route path="/Books" element={<Book />} />
           <Route path="/Tools" element={<Tools />} />
         </Routes>
-
       </div>
     </div>
   );

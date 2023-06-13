@@ -134,6 +134,15 @@
     "link": "   https://www.youtube.com/watch?v=2md4HQNRqJA&list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD",
     "img": "https://user-images.githubusercontent.com/100681165/238198099-7296f3ac-aaac-4035-8c8b-f1819e4158fe.png"
   },
+  
+  {
+    "tag": "js",
+    "title": "Code with Harry",
+    "description": "This Javascript tutorial in Hindi course is designed for beginners with an aim to take JavaScript/ES6 and its concepts to an advanced level.",
+    "link": "   https://www.youtube.com/playlist?list=PLu0W_9lII9ahR1blWXxgSlL4y9iQBnLpR",
+    "img": "https://user-images.githubusercontent.com/111020648/242089948-198d63ed-1f14-47cc-bdbc-ce23598258cc.png"
+  },
+  
   {
     "tag": "react",
     "title": "Learn React - Scrimba",

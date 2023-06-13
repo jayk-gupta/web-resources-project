@@ -105,6 +105,27 @@
     "img": "https://user-images.githubusercontent.com/118375524/240303440-0021fd59-c451-4ea5-a514-1ed18a529e20.png"
   },
   {
+    "tag": "js",
+    "title": "freecodecamp.org",
+    "description": "Learn the fundamental programming concepts in JavaScript,along the way you will be aslo learning the basic data structure as well the core concept of the JS.",
+    "link": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/96984371/e384109f-d931-45da-a8e9-ff2bc1ff9334"
+  },
+  {
+    "tag": "js",
+    "title": "javascript30.com",
+    "description": "Very interesting way to learn JS by building 30 project in 30 days , its all about learn by doing approach to master JS.",
+    "link": "https://javascript30.com/",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/96984371/663e6bd1-0ae5-4811-8a79-2609cc7a9e94"
+  },
+  {
+    "tag": "js",
+    "title": "learnjavascript.online",
+    "description": "Learn in an interactive environment. Read short lessons, take notes, and complete challenges directly in your browser.",
+    "link": "https://learnjavascript.online/",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/96984371/c1bb4dbf-8339-4875-a7b8-b59d5e61fab4"
+  },
+  {
     "tag": "react",
     "title": "React.dev",
     "description": "The Official Documentation of the React. The library for web and native user interfaces. React lets you build user interfaces out of individual pieces called components. Create your own React components like Thumbnail, LikeButton, and Video. Then combine them into entire screens, pages, and apps.",

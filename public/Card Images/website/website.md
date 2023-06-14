@@ -14,7 +14,6 @@
 ![cssw_learnhtmlcssonline](https://github.com/jayk-gupta/web-resources-project/assets/100681165/afd01faf-7275-41e2-b856-5640b7b20d36)
 ![cssw_mdn](https://github.com/jayk-gupta/web-resources-project/assets/100681165/49cbfd5a-a203-419a-80a7-7cb55f72f346)
 
-
 # Javascript
 
 ![jsw_jsinfo](https://github.com/jayk-gupta/web-resources-project/assets/100681165/6469009c-e38c-4f60-aa70-0551d7ca196a)
@@ -24,7 +23,8 @@
 ![jsw_Codecademy](https://github.com/mhdamaan79/J-web-resources-project/assets/118375524/bb349b9d-de5f-4e52-9cb1-2ccd10c98588)
 ![jsw_devdocs](https://github.com/mhdamaan79/J-web-resources-project/assets/118375524/701a5ed6-1fd9-4710-8966-5f533ef7631a)
 
-
 # React
+
 ![reactw_reactdev](https://github.com/jayk-gupta/web-resources-project/assets/100681165/1a2bffd5-f089-4553-9d0c-3d2c08806712)
 ![reactw_w3](https://github.com/jayk-gupta/web-resources-project/assets/100681165/795d63cc-cae4-444c-8272-78cd78743e37)
+![react_javatpoint](../../images%20original/react_javatpoint.png)

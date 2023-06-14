@@ -134,6 +134,15 @@
     "link": "   https://www.youtube.com/watch?v=2md4HQNRqJA&list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD",
     "img": "https://user-images.githubusercontent.com/100681165/238198099-7296f3ac-aaac-4035-8c8b-f1819e4158fe.png"
   },
+  
+  {
+    "tag": "js",
+    "title": "Code with Harry",
+    "description": "This Javascript tutorial in Hindi course is designed for beginners with an aim to take JavaScript/ES6 and its concepts to an advanced level.",
+    "link": "   https://www.youtube.com/playlist?list=PLu0W_9lII9ahR1blWXxgSlL4y9iQBnLpR",
+    "img": "https://user-images.githubusercontent.com/111020648/242089948-198d63ed-1f14-47cc-bdbc-ce23598258cc.png"
+  },
+  
   {
     "tag": "react",
     "title": "Learn React - Scrimba",
@@ -178,5 +187,13 @@
     "description": "It covers all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
     "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d",
     "img": "https://user-images.githubusercontent.com/100681165/238199161-9310a468-c7ce-4514-b5bb-761f9a4b3d7a.png"
+  },
+  
+  {
+    "tag": "react",
+    "title": "Thapa Technical",
+    "description": "This comprehensive tutorial by Thapa Technical covers all the basics of React. It starts with an introduction to React, setting up the development environment, and understanding components and routing. The tutorial then progresses to cover advanced topics such as state management, handling asynchronous code, and utilizing built-in hooks as well as creating custom hooks.",
+    "link": "https://www.youtube.com/playlist?list=PLwGdqUZWnOp3aROg4wypcRhZqJG3ajZWJ",
+    "img": "public/images original/ThapaTechnical React1.jpg"
   }
 ]

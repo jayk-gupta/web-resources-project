@@ -195,5 +195,12 @@
     "description": "This comprehensive tutorial by Thapa Technical covers all the basics of React. It starts with an introduction to React, setting up the development environment, and understanding components and routing. The tutorial then progresses to cover advanced topics such as state management, handling asynchronous code, and utilizing built-in hooks as well as creating custom hooks.",
     "link": "https://www.youtube.com/playlist?list=PLwGdqUZWnOp3aROg4wypcRhZqJG3ajZWJ",
     "img": "public/images original/ThapaTechnical React1.jpg"
+  },
+  {
+    "tag": "react",
+    "title": "Code With Harry React Course",
+    "description": "Learn to react step by step with making real-time projects and understand the core concepts of react",
+    "link": "https://www.youtube.com/watch?v=-mJFZp84TIY&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBLimkxKgVwum5XDrN89s2lmt_EFlBdJeItA&usqp=CAU"
   }
 ]

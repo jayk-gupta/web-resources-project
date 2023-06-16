@@ -14,6 +14,13 @@
       "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
     },
     {
+      "tag": "css",
+      "title": "CSS Secrets: Better Solutions to Everyday Web Design Problems",
+      "description": "In this guide, CSS expert provides 47 techniques and tips to help intermediate-to advanced.",
+      "link":"https://www.amazon.in/CSS-Secrets-Lea-Verou/dp/1449372635",
+      "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
+    },
+    {
       "tag": "html",
       "title": "Head first HTML with CSS and XHTML",
       "description": "Wouldnt it be dreamy if there was an HTML book that didnt assume you knew what elements, attributes, validation, selectors, and pseudo-classes were, all by page three? Its probably just a fantasy....",
@@ -82,6 +89,28 @@
       "description": "Create large-scale web applications with code that is extensible and easy to understand using React Hooks. Explore effective strategies for migrating your state management from Redux and MobX to React Hooks",
       "link": "https://www.oreilly.com/library/view/learn-react-hooks/9781838641443/",
       "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
+    },
+    {
+      "tag": "react",
+      "title":"React in Action by Mark Tielens Thomas",
+      "description": "React in Action introduces front-end developers to the React framework and related tools. This clearly written, example-rich book begins by introducing you to React, diving into some of the fundamental ideas in React, and working with components.",
+      "link":"https://blog.eupload.in/book/?id=8",
+      "img":"https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
+    },
+    {
+      "tag": "react",
+      "title": "React Quickly by Azat Marden",
+      "description": "React Quickly is for anyone who wants to learn React.js fast. This hands-on book teaches you the concepts you need with lots of examples, tutorials, and a large main project that gets built throughout the book.",
+      "link": "https://blog.eupload.in/book/?id=11",
+      "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
+    },
+    {
+      "tag": "js",
+      "title": "You Don't Know Javascript",
+      "description": "This book will question your javascript skills! It will teach you core concepts of javascript that you don't know or you don't understand how they work & that too in depth.",
+      "link": "https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed",
+      "img": "https://github.com/jayk-gupta/web-resources-project/assets/100681165/7c2ed3df-fd1c-40f7-9c73-1a6885948bc6"
     }
+
   ]
   

@@ -9,7 +9,7 @@ const Card = ({ title, link, description, i, img }) => {
         key={i}
         initial={{ opacity: 0, translateX: -100 }}
         animate={{ opacity: 1, translateX: 0 }}
-        transition={{ duration: 0.2, delay: i * 0.2 }}
+        transition={{ duration: 0.2, delay: i * 0.1 }}
       >
         <div className="img  self-center">
           {/* src={`'${img}'`} */}

@@ -15,6 +15,7 @@ export default {
     boxShadow: {
       "3xl": "0 1px 8px 2px rgba(75,0,94,0.2)",
       "4xl": "0 1px 15px 4px rgb(75,0,94,0.4)",
+      "xl" : "0px 7px 29px 0px rgba(100, 100, 111, 0.2)"
     },
     dropShadow: {
       xl: "0 5px 15px rgb(78, 70, 55,0.3)",

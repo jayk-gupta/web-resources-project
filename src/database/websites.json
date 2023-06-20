@@ -84,6 +84,13 @@
     "img": "https://user-images.githubusercontent.com/100681165/238201938-132a1bd3-d1a1-4139-8759-e96474e81a02.png"
   },
   {
+    "tag": "html",
+    "title": "JavaTpoint",
+    "description": "JavaTpoint is the most viewed resource in order to learn about front-end development and HTML-CSS.",
+    "link": "https://www.javatpoint.com/html-tutorial",
+    "img": "https://media.licdn.com/dms/image/C4D0BAQEwg5FK93uumQ/company-logo_200_200/0/1519923012279?e=2147483647&v=beta&t=63CNoS8OTR4lHjPhHSO7eFFqwLGwYunWfyDBV3tdc0c"
+  },
+  {
     "tag": "js",
     "title": "javascripttutorial.net",
     "description": "Welcome to the JavaScriptTutorial.net website! This JavaScript Tutorial helps you learn the JavaScript programming language from scratch quickly and effectively.",

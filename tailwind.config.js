@@ -20,6 +20,9 @@ export default {
       xl: "0 5px 15px rgb(78, 70, 55,0.3)",
     },
     colors: {
+      white: {
+        50: '#ffffff',
+      },
       grape: {
         50: "#f3d9fa",
         100: "#eebefa",

@@ -126,7 +126,13 @@
     "link": "  https://www.youtube.com/watch?v=ec8vSKJuZTk&t=1147s",
     "img": "https://user-images.githubusercontent.com/100681165/238198093-edf1ad71-314d-46c9-bf2f-f992b6983cf5.png"
   },
-
+  {
+    "tag": "js",
+    "title": "Clever Programer JavaScript Course",
+    "description": "Clever Programer has covered lots of new things and also cover lots of new project in this video.",
+    "link": "  https://youtu.be/lI1ae4REbFM",
+    "img": "https://i.ytimg.com/vi/lI1ae4REbFM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDGQckVsUUFmdZOb4JZO4kJeJQc7Q"
+  },
   {
     "tag": "js",
     "title": "Hitesh Choudhary",
@@ -195,5 +201,12 @@
     "description": "This comprehensive tutorial by Thapa Technical covers all the basics of React. It starts with an introduction to React, setting up the development environment, and understanding components and routing. The tutorial then progresses to cover advanced topics such as state management, handling asynchronous code, and utilizing built-in hooks as well as creating custom hooks.",
     "link": "https://www.youtube.com/playlist?list=PLwGdqUZWnOp3aROg4wypcRhZqJG3ajZWJ",
     "img": "public/images original/ThapaTechnical React1.jpg"
+  },
+  {
+    "tag": "react",
+    "title": "Code With Harry React Course",
+    "description": "Learn to react step by step with making real-time projects and understand the core concepts of react",
+    "link": "https://www.youtube.com/watch?v=-mJFZp84TIY&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBLimkxKgVwum5XDrN89s2lmt_EFlBdJeItA&usqp=CAU"
   }
 ]

@@ -126,7 +126,13 @@
     "link": "  https://www.youtube.com/watch?v=ec8vSKJuZTk&t=1147s",
     "img": "https://user-images.githubusercontent.com/100681165/238198093-edf1ad71-314d-46c9-bf2f-f992b6983cf5.png"
   },
-
+  {
+    "tag": "js",
+    "title": "Clever Programer JavaScript Course",
+    "description": "Clever Programer has covered lots of new things and also cover lots of new project in this video.",
+    "link": "  https://youtu.be/lI1ae4REbFM",
+    "img": "https://i.ytimg.com/vi/lI1ae4REbFM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDGQckVsUUFmdZOb4JZO4kJeJQc7Q"
+  },
   {
     "tag": "js",
     "title": "Hitesh Choudhary",

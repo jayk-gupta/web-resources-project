@@ -1,6 +1,13 @@
 [
   {
     "tag": "css",
+    "title": "JavaTpoint",
+    "description": "JavaTpoint is one of the best resource if you want to learn CSS because It is the most viewed and used website to learn about front-end and development.",
+    "link": "https://www.javatpoint.com/css-tutorial",
+    "img": "https://media.licdn.com/dms/image/C4D0BAQEwg5FK93uumQ/company-logo_200_200/0/1519923012279?e=2147483647&v=beta&t=63CNoS8OTR4lHjPhHSO7eFFqwLGwYunWfyDBV3tdc0c"
+  },
+  {
+    "tag": "css",
     "title": "MDN Web Docs",
     "description": "It is a documentation repository and learning resource for web developers. It was started by Mozilla in 2005 as a unified place for documentation about open web standards, Mozilla's own projects, and developer guides.Topics include HTML5, JavaScript, CSS, Web APIs, Django, Node.js, WebExtensions, MathML, and others.",
     "link": "https://developer.mozilla.org/en-US/",

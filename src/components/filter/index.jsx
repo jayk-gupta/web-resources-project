@@ -9,7 +9,7 @@ const index = ({onStateChange}) => {
   };
 
   return (
-    <div className="flex space-x-6 items-center mb-10">
+    <div className="flex space-x-6 items-center mb-10 ml-3">
       <p
         className={`px-3 py-1 rounded-xl cursor-pointer ${filter === "html" ? 'border':''}`}
         onClick={() => handleFilterChange('html')}

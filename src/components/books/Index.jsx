@@ -14,7 +14,7 @@ const Index = () => {
   return (
     <div className='m-10'>
       <Filter onStateChange = {handleFilterChange}/>
-      <div className='grid grid-cols-3 gap-10'>
+      <div className='grid grid-cols-3 gap-10 ml-3'>
         {bookData.map(
           (res, i) =>
             filter === res.tag && (

@@ -35,7 +35,7 @@ const icons = [
 
 function NavItem() {
   const item = icons.map((item, index) => (
-    <NavUI key={index} icon={item.icon} iconName={item.iconName} />
+    <NavUI key={index} icon={item.icon} iconName={item.iconName} link={item.link}/>
   ));
   return item;
 }

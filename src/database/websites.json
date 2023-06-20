@@ -85,6 +85,13 @@
   },
   {
     "tag": "js",
+    "title": "JavaTpoint",
+    "description": "JavaTpoint is one of the best resources for learning about the JavaScript because JavaTpoint explain the core concepts very clearly and easily.",
+    "link": "https://www.javatpoint.com/javascript-tutorial",
+    "img": "https://media.licdn.com/dms/image/C4D0BAQEwg5FK93uumQ/company-logo_200_200/0/1519923012279?e=2147483647&v=beta&t=63CNoS8OTR4lHjPhHSO7eFFqwLGwYunWfyDBV3tdc0c"
+  },
+  {
+    "tag": "js",
     "title": "javascripttutorial.net",
     "description": "Welcome to the JavaScriptTutorial.net website! This JavaScript Tutorial helps you learn the JavaScript programming language from scratch quickly and effectively.",
     "link": "https://www.javascripttutorial.net/",

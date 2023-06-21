@@ -49,6 +49,20 @@
     "img": "https://user-images.githubusercontent.com/100681165/238191188-b5f8f184-8fd1-4427-987f-a8e29f35d685.png"
   },
   {
+    "tag": "css",
+    "title": "CSS Tutorial In Hindi (With Notes)",
+    "description": "In this CSS3 tutorial in Hindi we will learn everything you need to learn about CSS from scratch. We will first discuss why we need CSS and what CSS is after which we will gradually build pace and learn several intermediate to advanced level concepts.",
+    "link": "https://www.youtube.com/watch?v=Edsxf_NBFrw",
+    "img": "public/images original/cssv_cwh.png"
+  },
+  {
+    "tag": "css",
+    "title": "CSS Tutorial - Zero to Hero",
+    "description": "In this course, we cover CSS from the ground up. You will learn everything from basic skills, such as coloring and text, to highly advanced skills, like custom animations.",
+    "link": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+    "img": "public/images original/cssv_codecamp.png"
+  },
+  {
     "tag": "html",
     "title": "Programming with Mosh",
     "description": "I train professional software engineers that companies love to hire. Detailed explanations with cool animations and interative teaching. Short concise videos of complex topics. Easy learning with visual effect understanding",
@@ -82,6 +96,13 @@
     "description": "developedbyed Youtube channel provides informative tutorials and tips specifically focused on frontend development and responsive design. This helps users enhance their skills in creating visually appealing and user-friendly websites and applications. The clear and beginner-friendly explanations make it easier for users to grasp important concepts and apply them effectively.",
     "link": "https://www.youtube.com/@developedbyed",
     "img": "https://user-images.githubusercontent.com/84851506/239824378-7cfe9942-18c0-4bb7-904b-b1374524688d.PNG"
+  },
+  {
+    "tag": "html",
+    "title": "HTML Tutorial For Beginners In Hindi (With Notes)",
+    "description": "Learn HTML in One Video: In this video, we will see how to create beautiful websites using Html. HTML is the language used for website design. This hindi course on html will teach you everything you need to learn about html tags, lists, tables, seo etc.",
+    "link": "https://www.youtube.com/watch?v=BsDoLVMnmZs",
+    "img": "public/images original/htmlv_cwh.png"
   },
   {
     "tag": "js",
@@ -208,5 +229,19 @@
     "description": "Learn to react step by step with making real-time projects and understand the core concepts of react",
     "link": "https://www.youtube.com/watch?v=-mJFZp84TIY&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBLimkxKgVwum5XDrN89s2lmt_EFlBdJeItA&usqp=CAU"
+  },
+  {
+    "tag": "react",
+    "title": "Traversy Media React Course",
+    "description": "Get started with React in this crash course. We will be building a task tracker app and look at components, props, state, hooks, working with an API and more.",
+    "link": "https://www.youtube.com/watch?v=w7ejDZ8SWv8",
+    "img": "public/images original/reactv_traversy.png"
+  },
+  {
+    "tag": "react",
+    "title": "React JS Full Course 2023",
+    "description": "In this video we'll explain to you React js from basic to advance. We will cover topics like what are components, Nested components, Props in React js, and React methods, after that, we will create two projects using react js, the first one is a portfolio project and the next one is an Instagram clone. And by the end of this full course, we will be covering some of the interview questions on react js.",
+    "link": "https://www.youtube.com/watch?v=-JolQDZCMX8",
+    "img": "public/images original/reactv_simplilearn.png"
   }
 ]

@@ -126,6 +126,13 @@
     "img": "https://github.com/jayk-gupta/web-resources-project/assets/96984371/c1bb4dbf-8339-4875-a7b8-b59d5e61fab4"
   },
   {
+    "tag": "js",
+    "title": "The Odin Project",
+    "description": "Learn JavaScript not very basic to advance and work on creating projects on your own built from the ground. No more conventional teaching but self learning environment with a like minded community. All the Best!!",
+    "link": "https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript",
+    "img": "https://github.com/Tanvii26/web-resources-project/assets/101346177/435ccb0e-3165-44a9-a2a9-34fb30cf45a3"
+  },
+  {
     "tag": "react",
     "title": "React.dev",
     "description": "The Official Documentation of the React. The library for web and native user interfaces. React lets you build user interfaces out of individual pieces called components. Create your own React components like Thumbnail, LikeButton, and Video. Then combine them into entire screens, pages, and apps.",

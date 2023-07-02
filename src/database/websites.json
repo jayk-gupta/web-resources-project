@@ -85,6 +85,13 @@
   },
   {
     "tag": "js",
+    "title": "JavaTpoint",
+    "description": "JavaTpoint is one of the best resources for learning about the JavaScript because JavaTpoint explain the core concepts very clearly and easily.",
+    "link": "https://www.javatpoint.com/javascript-tutorial",
+    "img": "https://media.licdn.com/dms/image/C4D0BAQEwg5FK93uumQ/company-logo_200_200/0/1519923012279?e=2147483647&v=beta&t=63CNoS8OTR4lHjPhHSO7eFFqwLGwYunWfyDBV3tdc0c"
+  },
+  {
+    "tag": "js",
     "title": "javascripttutorial.net",
     "description": "Welcome to the JavaScriptTutorial.net website! This JavaScript Tutorial helps you learn the JavaScript programming language from scratch quickly and effectively.",
     "link": "https://www.javascripttutorial.net/",
@@ -124,6 +131,13 @@
     "description": "Learn in an interactive environment. Read short lessons, take notes, and complete challenges directly in your browser.",
     "link": "https://learnjavascript.online/",
     "img": "https://github.com/jayk-gupta/web-resources-project/assets/96984371/c1bb4dbf-8339-4875-a7b8-b59d5e61fab4"
+  },
+  {
+    "tag": "js",
+    "title": "The Odin Project",
+    "description": "Learn JavaScript not very basic to advance and work on creating projects on your own built from the ground. No more conventional teaching but self learning environment with a like minded community. All the Best!!",
+    "link": "https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript",
+    "img": "https://github.com/Tanvii26/web-resources-project/assets/101346177/435ccb0e-3165-44a9-a2a9-34fb30cf45a3"
   },
   {
     "tag": "react",

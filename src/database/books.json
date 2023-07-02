@@ -110,6 +110,13 @@
       "description": "This book will question your javascript skills! It will teach you core concepts of javascript that you don't know or you don't understand how they work & that too in depth.",
       "link": "https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed",
       "img": "https://github.com/jayk-gupta/web-resources-project/assets/100681165/7c2ed3df-fd1c-40f7-9c73-1a6885948bc6"
+    },
+    {
+      "tag": "html",
+      "title": "HTML5 Notes For Professionals",
+      "description": "100+ pages of professional hints and tricks. All the topics covered in detail with syntax and examples",
+      "link": "https://drive.google.com/file/d/149-j_B60g9n4FQeAVGePvqlowf9-kVFt/view",
+      "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
     }
 
   ]

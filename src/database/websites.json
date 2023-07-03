@@ -158,6 +158,6 @@
     "title": "Javatpoint",
     "description": "It is a website having react tutorial to learn basic and advance ractjs concept in very simplified and easy manner along with appropriate examples of each concept. It includes all the topics which help to learn ReactJS such as ReactJS Features, ReactJS Installation, JSX, Components, State, Props, Animation and many more.",
     "link": "https://www.javatpoint.com/reactjs-tutorial",
-    "img": "d:/cloned_web_resources/web-resources-project/public/images original/react_javatpoint.png"
+    "img": "../../public/images original/react_javatpoint.png"
   }
 ]

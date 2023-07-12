@@ -56,6 +56,27 @@
     "img": "https://user-images.githubusercontent.com/100681165/239759195-57d05932-3a96-4ebd-86bb-9ea49a81e157.png"
   },
   {
+    "tag": "css",
+    "title": "Sass",
+    "description": "Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.",
+    "link": "https://sass-lang.com/",
+    "img": "/images original/csst_sass.png"
+  },
+  {
+    "tag": "css",
+    "title": "Tailwind CSS",
+    "description": "A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.",
+    "link": "https://tailwindcss.com/",
+    "img": "/images original/csst_tailwindcss.png"
+  },
+  {
+    "tag": "css",
+    "title": "PurgeCSS",
+    "description": "PurgeCSS is a tool to remove unused CSS from your project.",
+    "link": "https://purgecss.com/",
+    "img": "/images original/csst_purgecss.png"
+  },
+  {
     "tag": "html",
     "title": "Web Code Tools",
     "description": "Generate highly customizable HTML elements . Preview the results before copying them to your website.",
@@ -98,10 +119,24 @@
     "img": "https://user-images.githubusercontent.com/111020648/239766904-a88c0faf-c050-4b47-b5a5-180f8a3734a4.png"
   },
   {
+    "tag": "js",
+    "title": "Chart.js",
+    "description" : "Simple yet flexible JavaScript charting library for the modern web",
+    "link": "https://www.chartjs.org/",
+    "img": "/images original/jst_chartjs.png"
+  },
+  {
     "tag": "react",
     "title": "Playcode IO",
     "description": "The easy-to-use and fast React compiler. Write React code and run it online. Save time & effort with live view results, ready-to-use templates. ",
     "link": "https://playcode.io/react",
     "img": "https://user-images.githubusercontent.com/100681165/238286847-0e88c56a-9bc3-4678-a06c-61824996af68.png"
+  },
+  {
+    "tag": "react",
+    "title": "React-Redux",
+    "description": "React Redux is the official React UI bindings layer for Redux. It lets your React components read data from a Redux store, and dispatch actions to the store to update state. ",
+    "link": "https://react-redux.js.org/",
+    "img": "/images original/reactt_redux.png"
   }
 ]

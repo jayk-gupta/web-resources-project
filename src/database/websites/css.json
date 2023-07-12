@@ -1,0 +1,37 @@
+[
+  {
+    "tag": "css",
+    "title": "MDN Web Docs",
+    "description": "It is a documentation repository and learning resource for web developers. It was started by Mozilla in 2005 as a unified place for documentation about open web standards, Mozilla's own projects, and developer guides.Topics include HTML5, JavaScript, CSS, Web APIs, Django, Node.js, WebExtensions, MathML, and others.",
+    "link": "https://developer.mozilla.org/en-US/",
+    "img": "https://user-images.githubusercontent.com/100681165/238203642-49cbfd5a-a203-419a-80a7-7cb55f72f346.png"
+  },
+  {
+    "tag": "css",
+    "title": "W3Schools",
+    "description": "W3Schools is a freemium educational website for learning coding online. Initially released in 1998, it derives its name from the World Wide Web but is not affiliated with the W3 Consortium. W3Schools offers courses covering all aspects of web development. W3Schools also publishes free HTML templates.",
+    "link": "https://www.w3schools.com/",
+    "img": "https://user-images.githubusercontent.com/100681165/238203634-58fbc724-1ac7-440b-98ad-16f88b35acf6.png"
+  },
+  {
+    "tag": "css",
+    "title": "CSS Tricks",
+    "description": "Daily articles about CSS, HTML, JavaScript, and all things related to web design and development. Detailed articles about different CSS tricks to make unique things.",
+    "link": "https://css-tricks.com/",
+    "img": "https://user-images.githubusercontent.com/100681165/238203639-101214e0-7317-45e2-88f8-36ea64b3ae95.png"
+  },
+  {
+    "tag": "css",
+    "title": "Web.dev",
+    "description": "This course breaks down the fundamentals of CSS into digestible, easy to understand pieces. Over the next few modules, you'll learn how the core aspects of CSS work and how to use them effectively in your projects.",
+    "link": "https://web.dev/learn/css/",
+    "img": "https://user-images.githubusercontent.com/100681165/238203638-a6d69334-4d7f-4bf6-acaa-b0693c27d2e3.png"
+  },
+  {
+    "tag": "css",
+    "title": "Learn HTML CSS online",
+    "description": "The easiest way to learn semantic anaccessible HTML and CSS step by step.Learn in an interactive environment.Read short lessons, take notes, and complete challenges directly in your browser.",
+    "link": "https://learnhtmlcss.online/",
+    "img": "https://user-images.githubusercontent.com/100681165/238203641-afd01faf-7275-41e2-b856-5640b7b20d36.png"
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "tag": "html",
+    "title": "W3Schools",
+    "description": "W3Schools is a freemium educational website for learning coding online. Initially released in 1998, it derives its name from the World Wide Web but is not affiliated with the W3 Consortium. W3Schools offers courses covering all aspects of web development. W3Schools also publishes free HTML templates.",
+    "link": "https://www.w3schools.com/html//",
+    "img": "https://user-images.githubusercontent.com/100681165/238203316-41682e54-ee23-41ac-8e62-5e1de9bf7503.png"
+  },
+  {
+    "tag": "html",
+    "title": "MDN Web Docs",
+    "description": "It is a documentation repository and learning resource for web developers. It was started by Mozilla in 2005 as a unified place for documentation about open web standards, Mozilla's own projects, and developer guides.Topics include HTML5, JavaScript, CSS, Web APIs, Django, Node.js, WebExtensions, MathML, and others.",
+    "link": "https://developer.mozilla.org/en-US/",
+    "img": "https://user-images.githubusercontent.com/100681165/238203315-461cbe71-08a8-4d23-b364-3caba25542d2.png"
+  },
+  {
+    "tag": "html",
+    "title": "Learn-html org",
+    "description": "Welcome to Learn HTML, the easiest way to learn HTML & CSS. Learn HTML provides an interactive tutorial that explains how to build HTML & CSS websites step by step.The basic tutorial will guide you through creating a page using the Bootstrap CSS framework.The advanced tutorials will guide you through all there is to know regarding HTML & CSS.",
+    "link": "https://www.learn-html.org/",
+    "img": "https://user-images.githubusercontent.com/100681165/238203313-dc4d0a66-cebd-445e-842e-18b496e9311e.png"
+  },
+  {
+    "tag": "html",
+    "title": "Web Dev",
+    "description": "Building a better web, together. Guidance to build modern web experiences that work on any browser. We want to help you build beautiful, accessible, fast, and secure websites that work cross-browser, and for all of your users. This site is our home for content to help you on that journey, written by members of the Chrome team, and external experts.",
+    "link": "https://web.dev/",
+    "img": "https://user-images.githubusercontent.com/100681165/238203319-fd65e9ce-7a71-415d-b8c7-83a5125d96c0.png"
+  },
+  {
+    "tag": "html",
+    "title": "HTML.com",
+    "description": "Step-by-step guide teaches you the basics of HTML and how to build your first website. That means how to layout an HTML page, how to add text and images, how to add headings and text formatting, and how to use tables.",
+    "link": "https://html.com/",
+    "img": "https://user-images.githubusercontent.com/100681165/238203320-9453a77d-56bc-499b-a70a-8684df7df195.png"
+  },
+  {
+    "tag": "html",
+    "title": "MDN Web Docs",
+    "description": "It is a documentation repository and learning resource for web developers. It was started by Mozilla in 2005 as a unified place for documentation about open web standards, Mozilla's own projects, and developer guides.Topics include HTML5, JavaScript, CSS, Web APIs, Django, Node.js, WebExtensions, MathML, and others.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "img": "https://user-images.githubusercontent.com/100681165/238201937-8affcc7c-7915-4bb0-ac80-ed904fbb263a.png"
+  },
+  {
+    "tag": "html",
+    "title": "W3Schools",
+    "description": "W3Schools is a freemium educational website for learning coding online. Initially released in 1998, it derives its name from the World Wide Web but is not affiliated with the W3 Consortium. W3Schools offers courses covering all aspects of web development. W3Schools also publishes free HTML templates.",
+    "link": "https://www.w3schools.com/js/",
+    "img": "https://user-images.githubusercontent.com/100681165/238201938-132a1bd3-d1a1-4139-8759-e96474e81a02.png"
+  }
+]

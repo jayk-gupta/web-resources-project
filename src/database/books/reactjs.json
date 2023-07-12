@@ -1,0 +1,30 @@
+[
+  {
+    "tag": "react",
+    "title": "The Road to React",
+    "description": "Learn everything about React Components, React's top-level APIs, and JSX to create modern frontend applications.",
+    "link": "https://www.roadtoreact.com/",
+    "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
+  },
+  {
+    "tag": "react",
+    "title": "Full Stack React",
+    "description": "This book aims to be the single most useful resource on learning React. By the time youre done. reading this book, you (and your team) will have everything you need to build reliable, powerful React apps.",
+    "link": "https://demo.smarttrainerlms.com/uploads/0003/trainings/course/45/modules/fullstack-react-book-r30_1510302324482009603.pdf",
+    "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
+  },
+  {
+    "tag": "react",
+    "title": "Learn React Hooks",
+    "description": "Create large-scale web applications with code that is extensible and easy to understand using React Hooks. Explore effective strategies for migrating your state management from Redux and MobX to React Hooks",
+    "link": "https://www.oreilly.com/library/view/learn-react-hooks/9781838641443/",
+    "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
+  },
+  {
+    "tag": "react",
+    "title": "Learning REACT",
+    "description": "This book is a comprehensive guide that teaches you how to build modern web applications using the React JavaScript library",
+    "link": "https://drive.google.com/file/d/1AZwshgVyazeIJ95ng6Pg1zUbVQoYX93t/view?usp=share_link",
+    "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
+  }
+]

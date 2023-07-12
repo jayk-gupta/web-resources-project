@@ -8,6 +8,7 @@ import Videos from './components/videos/Index.jsx';
 import Websites from './components/websites/Index.jsx';
 import Challenges from './components/challenges/Index.jsx';
 import { BsGithub } from "react-icons/bs";
+import ScrollToTopButton from './components/ScrollToTopButton.jsx';
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
         </Routes>
 
       </div>
+      <ScrollToTopButton />
     </div>
   );
 };

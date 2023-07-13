@@ -1,0 +1,23 @@
+[
+  {
+    "tag": "js",
+    "title": "javascripttutorial.net",
+    "description": "Welcome to the JavaScriptTutorial.net website! This JavaScript Tutorial helps you learn the JavaScript programming language from scratch quickly and effectively.",
+    "link": "https://www.javascripttutorial.net/",
+    "img": "https://user-images.githubusercontent.com/100681165/238201936-82afafd5-84b1-45ce-af56-d7ac1483dbcc.png"
+  },
+  {
+    "tag": "js",
+    "title": "javascript.info",
+    "description": "The Modern JavaScript Tutorial. From the basics to advanced topics with simple, but detailed explanations. Here we learn JavaScript, starting from scratch and go on to advanced concepts like OOP. We concentrate on the language itself here, with the minimum of environment-specific notes.",
+    "link": "https://javascript.info/",
+    "img": "https://user-images.githubusercontent.com/100681165/238201933-6469009c-e38c-4f60-aa70-0551d7ca196a.png"
+  },
+  {
+    "tag": "js",
+    "title": "codecademy",
+    "description": "Learn how to use JavaScript — a powerful and flexible programming language for adding website interactivity.",
+    "link": "https://www.codecademy.com/learn/introduction-to-javascript",
+    "img": "https://user-images.githubusercontent.com/118375524/240303440-0021fd59-c451-4ea5-a514-1ed18a529e20.png"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "tag": "html",
+    "title": "Web Code Tools",
+    "description": "Generate highly customizable HTML elements . Preview the results before copying them to your website.",
+    "link": "https://webcode.tools/generators/html",
+    "img": "https://user-images.githubusercontent.com/100681165/238249901-f7c6f6e9-638a-499e-89b5-d5d2430445ac.png"
+  },
+  {
+    "tag": "html",
+    "title": "Html.am",
+    "description": "Generate highly customizable HTML elements.",
+    "link": "https://www.html.am/",
+    "img": "https://user-images.githubusercontent.com/100681165/238249905-3b7bcaa1-9b14-46b7-89de-2a4f218ce49b.png"
+  },
+  {
+    "tag": "html",
+    "title": "Code beautify",
+    "description": "HTML Code Generator helps to generate HTML tags code which can be pasted in HTML. Select options and Generate Code.",
+    "link": "https://codebeautify.org/html-code-generator",
+    "img": "https://user-images.githubusercontent.com/100681165/238286734-25cae2b0-8d4f-4291-af73-7a7de7630217.png"
+  }
+]

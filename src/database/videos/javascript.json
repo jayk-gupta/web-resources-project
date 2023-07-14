@@ -1,0 +1,60 @@
+[
+  {
+    "tag": "js",
+    "title": "FreeCodeCamp",
+    "description": "Learn to code for free. Number of instructors and industry level experts with years of experience teach for free. Quality content of all technologies at one stop destination.",
+    "link": "https://youtu.be/jS4aFq5-91M",
+    "img": "https://user-images.githubusercontent.com/100681165/238198098-a3778ffe-f6d2-4541-86a2-82b12348a841.png"
+  },
+  {
+    "tag": "js",
+    "title": "Traversy Media",
+    "description": "Traversy Media features the best online web development and programming tutorials for all of the latest web technologies from the building blocks of HTML, CSS & JavaScript to frontend frameworks like React and Vue to backend technologies like Node.js, Python and PHP",
+    "link": "https://www.youtube.com/@TraversyMedia",
+    "img": "https://user-images.githubusercontent.com/100681165/238198103-4626bcd1-b000-43b2-8bf7-ce8d75af6b3b.png"
+  },
+  {
+    "tag": "js",
+    "title": "Namaste Javascript",
+    "description": "help people with Interview preparation, Tech Tutorials, and my personal Tips and Tricks to advance their career. Interview based learning diving deep into concepts with easy language and good teaching.",
+    "link": "https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP",
+    "img": "https://user-images.githubusercontent.com/100681165/238198102-352b93a0-2a15-49a4-bffb-e699fa779268.png"
+  },
+  {
+    "tag": "js",
+    "title": "Web Dev Simplified",
+    "description": "Web Dev Simplified is all about teaching web development skills and techniques in an efficient and practical manner. If you are just getting started in web development Web Dev Simplified has all the tools you need to learn the newest and most popular technologies to convert you from a no stack to full stack developer. Web Dev Simplified also deep dives into advanced topics using the latest best practices for you seasoned web developers.",
+    "link": "https://www.youtube.com/@WebDevSimplified",
+    "img": "https://user-images.githubusercontent.com/100681165/238198105-559c3eff-33a4-4c55-b7ff-4907c06c2e05.png"
+  },
+  {
+    "tag": "js",
+    "title": "Programming with Mosh",
+    "description": "I train professional software engineers that companies love to hire. Detailed explanations with cool animations and interative teaching. Short concise videos of complex topics. Easy learning with visual effect understanding.",
+    "link": "https://www.youtube.com/@programmingwithmosh",
+    "img": "https://user-images.githubusercontent.com/100681165/238198100-c5e96d7d-a044-40b8-b954-a72ba3f2df7f.png"
+  },
+
+  {
+    "tag": "js",
+    "title": "FreeCodeCamp(Js Games)",
+    "description": "Learn Javascript by buiding 7 games. Learn by building projects. Learn by doing",
+    "link": "  https://www.youtube.com/watch?v=ec8vSKJuZTk&t=1147s",
+    "img": "https://user-images.githubusercontent.com/100681165/238198093-edf1ad71-314d-46c9-bf2f-f992b6983cf5.png"
+  },
+
+  {
+    "tag": "js",
+    "title": "Hitesh Choudhary",
+    "description": "Learn Javascript ",
+    "link": "   https://www.youtube.com/watch?v=2md4HQNRqJA&list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD",
+    "img": "https://user-images.githubusercontent.com/100681165/238198099-7296f3ac-aaac-4035-8c8b-f1819e4158fe.png"
+  },
+  {
+    "tag": "js",
+    "title": "Hyperplexed",
+    "description": "This channel teaches web development in a very intuitive manner by recreating easy yet awesome stuff in a very short amount of time.",
+    "link": "https://www.youtube.com/@Hyperplexed",
+    "img": "https://user-images.githubusercontent.com/72994819/241576494-80098f65-faa4-435f-9492-e0c3c6907470.png"
+  }
+]

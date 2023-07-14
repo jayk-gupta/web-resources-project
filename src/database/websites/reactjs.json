@@ -1,0 +1,16 @@
+[
+  {
+    "tag": "react",
+    "title": "React.dev",
+    "description": "The Official Documentation of the React. The library for web and native user interfaces. React lets you build user interfaces out of individual pieces called components. Create your own React components like Thumbnail, LikeButton, and Video. Then combine them into entire screens, pages, and apps.",
+    "link": "https://react.dev/",
+    "img": "https://user-images.githubusercontent.com/100681165/238203959-1a2bffd5-f089-4553-9d0c-3d2c08806712.png"
+  },
+  {
+    "tag": "react",
+    "title": "W3schools",
+    "description": "Learn React with W3Schools. W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy. Copyright",
+    "link": "  https://www.w3schools.com/REACT/DEFAULT.ASP",
+    "img": "https://user-images.githubusercontent.com/100681165/238203960-795d63cc-cae4-444c-8272-78cd78743e37.png"
+  }
+]

@@ -28,7 +28,7 @@ const Index = () => {
 
   return (
     <div className='m-10'>
-       <div className="fixed top-10 left-12 mx-10 w-full z-5 flex justify-center">
+       <div className="absolute top-10 left-12 mx-10 w-full z-5 flex justify-center">
         <Filter onStateChange={handleFilterChange} />
       </div>
       <div className='flex flex-wrap gap-6 justify-around pt-24'>

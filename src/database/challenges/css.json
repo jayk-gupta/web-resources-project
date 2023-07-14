@@ -1,0 +1,28 @@
+[
+  {
+    "tag": "css",
+    "description": "Improve your HTML and CSS skills by practicing on real design templates.With Codewell, you can browse high quality Figma templates that you can use to sharpen your HTML and CSS skills.",
+    "link": "https://www.codewell.cc/",
+    "img": "https://user-images.githubusercontent.com/100681165/238244473-00725538-ef4d-4ece-8fd7-11e6b999b895.png"
+  },
+  {
+    "tag": "css",
+    "description": "CSS code-golfing game is here! Use your CSS skills to replicate targets with smallest possible code. Feel free to check out the targets below and put your CSS skills to test.",
+    "link": "https://cssbattle.dev/",
+    "img": "https://user-images.githubusercontent.com/100681165/238244467-6534a6f4-f996-4fef-893b-25eb2948e4f5.png"
+  },
+  {
+    "tag": "css",
+    "title": "CoderByte",
+    "description": "Evaluate candidates quickly, affordably, and accurately.The industrys #1 code assessment platform for screening, interviews, and take-home projects.All plans include unlimited candidates, assessments, and user accounts.",
+    "link": "https://coderbyte.com/organizations?utm_term=byteboard&utm_campaign=2020+%7C+Main+%E2%80%93+Screening+low-end+alternatives&utm_source=adwords&utm_medium=ppc&hsa_acc=9961249630&hsa_net=adwords&hsa_grp=115036778098&hsa_ver=3&hsa_kw=byteboard&hsa_tgt=kwd-1018898631307&hsa_mt=b&hsa_ad=482283515409&hsa_src=g&hsa_cam=10101005652&gad=1",
+    "img": "https://user-images.githubusercontent.com/100681165/238244471-27f8bc9b-d779-4fb3-9ad5-da817db34e60.png"
+  },
+  {
+    "tag": "css",
+    "title": "Frontend Mentor",
+    "description": "Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs. Join 616,636 developers building projects, reviewing code, and helping each other get better.",
+    "link": "https://www.frontendmentor.io/",
+    "img": "https://user-images.githubusercontent.com/100681165/238244448-0d3e8b3e-68c7-48d7-9863-eb64dc52332f.png"
+  }
+]

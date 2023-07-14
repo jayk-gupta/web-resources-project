@@ -1,0 +1,51 @@
+[
+  {
+    "tag": "css",
+    "title": "Web Dev Simplified",
+    "description": "Web Dev Simplified is all about teaching web development skills and techniques in an efficient and practical manner. If you are just getting started in web development Web Dev Simplified has all the tools you need to learn the newest and most popular technologies to convert you from a no stack to full stack developer. Web Dev Simplified also deep dives into advanced topics using the latest best practices for you seasoned web develop",
+    "link": "https://www.youtube.com/@WebDevSimplified/featured",
+    "img": "https://user-images.githubusercontent.com/77445758/238195663-9f93463f-7e9d-4e57-9946-34e21851081d.png"
+  },
+  {
+    "tag": "css",
+    "title": "Kevin Powell",
+    "description": "This channel is a treasure trove of in-depth tutorials, insightful discussions, and practical coding challenges. From HTML and CSS to JavaScript and responsive design, Kevin covers it all, ensuring you gain a solid foundation in key web technologies.",
+    "link": "https://www.youtube.com/@KevinPowell/videos",
+    "img": "https://user-images.githubusercontent.com/77445758/238195659-63e563ee-64b8-4a30-a882-8657c03d3fa2.png"
+  },
+  {
+    "tag": "css",
+    "title": "FreeCodeCamp.org",
+    "description": "Learn to code for free. Number of instructors and industry level experts with years of experience teach for free. Quality content of all technologies at one stop destination.",
+    "link": "https://youtu.be/OXGznpKZ_sA",
+    "img": "https://user-images.githubusercontent.com/77445758/238195658-990e1599-761e-4d0a-b909-c12a896143db.png"
+  },
+  {
+    "tag": "css",
+    "title": "Programming with Mosh",
+    "description": "I train professional software engineers that companies love to hire",
+    "link": "https://www.youtube.com/@programmingwithmosh",
+    "img": "https://user-images.githubusercontent.com/77445758/238195660-a1d7c738-902c-4207-a388-497aa44e1a0c.png"
+  },
+  {
+    "tag": "css",
+    "title": "Traversy Media",
+    "description": "He features the best online web development and programming tutorials for all of the latest web technologies from the building blocks of HTML, CSS & JavaScript to frontend frameworks like React and Vue.",
+    "link": "https://www.youtube.com/@TraversyMedia",
+    "img": "https://user-images.githubusercontent.com/77445758/238195661-cb352944-b03b-417a-bfa9-f2ef35825a8b.png"
+  },
+  {
+    "tag": "css",
+    "title": "Advanced Styling with Responsive Design",
+    "description": "It used to be the case that everyone viewed webpages on about the same size screen.  But with the explosion of the use of smartphones to access the Internet, the landscape of design has completely changed.  People viewing your site will now expect that it will perform regardless of the platform (smartphone, tablet, laptop, or desktop computer).  This ability to respond to any platform is called responsive design.",
+    "link": "https://www.coursera.org/learn/responsivedesign",
+    "img": "https://user-images.githubusercontent.com/77445758/238195652-92e6da6e-59dd-4d5b-a407-26b19293b54e.png"
+  },
+  {
+    "tag": "css",
+    "title": "Hyperplexed",
+    "description": "This channel teaches web development in a very intuitive manner by recreating easy yet awesome stuff in a very short amount of time.",
+    "link": "https://www.youtube.com/@Hyperplexed",
+    "img": "https://user-images.githubusercontent.com/72994819/241576494-80098f65-faa4-435f-9492-e0c3c6907470.png"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "tag": "react",
+    "title": "Learn React - Scrimba",
+    "description": "The ultimate React 101 - the perfect starting point for any React beginner. Learn the basics of modern React by solving 140+ interactive coding challenges and building eight fun projects.",
+    "link": "https://scrimba.com/",
+    "img": "https://user-images.githubusercontent.com/100681165/238199164-a9da5321-8618-4c6f-8f3c-9a494a6d3e10.png"
+  },
+  {
+    "tag": "react",
+    "title": "Pedro Tech",
+    "description": "Videos about Web Development! ReactJS, NodeJS, MySQL, Express, MongoDB, GraphQL and much more!",
+    "link": "https://www.youtube.com/@PedroTechnologies",
+    "img": "https://user-images.githubusercontent.com/100681165/238199162-4b816e7f-7bb6-4185-8dc4-af61c63e12aa.png"
+  },
+
+  {
+    "tag": "react",
+    "title": "Javascript Mastery",
+    "description": "12 hours of React content, from the basics to the advanced topics. This course is a great starting point for beginners.",
+    "link": "  https://www.youtube.com/watch?v=XxXyfkrP298&t=2069s",
+    "img": "https://user-images.githubusercontent.com/100681165/238199159-598b715a-af12-4b7e-9f2f-73fa0c40ee40.png"
+  },
+
+  {
+    "tag": "react",
+    "title": "FreeCodeCamp React Course ",
+    "description": "Learn react from scratch with this free course from FreeCodeCamp. This course is a great starting point for beginners.",
+    "link": "  https://www.youtube.com/watch?v=bMknfKXIFA8&t=8110s",
+    "img": "https://user-images.githubusercontent.com/100681165/238199158-6359edc3-19be-4fea-b716-d6010a56c425.png"
+  },
+  {
+    "tag": "react",
+    "title": "Codevolution",
+    "description": "Tutorials on the latest tech in web development! Structured and comprehensive videos with examples and therotical aspects in detail. Crisp and clear explanations of more complex topics like React Hooks.",
+    "link": "https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+    "img": "https://user-images.githubusercontent.com/100681165/238199155-9a09b94e-74a3-4891-bbdd-7d5a5d95a540.png"
+  },
+
+  {
+    "tag": "react",
+    "title": "The Net Ninja",
+    "description": "It covers all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
+    "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d",
+    "img": "https://user-images.githubusercontent.com/100681165/238199161-9310a468-c7ce-4514-b5bb-761f9a4b3d7a.png"
+  }
+]

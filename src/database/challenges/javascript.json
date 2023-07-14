@@ -1,0 +1,23 @@
+[
+  {
+    "tag": "js",
+    "title": "Exercism.io",
+    "description": "Develop fluency in 67 programming languages with our unique blend of learning, practice and mentoring. Exercism is fun, effective and 100% free, forever.",
+    "link": "https://exercism.org/",
+    "img": "https://user-images.githubusercontent.com/100681165/238245418-c13410df-0181-45d2-8bc6-598c9648672c.png"
+  },
+  {
+    "tag": "js",
+    "title": "Js Challenger",
+    "description": "Interactive challenges and excercises for javascript",
+    "link": "https://www.jschallenger.com/overview",
+    "img": "https://user-images.githubusercontent.com/100681165/238245416-f7caa1f9-dec0-4774-98f2-aeb40fe095f9.png"
+  },
+  {
+    "tag": "js",
+    "title": "Leetcode",
+    "description": "Pratice Javascript with Leetcode daily challenges.",
+    "link": "https://leetcode.com/discuss/study-guide/3458761/Open-to-Registration!-30-Days-of-LC-JavaScript-Challenge/?utm_campaign=Banner11&utm_medium=Banner&utm_source=Banner&gio_link_id=a9a5VxA9",
+    "img": "  https://user-images.githubusercontent.com/100681165/238245407-3fae4e49-7400-4fda-bc78-1b514e2f7df7.png"
+  }
+]

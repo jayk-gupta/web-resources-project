@@ -1,0 +1,16 @@
+[
+  {
+    "tag": "css",
+    "title": "HTML and CSS design and build websites",
+    "description": "Wouldnt it be dreamy if there was an HTML book that didnt assume you knew what elements, attributes, validation, selectors, and pseudo-classes were, all by page three? Its probably just a fantasy....",
+    "link": "http://artsites.ucsc.edu/sdaniel/170a_2014/Head_First_HTML_CSS_XHTML.pdf",
+    "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
+  },
+  {
+    "tag": "css",
+    "title": "Head first HTML with CSS and XHTML",
+    "description": "Many books that teach HTML and CSS resemble dull manuals. To make it easier for you to learn, we threw away the traditional template used by publishers and redesigned this book from scratch.",
+    "link": "https://wtf.tw/ref/duckett.pdf",
+    "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
+  }
+]

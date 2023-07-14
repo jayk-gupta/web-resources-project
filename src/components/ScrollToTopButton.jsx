@@ -38,7 +38,7 @@ const ButtonContainer = styled.button`
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: rgb(118 17 143);
+  background-color: rgb(0,0,0);
   color: #fff;
   padding: 10px;
   border-radius: 4px;

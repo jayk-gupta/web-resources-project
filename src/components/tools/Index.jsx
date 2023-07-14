@@ -28,8 +28,10 @@ const Index = () => {
 
   return (
     <div className='m-10'>
-      <Filter onStateChange={handleFilterChange} />
-      <div className='flex flex-wrap gap-6'>
+       <div className="fixed top-10 left-12 mx-10 w-full z-5 flex justify-center">
+        <Filter onStateChange={handleFilterChange} />
+      </div>
+      <div className='flex flex-wrap gap-6 justify-around pt-24'>
         {data.length > 0 ? (
           data.map((res, i) => (
             <Card

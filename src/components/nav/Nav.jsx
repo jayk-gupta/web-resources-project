@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 // import { GiSwordsEmblem } from "react-icons/gi";
 import {LuSwords} from 'react-icons/lu'
 import { FaBars, FaHome,FaTools } from "react-icons/fa";
-import { ImBooks } from "react-icons/Im";
+import { ImBooks } from "react-icons/im";
 import { BsCameraVideoFill} from "react-icons/bs"
 import { useState } from "react";
 import {CgWebsite} from 'react-icons/cg'

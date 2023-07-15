@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { GiSwordsEmblem } from "react-icons/Gi";
+// import { GiSwordsEmblem } from "react-icons/gi";
+import {LuSwords} from 'react-icons/lu'
 import { FaBars, FaHome,FaTools } from "react-icons/fa";
 import { ImBooks } from "react-icons/Im";
 import { BsCameraVideoFill} from "react-icons/bs"
@@ -27,7 +28,7 @@ const routes = [
   {
     path: "/Challenges",
     name: "Challenges",
-    icon: <GiSwordsEmblem size={30} />,
+    icon: <LuSwords size={30} />,
   },
   {
     path: "/Books",

@@ -54,5 +54,12 @@
     "description": "CSS generator",
     "link": "https://www.cssportal.com/css-generators.php",
     "img": "https://user-images.githubusercontent.com/100681165/239759195-57d05932-3a96-4ebd-86bb-9ea49a81e157.png"
+  },
+  {
+    "tag": "css",
+    "title": "CSS Palette",
+    "description": "Choose colors of your choice palette for your project",
+    "link": "https://palettes.shecodes.io/palettes",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/7185cdf5-adbf-463a-9f24-a20c76b05629"
   }
 ]

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .main-container {
+    display: flex;
+  }
+  
+  .title {
+    font-size: 3rem;
+    display: grid;
+    place-items: center;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    background: rgb(118, 39, 147);
+    color: white;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .top_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    line-height: 0;
+    font-weight: 600;
+    padding-right: 5px;
+    font-family: 'Lobster';
+  }
+  .s{
+    padding-bottom: 10px;
+  }
+  .bars {
+    width: 50px;
+    padding-left: 10px;
+    padding-right: 5px;
+    cursor: pointer;
+  }
+  .hide {
+    display: none;
+  }
+  
+  .icon{
+    padding: 20px 10px;
+    transition: transform 0.3s;
+  }
+  .routes {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .link {
+    display: flex;
+    color: white;
+    gap: 10px;
+    padding: 5px 10px;
+
+    border-right: 4px solid transparent;
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  }
+  .link:hover {
+    border-right: 4px solid white;
+    background: rgb(187, 109, 215);
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  }
+  .active {
+    border-right: 4px solid white;
+    background: rgb(187, 109, 215);
+  }
+  .link_text {
+    white-space: nowrap;
+    font-size: 1.5rem;
+    padding: 18px 15px;
+    width: 20px;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .icon:hover{
+    transform: scale(1.4);
+  }
+  .menu {
+    display: flex;
+    color: white;
+    padding: 5px 10px;
+    border-right: 4px solid transparent;
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    justify-content: space-between;
+  }
+  .menu_item {
+    display: flex;
+    gap: 10px;
+  }
+  .menu_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu_container .link {
+    padding-left: 20px;
+    border-bottom: #fff 0.5px solid;
+  }

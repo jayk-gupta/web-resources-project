@@ -1,6 +1,13 @@
 [
   {
     "tag": "css",
+    "title": "JavaTpoint",
+    "description": "JavaTpoint has mostly used CSS resources and also provides the most important CSS resources for the developer who just started learning about CSS.",
+    "link": "https://www.javatpoint.com/css-tutorial",
+    "img": "https://static.javatpoint.com/csspages/images/css-tutorial.png"
+  },
+  {
+    "tag": "css",
     "title": "MDN Web Docs",
     "description": "It is a documentation repository and learning resource for web developers. It was started by Mozilla in 2005 as a unified place for documentation about open web standards, Mozilla's own projects, and developer guides.Topics include HTML5, JavaScript, CSS, Web APIs, Django, Node.js, WebExtensions, MathML, and others.",
     "link": "https://developer.mozilla.org/en-US/",

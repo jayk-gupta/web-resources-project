@@ -56,5 +56,12 @@
     "description": "This channel teaches web development in a very intuitive manner by recreating easy yet awesome stuff in a very short amount of time.",
     "link": "https://www.youtube.com/@Hyperplexed",
     "img": "https://user-images.githubusercontent.com/72994819/241576494-80098f65-faa4-435f-9492-e0c3c6907470.png"
+  },
+  {
+    "tag": "js",
+    "title": "Thapa Technical",
+    "description": "Welcome, to Complete JavaScript Tutorial for Beginners in Hindi in 2023. We will cover Basic to Advanced JavaScript, Modern JavaScript, and OOPS in JavaScript in Hindi. We go through 15+ JavaScript Interview questions and answers, and 20+ Challenges in JavaScript in Hindi. In the end, we will create 7+ Projects in JavaScript in Hindi and Many Bonus Topics like API, WEB API, JSON, AJAX, and many more all in One Complete JavaScript Course in Hindi.",
+    "link": "https://www.youtube.com/watch?v=KGkiIBTq0y0&t=911s",
+    "img": "../../Card%20Images/../images%20original/jsv_thapaTechnical.png"
   }
 ]

@@ -28,6 +28,8 @@
 ![jsv_traversy](https://github.com/jayk-gupta/web-resources-project/assets/100681165/4626bcd1-b000-43b2-8bf7-ce8d75af6b3b)
 ![jsv_webdevsimp](https://github.com/jayk-gupta/web-resources-project/assets/100681165/559c3eff-33a4-4c55-b7ff-4907c06c2e05)
 ![hyper](https://github.com/Atharva-3000/web-resources-project/assets/72994819/80098f65-faa4-435f-9492-e0c3c6907470)
+![jsv_thapatechnical]()
+
 
 <!-- REACT -->
 

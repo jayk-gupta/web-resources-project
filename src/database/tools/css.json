@@ -54,54 +54,5 @@
     "description": "CSS generator",
     "link": "https://www.cssportal.com/css-generators.php",
     "img": "https://user-images.githubusercontent.com/100681165/239759195-57d05932-3a96-4ebd-86bb-9ea49a81e157.png"
-  },
-  {
-    "tag": "html",
-    "title": "Web Code Tools",
-    "description": "Generate highly customizable HTML elements . Preview the results before copying them to your website.",
-    "link": "https://webcode.tools/generators/html",
-    "img": "https://user-images.githubusercontent.com/100681165/238249901-f7c6f6e9-638a-499e-89b5-d5d2430445ac.png"
-  },
-  {
-    "tag": "html",
-    "title": "Html.am",
-    "description": "Generate highly customizable HTML elements.",
-    "link": "https://www.html.am/",
-    "img": "https://user-images.githubusercontent.com/100681165/238249905-3b7bcaa1-9b14-46b7-89de-2a4f218ce49b.png"
-  },
-  {
-    "tag": "html",
-    "title": "Code beautify",
-    "description": "HTML Code Generator helps to generate HTML tags code which can be pasted in HTML. Select options and Generate Code.",
-    "link": "https://codebeautify.org/html-code-generator",
-    "img": "https://user-images.githubusercontent.com/100681165/238286734-25cae2b0-8d4f-4291-af73-7a7de7630217.png"
-  },
-  {
-    "tag": "js",
-    "title": "Programiz JS Online Editor",
-    "description" :"Online Javascript Editor to write,edit and execute your code online. ", 
-    "link":"https://www.programiz.com/javascript/online-compiler/",
-    "img":"https://user-images.githubusercontent.com/100681165/238285091-444f892c-4ba1-450d-aeab-2bd5b388a118.png"
-  },
-  {
-    "tag": "js",
-    "title": "Playcode IO",
-    "description" :"The easy-to-use and fast JavaScript compiler. Write JavaScript code and run it online. Save time & effort with live view results, ready-to-use templates. ", 
-    "link":"https://playcode.io/javascript-compiler",
-    "img":"https://user-images.githubusercontent.com/100681165/238285084-65d5f55c-5eb1-44f8-a564-bf05deb17b89.png"
-  },
-  {
-    "tag": "js",
-    "title": "Minify - JavaScript and CSS minifier",
-    "description" : "Minifier removes whitespace, strips comments, combines files, and optimizes/shortens a few common programming patterns",
-    "link": "https://www.minifier.org/",
-    "img": "https://user-images.githubusercontent.com/111020648/239766904-a88c0faf-c050-4b47-b5a5-180f8a3734a4.png"
-  },
-  {
-    "tag": "react",
-    "title": "Playcode IO",
-    "description": "The easy-to-use and fast React compiler. Write React code and run it online. Save time & effort with live view results, ready-to-use templates. ",
-    "link": "https://playcode.io/react",
-    "img": "https://user-images.githubusercontent.com/100681165/238286847-0e88c56a-9bc3-4678-a06c-61824996af68.png"
   }
 ]

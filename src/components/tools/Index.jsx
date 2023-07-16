@@ -1,33 +1,48 @@
-import React, { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Card from '../Card';
 import Filter from '../filter/index';
-import toolsData from '../../database/tools.json';
+import html from '../../database/tools/html.json';
+import css from '../../database/tools/css.json';
+import js from '../../database/tools/javascript.json';
+import react from '../../database/tools/reactjs.json';
 
 const Index = () => {
   const [filter, setFilter] = useState('html');
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    if (filter === 'html') {
+      setData([...html]);
+    } else if (filter === 'css') {
+      setData([...css]);
+    } else if (filter === 'js') {
+      setData([...js]);
+    } else {
+      setData([...react]);
+    }
+  }, [filter]);
 
   const handleFilterChange = (target) => {
     setFilter(target);
   };
 
   return (
-    <div className="m-10">
+    <div className='m-10'>
       <Filter onStateChange={handleFilterChange} />
-
-      <div className="flex flex-wrap gap-6 justify-around">
-        {toolsData.map(
-          (res, i) =>
-            filter === res.tag && (
-              <Card
-                className
-                key={i}
-                title={res.title}
-                link={res.link}
-                description={res.description}
-                i={i}
-                img={res.img}
-              />
-            )
+      <div className='flex flex-wrap gap-6'>
+        {data.length > 0 ? (
+          data.map((res, i) => (
+            <Card
+              key={res.title}
+              title={res.title}
+              link={res.link}
+              description={res.description}
+              i={i}
+              img={res.img}
+            />
+          ))
+        ) : (
+          <p>No data found.</p>
         )}
       </div>
     </div>

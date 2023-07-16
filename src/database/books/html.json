@@ -1,0 +1,16 @@
+[
+  {
+    "tag": "html",
+    "title": "Head first HTML with CSS and XHTML",
+    "description": "Wouldnt it be dreamy if there was an HTML book that didnt assume you knew what elements, attributes, validation, selectors, and pseudo-classes were, all by page three? Its probably just a fantasy....",
+    "link": "http://artsites.ucsc.edu/sdaniel/170a_2014/Head_First_HTML_CSS_XHTML.pdf",
+    "img": "https://user-images.githubusercontent.com/100681165/238347591-83df59d5-1bae-4ae2-98aa-79fdb84f84c0.jpg"
+  },
+  {
+    "tag": "html",
+    "title": "HTML and CSS quickstart guide",
+    "description": "One of the most popular books and bestseller. Covers all the important topics with detailed explanation and good examples.",
+    "link": "https://www.scribd.com/book/506664350/HTML-CSS-QuickStart-Guide-The-Simplified-Beginners-Guide-to-Developing-a-Strong-Coding-Foundation-Building-Responsive-Websites-and-Mastering-the",
+    "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
+  }
+]

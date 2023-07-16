@@ -1,0 +1,37 @@
+[
+  {
+    "tag": "js",
+    "title": "Eloquent Javascript",
+    "description": "One of the most popular books and bestseller. Covers all the important topics with detailed explanation and good examples.",
+    "link": "https://eloquentjavascript.net/",
+    "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
+  },
+  {
+    "tag": "js",
+    "title": "Javascript for Professionals",
+    "description": "400+ pages of professional hints and tricks. All the topics covered in detail with syntax and examples.",
+    "link": "https://drive.google.com/file/d/1OonOQwMOTMKLTjTViqIt14Pi1l5rOBoM/view",
+    "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
+  },
+  {
+    "tag": "js",
+    "title": "Node Bots",
+    "description": "This book is for anyone who wants to take the first steps on Nodebots or has an interest in deliving into some concepts that are poorly demonstrated on the subject.",
+    "link": "https://drive.google.com/file/d/1NU8xbM2d-p3ihxPga1wtH114ieDdme1-/view",
+    "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
+  },
+  {
+    "tag": "js",
+    "title": "Javascript the Good Parts",
+    "description": "This book calls out the best parts of Javascript and tells you what to avoid (the 'bad parts'). It's about making sure you know the really important parts of the language and create good habits instead of having to break bad ones down the line.",
+    "link": "https://github.com/dwyl/Javascript-the-Good-Parts-notes",
+    "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
+  },
+  {
+    "tag": "js",
+    "title": "Javascript - The Right Way",
+    "description": "This is a guide intended to introduce new developers to JavaScript and help experienced developers learn more about its best practices.Despite the name, this guide doesn't necessarily mean the only way to do JavaScript.We just gather all the articles, tips, and tricks from top developers and put it here. Since it comes from exceptional folks, we could say that it is the right way, or the best way to do so.",
+    "link": "https://jstherightway.org/",
+    "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
+  }
+]

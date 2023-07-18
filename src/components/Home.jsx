@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -19,8 +19,8 @@ export default function Home() {
           <span className=" text-[]"> Resources </span>
         </h2>
         <p className="text-lg w-4/5 text-[#862e9c]">
-          Explore our vast collection of web development resources,
-          designed to give you the knowledge and tools you need to
+          Explore our vast collection of web development resources, designed to
+          give you the knowledge and tools you need to
           <br />
           succeed in the world of web development!
         </p>

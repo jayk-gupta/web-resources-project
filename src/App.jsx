@@ -11,7 +11,7 @@ import Challenges from "./components/challenges/Index.jsx";
 
 const App = () => {
   return (
-    <div className="flex">
+    <div className="flex overflow-x-hidden">
       <SideNav className="" />
       <div className="pl-60">
         <Routes location={location} key={location.key}>

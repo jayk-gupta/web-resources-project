@@ -1,4 +1,11 @@
-[
+[  
+  {
+    "tag": "html",
+    "title": "W3Schools",
+    "description": "W3Schools is a freemium educational website for learning coding online. Initially released in 1998, it derives its name from the World Wide Web but is not affiliated with the W3 Consortium. W3Schools offers courses covering all aspects of web development. W3Schools also publishes free HTML templates.",
+    "link": "https://www.w3schools.com/js/",
+    "img": "https://user-images.githubusercontent.com/100681165/238201938-132a1bd3-d1a1-4139-8759-e96474e81a02.png"
+  },
   {
     "tag": "js",
     "title": "javascripttutorial.net",

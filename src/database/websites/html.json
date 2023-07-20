@@ -33,12 +33,5 @@
     "description": "Step-by-step guide teaches you the basics of HTML and how to build your first website. That means how to layout an HTML page, how to add text and images, how to add headings and text formatting, and how to use tables.",
     "link": "https://html.com/",
     "img": "https://user-images.githubusercontent.com/100681165/238203320-9453a77d-56bc-499b-a70a-8684df7df195.png"
-  },
-  {
-    "tag": "html",
-    "title": "MDN Web Docs",
-    "description": "It is a documentation repository and learning resource for web developers. It was started by Mozilla in 2005 as a unified place for documentation about open web standards, Mozilla's own projects, and developer guides.Topics include HTML5, JavaScript, CSS, Web APIs, Django, Node.js, WebExtensions, MathML, and others.",
-    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-    "img": "https://user-images.githubusercontent.com/100681165/238201937-8affcc7c-7915-4bb0-ac80-ed904fbb263a.png"
   }
 ]

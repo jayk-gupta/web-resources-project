@@ -47,5 +47,12 @@
     "description": "This channel teaches web development in a very intuitive manner by recreating easy yet awesome stuff in a very short amount of time.",
     "link": "https://www.youtube.com/@Hyperplexed",
     "img": "https://user-images.githubusercontent.com/72994819/241576494-80098f65-faa4-435f-9492-e0c3c6907470.png"
+  },
+  {
+    "tag": "css",
+    "title": "The Net Ninja",
+    "description": "Net Ninja made a master piece playlist on tailwind css for absolute beginners.",
+    "link": "https://www.youtube.com/watch?v=bxmDnn7lrnk&list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw",
+    "img": "https://github.com/senthil-k8s/image/assets/93466587/5aeb66ac-2823-44f2-a5bf-d627f4f6d543"
   }
 ]

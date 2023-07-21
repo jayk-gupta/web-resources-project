@@ -19,5 +19,26 @@
     "description": "Learn how to use JavaScript — a powerful and flexible programming language for adding website interactivity.",
     "link": "https://www.codecademy.com/learn/introduction-to-javascript",
     "img": "https://user-images.githubusercontent.com/118375524/240303440-0021fd59-c451-4ea5-a514-1ed18a529e20.png"
+  },
+  {
+    "tag": "js",
+    "title": "chartkick",
+    "description": "Learn how to use JavaScript — Create beautiful JavaScript charts with one line of Ruby.",
+    "link": "https://chartkick.com/",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/114330097/47850c6f-79eb-4e95-b506-aa43de463c78"
+  },
+  {
+    "tag": "js",
+    "title": "flex-monster",
+    "description": "Learn how to use JavaScript — The most powerful JavaScript tool for visualizing your business data.",
+    "link": "https://www.flexmonster.com/",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/114330097/d0fd011f-12fe-4756-bebe-5d2fdf79d7ee"
+  },
+  {
+    "tag": "js",
+    "title": "chartjs",
+    "description": "Learn how to use JavaScript — Simple yet flexible JavaScript charting library for the modern web.",
+    "link": "https://www.chartjs.org/",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/114330097/7179245f-e697-48df-a04a-7dcfd56a51d8"
   }
 ]

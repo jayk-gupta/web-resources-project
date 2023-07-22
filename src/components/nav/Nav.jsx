@@ -6,9 +6,10 @@ import { FaBars, FaHome,FaTools } from "react-icons/fa";
 import { ImBooks } from "react-icons/im";
 import { BsCameraVideoFill} from "react-icons/bs"
 import { useState } from "react";
-import {CgWebsite} from 'react-icons/cg'
-import { AnimatePresence, motion } from "framer-motion";
+import {CgWebsite} from 'react-icons/cg';
 import './Nav.css';
+import { AnimatePresence, motion } from "framer-motion";
+
 const routes = [
   {
     path: "/",

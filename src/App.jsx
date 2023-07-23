@@ -8,14 +8,17 @@ import Tools from "./components/tools/Index.jsx";
 import Videos from "./components/videos/Index.jsx";
 import Websites from "./components/websites/Index.jsx";
 import Challenges from "./components/challenges/Index.jsx";
+import Navbar from "./components/Header/Navbar.jsx";
 
 const App = () => {
   return (
     <div className="flex">
       <SideNav className="" />
+      
       <div className="pl-60">
         <Routes location={location} key={location.key}>
           {/* Home */}
+          
           <Route path="/" element={<Home />}></Route>
           <Route path="/Videos" element={<Videos />} />
           <Route path="/Websites" element={<Websites />} />

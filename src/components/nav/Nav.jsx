@@ -43,7 +43,7 @@ const routes = [
   },
 ];
 
-const SideNav = ({ children }) => {
+const Nav = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
   const inputAnimation = {
@@ -166,4 +166,4 @@ const SideNav = ({ children }) => {
   );
 };
 
-export default SideNav;
+export default Nav;

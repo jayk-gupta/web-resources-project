@@ -1,24 +1,169 @@
 import React from "react";
-import NavItem from "./NavItem";
-import { AiOutlineSearch } from "react-icons/ai";
+import { NavLink } from "react-router-dom";
+// import { GiSwordsEmblem } from "react-icons/gi";
+import {LuSwords} from 'react-icons/lu'
+import { FaBars, FaHome,FaTools } from "react-icons/fa";
+import { FaBook } from 'react-icons/fa';
+import { BsCameraVideoFill} from "react-icons/bs"
+import { useState } from "react";
+import {CgWebsite} from 'react-icons/cg';
+import './Nav.css';
+import { AnimatePresence, motion } from "framer-motion";
 
-function SideNav() {
+const routes = [
+  {
+    path: "/",
+    name: "Home",
+    icon: <FaHome size={30} />,
+  },
+  {
+    path: "/Videos",
+    name: "Videos",
+    icon: <BsCameraVideoFill size={30} />,
+  },
+  {
+    path: "/Websites",
+    name: "Websites",
+    icon: <CgWebsite size={30} />,
+  },
+  {
+    path: "/Challenges",
+    name: "Challenges",
+    icon: <LuSwords size={30} />,
+  },
+  {
+    path: "/Books",
+    name: "Books",
+    icon: <FaBook size={30} />,
+  },
+  {
+    path: "/Tools",
+    name: "Tools",
+    icon: <FaTools size={30} />,
+  },
+];
+
+const SideNav = ({ children }) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
+  const inputAnimation = {
+    hidden: {
+      width: 0,
+      padding: 0,
+      transition: {
+        duration: 0.2,
+      },
+    },
+    show: {
+      width: "140px",
+      padding: "5px 15px",
+      transition: {
+        duration: 0.2,
+      },
+    },
+  };
+
+  const showAnimation = {
+    hidden: {
+      width: 0,
+      opacity: 0,
+      transition: {
+        duration: 0.5,
+      },
+    },
+    show: {
+      opacity: 1,
+      width: "auto",
+      transition: {
+        duration: 0.5,
+      },
+    },
+  };
 
   return (
-    <div
-      className="flex flex-col fixed h-screen py-2 px-4 text-lg w-[15%]  gap-20 z-50  bg-gradient-to-b from-[#3f454a] to-[#1a1d20]
-     text-[#cacaca] overflow-scroll"
-    >
-      <div className="search flex items-center gap-4 bg-[#2E2D2D] rounded-2xl px-2 py-[4px] mt-12">
-        <AiOutlineSearch />
-        <p>Search...</p>
+    <React.Fragment>
+      <div className="main-container">
+        <motion.div
+          animate={{
+            width: isOpen ? "240px" : "70px",
+
+            transition: {
+              duration: 0.5,
+              type: "spring",
+              damping: 10,
+            },
+          }}
+          className={`sidebar `}
+        >
+          <div className="top_section">
+            <AnimatePresence>
+              {isOpen && (
+                <motion.h1
+                  variants={showAnimation}
+                  initial="hidden"
+                  animate="show"
+                  exit="hidden"
+                  className="logo"
+                >
+                <img
+                className="s"
+                src="https://user-images.githubusercontent.com/100681165/238192169-5ed8ffdb-c8fb-4a69-8f91-d4d376271ae3.png"
+                alt="logo"
+                />
+                  <h1>WebResourcesHub</h1>
+                </motion.h1>
+              )}
+            </AnimatePresence>
+
+            <div className="bars">
+              <FaBars size={30} onClick={toggle} />
+            </div>
+          </div>
+          
+          <section className="routes">
+            {routes.map((route, index) => {
+              if (route.subRoutes) {
+                return (
+                  <SidebarMenu
+                    setIsOpen={setIsOpen}
+                    route={route}
+                    showAnimation={showAnimation}
+                    isOpen={isOpen}
+                  />
+                );
+              }
+
+              return (
+                <NavLink
+                  to={route.path}
+                  key={index}
+                  className="link"
+                  activeClassName="active"
+                >
+                  <div id="ic" className="icon">{route.icon}</div>
+                  <AnimatePresence>
+                    {isOpen && (
+                      <motion.div
+                        variants={showAnimation}
+                        initial="hidden"
+                        animate="show"
+                        exit="hidden"
+                        className="link_text"
+                      >
+                        {route.name}
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </NavLink>
+              );
+            })}
+          </section>
+        </motion.div>
+
+        <main>{children}</main>
       </div>
-      {/* nav */}
-      <div className="flex flex-col p-2  gap-6 ">
-        <NavItem />
-      </div>
-    </div>
+    </React.Fragment>
   );
-}
+};
 
 export default SideNav;

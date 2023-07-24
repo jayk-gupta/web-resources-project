@@ -19,5 +19,10 @@
     "description": "ReactJS tutorial provides basic and advanced concepts of ReactJS. Currently, ReactJS is one of the most popular JavaScript front-end libraries which has a strong foundation and a large community.",
     "link": "https://www.javatpoint.com/reactjs-tutorial",
     "img": "../../Card%20Images/../images%20original/react_javatpoint.png"
+    "tag": "react",
+    "title":"Free Code Camp",
+    "description":"It provides the specific path of how to get started as it contains the new features that are announced in 2023",
+    "link":"https://www.freecodecamp.org/news/how-to-learn-react-in-2023/",
+    "img":"https://user-images.githubusercontent.com/91741581/253747628-6660a999-7d7b-4613-85b4-02e6f3979b87.png"
   }
 ]

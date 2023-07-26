@@ -4,7 +4,7 @@ import Filter from '../filter/index';
 import html from '../../database/websites/html.json';
 import css from '../../database/websites/css.json';
 import js from '../../database/websites/javascript.json';
-import react from '../../database/websites/reactjs.json';
+// import react from '../../database/websites/reactjs.json';
 
 const Index = () => {
   const [filter, setFilter] = useState('html');

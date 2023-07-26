@@ -19,5 +19,11 @@
     "description": "HTML Code Generator helps to generate HTML tags code which can be pasted in HTML. Select options and Generate Code.",
     "link": "https://codebeautify.org/html-code-generator",
     "img": "https://user-images.githubusercontent.com/100681165/238286734-25cae2b0-8d4f-4291-af73-7a7de7630217.png"
+  },{
+    "tag": "html",
+    "title": "CodePen",
+    "description": "You write code in the editors, the results of that code are shown to you in the preview area. It's simple, but powerful!",
+    "link": "https://codepen.io/pen/",
+    "img": "https://github.com/Sch476/CV1/assets/127319225/8546a8db-906c-4d8a-b923-41a518cee99e"
   }
 ]

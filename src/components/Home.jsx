@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="flex relative justify-start w-full h-screen mt-6 ">
       <motion.div
-        className=" p-4 flex flex-col gap-8  ml-2 lg:ml-20 mt-20"
+        className=" p-4 flex flex-col gap-8  ml-2 lg:ml-20 mt-20 lg:mt-8"
         initial={{ opacity: 0, translateX: -100 }}
         animate={{ opacity: 1, translateX: 0 }}
         transition={{ duration: 0.5 }}

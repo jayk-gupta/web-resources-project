@@ -1,5 +1,5 @@
 import React from "react";
-import { FaHome } from "react-icons/fa";
+import { FaHome, FaLayerGroup } from "react-icons/fa";
 import { BsFillCameraVideoFill } from "react-icons/bs";
 import { FaLaptopCode } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
@@ -64,6 +64,14 @@ const Nav = () => {
             <BsBookHalf className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />
             <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100 text-[white]">
               Books
+            </h6>
+          </div>
+        </NavLink>
+        <NavLink to="/Contributor">
+          <div className="group flex flex-col gap-3 justify-center items-center">
+            <CgWebsite className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />
+            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100 text-[white]">
+              Contributor
             </h6>
           </div>
         </NavLink>

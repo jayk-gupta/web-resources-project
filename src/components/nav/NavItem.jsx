@@ -21,6 +21,8 @@ const icons = [
   { icon: <GiIcons.GiBookshelf />, iconName: "Books", navlink: "Books" },
   { icon: <BsIcons.BsTools />, iconName: "Tools", navlink: "Tools" },
   { icon: <BiIcons.BiBullseye />, iconName: "Challenges", navlink: "challenges" },
+  { icon: <BiIcons.BiBullseye />, iconName: "Contributor", navlink: "Contributor" },
+  
 ];
 
 function NavItem() {

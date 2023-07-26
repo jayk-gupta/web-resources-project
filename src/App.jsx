@@ -2,6 +2,7 @@ import React,{lazy, Suspense} from "react";
 import { Route, Routes, NavLink } from "react-router-dom";
 // import Nav from './components/nav/Nav.jsx';
 import SideNav from "./components/nav/SideNav.jsx";
+// import Contributor from "./components/Contributor/contributor.jsx";
 
 const Home = lazy(() => import("./components/Home.jsx"));
 const Books = lazy(() => import("./components/books/Index.jsx"));
@@ -9,7 +10,7 @@ const Tools = lazy(() => import("./components/tools/Index.jsx"));
 const Videos = lazy(() => import("./components/videos/Index.jsx"));
 const Websites = lazy(() => import("./components/websites/Index.jsx"));
 const Challenges = lazy(() => import("./components/challenges/Index.jsx"));
-
+const Contributor = lazy(()=>import("./components/Contributor/contributor.jsx"))
 const App = () => {
   return (
     <div className="flex">
@@ -45,6 +46,11 @@ const App = () => {
           <Route path="/Tools" element={
             <Suspense fallback={<p>Loading</p>}>
               <Tools />
+            </Suspense>
+          } />
+          <Route path="/Contributor" element={
+            <Suspense fallback={<p>Loading</p>}>
+              <Contributor />
             </Suspense>
           } />
         </Routes>

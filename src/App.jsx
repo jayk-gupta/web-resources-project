@@ -7,6 +7,7 @@ const Home = lazy(() => import("./components/Home.jsx"));
 const Books = lazy(() => import("./components/books/Index.jsx"));
 const Tools = lazy(() => import("./components/tools/Index.jsx"));
 const Videos = lazy(() => import("./components/videos/Index.jsx"));
+const Editors = lazy(() => import("./components/editor/Index.jsx"));
 const Websites = lazy(() => import("./components/websites/Index.jsx"));
 const Challenges = lazy(() => import("./components/challenges/Index.jsx"));
 
@@ -45,6 +46,11 @@ const App = () => {
           <Route path="/Tools" element={
             <Suspense fallback={<p>Loading</p>}>
               <Tools />
+            </Suspense>
+          } />
+            <Route path="/Editors" element={
+            <Suspense fallback={<p>Loading</p>}>
+              <Editors />
             </Suspense>
           } />
         </Routes>

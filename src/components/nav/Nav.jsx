@@ -59,6 +59,14 @@ const Nav = () => {
             </h6>
           </div>
         </NavLink>
+         <NavLink to="/Editors">
+          <div className="group flex flex-col gap-3 justify-center items-center">
+            <BsTools className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />
+            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100 text-[white]">
+              Editors
+            </h6>
+          </div>
+        </NavLink>
         <NavLink to="/Books">
           <div className="group flex flex-col gap-3 justify-center items-center">
             <BsBookHalf className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />

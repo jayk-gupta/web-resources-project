@@ -5,6 +5,7 @@ import html from '../../database/challenges/html.json';
 import css from '../../database/challenges/css.json';
 import js from '../../database/challenges/javascript.json';
 import react from '../../database/challenges/reactjs.json';
+import tailwind from '../../database/challenges/tailwindcss.json';
 
 const Index = () => {
   const [filter, setFilter] = useState('html');
@@ -17,6 +18,8 @@ const Index = () => {
       setData([...css]);
     } else if (filter === 'js') {
       setData([...js]);
+    } else if (filter === 'tailwind') {
+      setData([...tailwind]);
     } else {
       setData([...react]);
     }

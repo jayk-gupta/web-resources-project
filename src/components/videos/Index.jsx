@@ -5,6 +5,7 @@ import html from '../../database/videos/html.json';
 import css from '../../database/videos/css.json';
 import js from '../../database/videos/javascript.json';
 import react from '../../database/videos/reactjs.json';
+import tailwind from '../../database/videos/tailwindcss.json';
 
 const Index = () => {
   const [filter, setFilter] = useState('html');
@@ -17,6 +18,8 @@ const Index = () => {
       setData([...css]);
     } else if (filter === 'js') {
       setData([...js]);
+    } else if (filter === 'tailwind') {
+      setData([...tailwind]);
     } else {
       setData([...react]);
     }

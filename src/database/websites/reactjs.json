@@ -14,6 +14,11 @@
     "img": "https://user-images.githubusercontent.com/100681165/238203960-795d63cc-cae4-444c-8272-78cd78743e37.png"
   },
   {
+    "tag" : "html",
+    "title": "JavaTpoint",
+    "description": "ReactJS tutorial provides basic and advanced concepts of ReactJS. Currently, ReactJS is one of the most popular JavaScript front-end libraries which has a strong foundation and a large community.",
+    "link": "https://www.javatpoint.com/reactjs-tutorial",
+    "img": "../../Card%20Images/../images%20original/react_javatpoint.png"
     "tag": "react",
     "title":"Free Code Camp",
     "description":"It provides the specific path of how to get started as it contains the new features that are announced in 2023",

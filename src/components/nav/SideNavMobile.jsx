@@ -9,10 +9,10 @@ const SideNavMobile = ({setShowSideNav})=>{
         <>
         <div>
         <div
-      className=" flex flex-col fixed h-full  lg:hidden py-2 px-4 text-lg w-60  gap-5 bg-[#1a1d20] z-10 text-[#cacaca] "
+      className=" flex flex-col fixed h-full block lg:hidden py-2 px-4 text-lg w-60  gap-5 bg-[#1a1d20] z-10 text-[#cacaca] "
   >
     <div className="flex w-48 justify-end">
-    <i onClick={clickHandler} className="fa-solid fa-xmark text-3xl mt-2 cursor-pointer"></i>
+    <i onClick={clickHandler} className="fa-solid fa-xmark text-3xl mt-2"></i>
     </div>
   
       <div className="search flex items-center gap-4 bg-[#2E2D2D] rounded-2xl px-2 py-[4px] mt-12">

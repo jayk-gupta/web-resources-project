@@ -5,5 +5,13 @@
     "description": "Practice react concepts with these interactive challenges",
     "link": "    https://www.codewars.com/collections/react-practice",
     "img": "https://user-images.githubusercontent.com/100681165/238246317-dd52070d-6b42-41a4-9c29-2d62826daaa9.png"
+  },
+  {
+    "tag": "react",
+    "title": "React Challenges",
+    "description": "Explore more than 20+ hands-on practical react challenges with the live code editor.",
+    "link": "https://reactchallenges.live/",
+    "img:": "https://github.com/swishyy/web-resources-project/blob/main/public/images%20original/reactc_reactchallenges.png"
+
   }
 ]

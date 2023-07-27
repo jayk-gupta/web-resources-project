@@ -15,9 +15,11 @@ function NavUI(props) {
   return (
     <div className="flex flex-col">
       <NavLink to={props.navlink}>
-        <div className="flex gap-6 text-xl  items-center">
+        <div className="flex gap-4 text-lg mt-5  items-center ">
           <span className="hover:text-[#fff] cursor-pointer">{props.icon}</span>
-          <p className="hover:text-[#fff] cursor-pointer pl-6">{props.iconName}</p>
+          <div className="">
+          <p className="hover:text-[#fff] cursor-pointer pl-2">{props.iconName}</p>
+          </div>
           {/* <RiArrowDropDownLine
             className={`${hoverStyle} text-2xl`}
             onClick={clickHandler}

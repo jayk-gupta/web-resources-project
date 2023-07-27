@@ -24,5 +24,12 @@
     "description": "Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs. Join 616,636 developers building projects, reviewing code, and helping each other get better.",
     "link": "https://www.frontendmentor.io/",
     "img": "https://user-images.githubusercontent.com/100681165/238244448-0d3e8b3e-68c7-48d7-9863-eb64dc52332f.png"
+  },
+  {
+    "tag": "css",
+    "title": "Frontend Practice",
+    "description": "Take your frontend skills to the next level by recreating real websites from real companies.",
+    "link": "https://www.frontendpractice.com/",
+    "img": "https://user-images.githubusercontent.com/92252895/256259552-9a0f552b-55f3-4afa-9e42-b0c8e1fa6679.png"
   }
 ]

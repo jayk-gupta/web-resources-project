@@ -38,7 +38,8 @@
 
 
 ## 📷 Screenshot 
-![Screenshot 2023-05-15 094313](https://github.com/jayk-gupta/web-resources-project/assets/100681165/1f5db7da-e30c-4075-bab7-719cac80cae4)
+
+![Screenshot 2023-07-24 210406](https://github.com/jayk-gupta/web-resources-project/assets/100681165/6871d84a-5378-4495-94b7-fb30af89560d)
 
 
 

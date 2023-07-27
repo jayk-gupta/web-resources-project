@@ -54,5 +54,26 @@
     "description": "CSS generator",
     "link": "https://www.cssportal.com/css-generators.php",
     "img": "https://user-images.githubusercontent.com/100681165/239759195-57d05932-3a96-4ebd-86bb-9ea49a81e157.png"
+  },
+  {
+    "tag": "css",
+    "title": "CSS Palette",
+    "description": "Choose colors of your choice palette for your project",
+    "link": "https://palettes.shecodes.io/palettes",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/7185cdf5-adbf-463a-9f24-a20c76b05629"
+  },
+   {
+    "tag": "css",
+    "title": "Color Picker",
+    "description": "Choose colors of your choice palette for your project",
+    "link": "https://0to255.com/",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/7373f9a5-a0e7-4c2c-8403-8cb44f3aaa44"
+  },{
+    "tag": "css",
+    "title": "CodePen",
+    "description": "You write code in the editors, the results of that code are shown to you in the preview area. It's simple, but powerful!",
+    "link": "https://codepen.io/pen/",
+    "img": "https://github.com/Sch476/CV1/assets/127319225/8546a8db-906c-4d8a-b923-41a518cee99e"
   }
+
 ]

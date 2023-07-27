@@ -1,6 +1,13 @@
 [
   {
     "tag": "react",
+    "title": "React Tutorial 2022",
+    "description": "React is the most important thing and in this video, It explain in very simple and in understandable manner that is very easy for beginners to learn react.",
+    "link": "https://youtu.be/0mVbNp1ol_w",
+    "img": "https://i.ytimg.com/vi/0mVbNp1ol_w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2EpGWB4EsWmk5fhbtYw-BZ28tvQ"
+  },
+  {
+    "tag": "react",
     "title": "Learn React - Scrimba",
     "description": "The ultimate React 101 - the perfect starting point for any React beginner. Learn the basics of modern React by solving 140+ interactive coding challenges and building eight fun projects.",
     "link": "https://scrimba.com/",

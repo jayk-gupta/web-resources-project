@@ -9,7 +9,7 @@ import { BsBookHalf } from "react-icons/bs";
 
 const Nav = () => {
   return (
-    <div className="flex flex-col fixed h-screen bg-[#76118f] py-2 px-4 text-xl w-[5%] items-center gap-20 z-50 ">
+    <div className="flex flex-col h-screen bg-grape-200 py-2 px-4 text-xl w-[5%] items-center gap-20 z-50 ">
       <NavLink to="/">
         <img
           className="s"

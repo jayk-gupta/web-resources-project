@@ -24,15 +24,21 @@ const icons = [
 ];
 
 function NavItem() {
-  const item = icons.map((item, index) => (
+
+  return(
+    <div className="overflow-hidden h-screen ">
+      { icons.map((item, index) => (
     <NavUI
       key={index}
+      // Index shouldn't be used as key
       icon={item.icon}
       iconName={item.iconName}
       navlink={item.navlink}
     />
-  ));
-  return item;
+  ))}
+      
+    </div>
+  )
 }
 
 export default NavItem;

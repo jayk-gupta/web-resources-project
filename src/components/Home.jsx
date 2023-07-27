@@ -2,9 +2,9 @@ import { motion } from 'framer-motion';
 
 export default function Home() {
   return (
-    <div className="flex  mt-6">
+    <div className="flex relative justify-start w-full h-screen mt-6 ">
       <motion.div
-        className=" p-6 flex flex-col gap-8"
+        className=" p-4 flex flex-col gap-8  ml-2 lg:ml-20 mt-20 lg:mt-8"
         initial={{ opacity: 0, translateX: -100 }}
         animate={{ opacity: 1, translateX: 0 }}
         transition={{ duration: 0.5 }}
@@ -21,7 +21,6 @@ export default function Home() {
         <p className="text-lg w-4/5 text-[#858585]">
           Explore our vast collection of web development resources, designed to
           give you the knowledge and tools you need to
-          <br />
           succeed in the world of web development!
         </p>
       </motion.div>

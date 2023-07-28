@@ -63,7 +63,11 @@
 5. Navigate to the directory where you want to clone the repository.
 
 
-6. Type the command `git clone [https://github.com/<your_github_username>/web-resources-project.git]` (This will download the repository to your local machine)
+6. Type the command 
+```
+git clone https://github.com/<your_github_username>/web-resources-project.git
+``` 
+(This will download the repository to your local machine).
 
 7. Navigate to the project directory.
 ```

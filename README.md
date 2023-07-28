@@ -90,7 +90,7 @@ git checkout -b <YOUR_BRANCH_NAME>
 ```
 11. How to Run the Project is given in the below part 👇🏼.
 
-12. Perform ypur desired changes to the code base.
+12. Perform your desired changes to the code base.
 
 13. Check your changes.
 ```

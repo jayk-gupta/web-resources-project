@@ -53,9 +53,11 @@
 2. To clone the repository to your local machine, follow these steps:
 
 1. Click on the "Code" button.
+
 ![s1](https://github.com/jayk-gupta/web-resources-project/assets/100681165/c6b5a565-212a-467a-a697-2106ba3911a4)
 
 2. Copy the HTTPS Link.
+
 ![s2](https://github.com/jayk-gupta/web-resources-project/assets/100681165/a0193d9a-85bc-457f-9edc-d24b93ce9f9d)
 
 4. Open the terminal or command prompt on your computer.

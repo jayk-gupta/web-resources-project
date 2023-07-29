@@ -26,5 +26,12 @@
     "description": "This book is a comprehensive guide that teaches you how to build modern web applications using the React JavaScript library",
     "link": "https://drive.google.com/file/d/1AZwshgVyazeIJ95ng6Pg1zUbVQoYX93t/view?usp=share_link",
     "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
+  },
+  {
+    "tag": "react",
+    "title": "30 Days of REACT",
+    "description": "Each day in our 30 day adventure will build upon the previous day materials so by the end of the series you'll not only know the terms concepts, andunderpinnings of how the framework works, but be able to use React in yournext web application.",
+    "link": "https://drive.google.com/file/d/1NrMsdTXa-s9hhOZ-LXptbyW_XNvTwnVS/view?usp=sharing",
+    "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
   }
 ]

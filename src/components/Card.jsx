@@ -11,7 +11,7 @@ const Card = ({ title, link, description, i, img }) => {
         animate={{ opacity: 1, translateX: 0 }}
         transition={{ duration: 0.2, delay: i * 0.2 }}
       >
-        <div className="img  self-center">
+        <div className="img img-container self-center">
           {/* src={`'${img}'`} */}
           <img className="rounded-sm w-40 h-20" src={img} alt="img" />
         </div>

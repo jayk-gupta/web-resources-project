@@ -15,7 +15,7 @@ function NavUI(props) {
   return (
     <div className="flex flex-col">
       <NavLink to={props.navlink}>
-        <div className="flex gap-4 text-lg mt-5  items-center ">
+        <div className={`flex gap-4 text-lg mt-5  items-center ${props.activeTab}  p-2`}>
           <span className="hover:text-[#fff] cursor-pointer">{props.icon}</span>
           <div className="">
           <p className="hover:text-[#fff] cursor-pointer pl-2">{props.iconName}</p>

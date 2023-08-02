@@ -6,7 +6,7 @@ const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
-    if (window.pageYOffset > 300) {
+    if (window.pageYOffset > 200) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
@@ -38,7 +38,7 @@ const ButtonContainer = styled.button`
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: rgb(0,0,0);
+  background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   padding: 10px;
   border-radius: 4px;

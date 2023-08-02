@@ -18,7 +18,7 @@ const SideNavMobile = ({setShowSideNav})=>{
       <div className="search flex items-center gap-4 bg-[#2E2D2D] rounded-2xl px-2 py-[4px] mt-12">
         <AiOutlineSearch />
         <input
-          style={{ background:'transparent',outline:'none'}}
+          style={{ background:'transparent',outline:'none',width:"100%"}}
           placeholder="search..."></input>
       </div>
       {/* nav */}

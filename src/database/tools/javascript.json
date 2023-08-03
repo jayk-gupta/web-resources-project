@@ -19,5 +19,21 @@
     "description": "Minifier removes whitespace, strips comments, combines files, and optimizes/shortens a few common programming patterns",
     "link": "https://www.minifier.org/",
     "img": "https://user-images.githubusercontent.com/111020648/239766904-a88c0faf-c050-4b47-b5a5-180f8a3734a4.png"
+
+  },
+  {
+    "tag": "js",
+    "title": "Edabit",
+    "description": "A Better Way to Learn Programming with Collection of Different Problems using JavaScript",
+    "link": "https://edabit.com/",
+    "img": "https://rb.gy/ktnax"
+
+  },{
+    "tag": "js",
+    "title": "CodePen",
+    "description": "You write code in the editors, the results of that code are shown to you in the preview area. It's simple, but powerful!",
+    "link": "https://codepen.io/pen/",
+    "img": "https://github.com/Sch476/CV1/assets/127319225/8546a8db-906c-4d8a-b923-41a518cee99e"
+
   }
 ]

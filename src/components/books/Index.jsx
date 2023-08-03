@@ -30,7 +30,7 @@ const Index = () => {
   };
 
   return (
-    <div className='m-8'>
+    <div className='m-8 mt-32 lg:mt-8'>
       <Filter onStateChange={handleFilterChange} />
       <div className='flex flex-wrap gap-5'>
         {data.length > 0 ? (

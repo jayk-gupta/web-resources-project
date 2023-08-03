@@ -2,6 +2,7 @@ import React,{lazy, Suspense} from "react";
 import { Route, Routes, NavLink } from "react-router-dom";
 // import Nav from './components/nav/Nav.jsx';
 import SideNav from "./components/nav/SideNav.jsx";
+import ScrollToTopButton from "./components/ScrollToTopButton.jsx";
 
 const Home = lazy(() => import("./components/Home.jsx"));
 const Books = lazy(() => import("./components/books/Index.jsx"));
@@ -14,7 +15,7 @@ const App = () => {
   return (
     <div className="flex">
       <SideNav className="" />
-      <div className="pl-60">
+      <div className="lg:pl-60">
         <Routes location={location} key={location.key}>
           {/* Home */}
           <Route path="/" element={
@@ -49,6 +50,7 @@ const App = () => {
           } />
         </Routes>
       </div>
+      <ScrollToTopButton />
     </div>
   );
 };

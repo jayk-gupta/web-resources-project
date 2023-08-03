@@ -36,6 +36,14 @@ const index = ({ onStateChange }) => {
       </p>
       <p
         className={`px-3 py-1 rounded-xl cursor-pointer bg-[#ddd]  ${
+          filter === "tailwind" ? "border" : ""
+        }`}
+        onClick={() => handleFilterChange("tailwind")}
+      >
+        Tailwind CSS
+      </p>
+      <p
+        className={`px-3 py-1 rounded-xl cursor-pointer bg-[#ddd]  ${
           filter === "react" ? "border" : ""
         }`}
         onClick={() => handleFilterChange("react")}

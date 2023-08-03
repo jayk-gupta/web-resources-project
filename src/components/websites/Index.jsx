@@ -4,7 +4,9 @@ import Filter from '../filter/index';
 import html from '../../database/websites/html.json';
 import css from '../../database/websites/css.json';
 import js from '../../database/websites/javascript.json';
-// import react from '../../database/websites/reactjs.json';
+import react from '../../database/websites/reactjs.json';
+import tailwind from '../../database/websites/tailwindcss.json';
+
 
 const Index = () => {
   const [filter, setFilter] = useState('html');
@@ -17,8 +19,12 @@ const Index = () => {
       setData([...css]);
     } else if (filter === 'js') {
       setData([...js]);
-    } else {
+    } else if (filter === 'react') {
       setData([...react]);
+    } else if (filter === 'tailwind') {
+      setData([...tailwind]);
+    } else {
+      setData([]); // Set empty array if no matching filter is found
     }
   }, [filter]);
 

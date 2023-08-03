@@ -12,3 +12,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Css for cards hover effect */
+.img-container {
+    overflow: hidden;
+}
+.img-container img {
+    transition: transform 0.5s;
+}
+.img-container img:hover {
+    transform: scale(0.7);
+}

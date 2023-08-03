@@ -65,7 +65,7 @@
 
 6. Type the command `git clone [https://github.com/<your_github_username>/web-resources-project.git]` (This will download the repository to your local machine)
 
-## ⬇️ Prerequites
+## ⬇️ Prerequisites
   - **Node JS**
   -  **pnpm**
 
@@ -82,7 +82,7 @@
 4. Add the details of your resource: Here's an example
 ```
 {
-    "tag" : "css"
+    "tag" : "css",
     "title": "CodeWell",
     "description": "Improve your HTML and CSS skills by practicing on real design templates.With Codewell, you can browse high quality Figma templates that you can use to sharpen your HTML and CSS skills.",
     "link": "https://www.codewell.cc/",

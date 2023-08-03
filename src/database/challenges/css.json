@@ -31,5 +31,19 @@
     "description": "Take your frontend skills to the next level by recreating real websites from real companies.",
     "link": "https://www.frontendpractice.com/",
     "img": "https://user-images.githubusercontent.com/92252895/256259552-9a0f552b-55f3-4afa-9e42-b0c8e1fa6679.png"
+  },
+  {
+    "tag": "css",
+    "title": "Flexbox Froggy",
+    "description": "Welcome to Flexbox Froggy, a game where you help Froggy and friends by writing CSS code!",
+    "link": "https://flexboxfroggy.com/",
+    "img": "https://user-images.githubusercontent.com/80768852/250367758-8bc36079-8792-48cb-a81e-73e6a2240249.png"
+  },
+  {
+    "tag": "css",
+    "title": "Guess CSS",
+    "description": "Interactive game to learn CSS concepts - ideal for CSS beginners.",
+    "link": "https://www.guess-css.app/",
+    "img": "https://user-images.githubusercontent.com/80768852/257275148-9b084dce-342a-4c8b-9aff-69cde3a260a7.png"
   }
 ]

@@ -21,6 +21,8 @@ const icons = [
   { icon: <BsIcons.BsGlobe2 />, iconName: "Websites", navlink: "Websites" },
   { icon: <GiIcons.GiBookshelf />, iconName: "Books", navlink: "Books" },
   { icon: <BsIcons.BsTools />, iconName: "Tools", navlink: "Tools" },
+  { icon: <BiIcons.BiBullseye />, iconName: "Challenges", navlink: "challenges" },
+  { icon: <BiIcons.BiCodeAlt />, iconName: "Editors", navlink: "editor" },
   { icon: <BiIcons.BiBullseye />, iconName: "Challenges", navlink: "Challenges" },
 ];
 

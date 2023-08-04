@@ -47,15 +47,17 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)     ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ## ✅ Getting Started
-1. Fork the project,click on create new fork.
+1. Fork the project, Click on create new fork.
 ![s3](https://github.com/jayk-gupta/web-resources-project/assets/100681165/b6fdab7f-61cd-48ba-9462-9ae89c50e4c6)
 
 2. To clone the repository to your local machine, follow these steps:
 
 1. Click on the "Code" button.
+
 ![s1](https://github.com/jayk-gupta/web-resources-project/assets/100681165/c6b5a565-212a-467a-a697-2106ba3911a4)
 
 2. Copy the HTTPS Link.
+
 ![s2](https://github.com/jayk-gupta/web-resources-project/assets/100681165/a0193d9a-85bc-457f-9edc-d24b93ce9f9d)
 
 4. Open the terminal or command prompt on your computer.
@@ -63,7 +65,67 @@
 5. Navigate to the directory where you want to clone the repository.
 
 
-6. Type the command `git clone [https://github.com/<your_github_username>/web-resources-project.git]` (This will download the repository to your local machine)
+6. Type the command 
+```
+git clone https://github.com/<your_github_username>/web-resources-project.git
+``` 
+(This will download the repository to your local machine).
+
+7. Navigate to the project directory.
+```
+cd web-resources-project
+```
+
+8. Add a reference(remote) to the original repository.
+```
+git remote add upstream https://github.com/<your_github_username>/web-resources-project.git
+```
+
+9. Create a new branch(prefer a branch name that relates to your assigned issue).
+```
+git remote -v
+```
+
+10. Always take a pull from the upstream repository to your main branch to keep it updated as per the main project repository.
+```
+git checkout -b <YOUR_BRANCH_NAME>
+```
+11. How to Run the Project is given in the below part 👇🏼.
+
+12. Perform your desired changes to the code base.
+
+13. Check your changes.
+```
+git status
+```
+```
+git diff
+```
+
+14. Stage your changes.
+```
+git add . <\files_that_you_made_changes>
+```
+
+15. Commit your changes.
+```
+git commit -m "relevant message"
+```
+
+16. Push the committed changes in your feature branch to your remote repository.
+```
+git push -u origin <YOUR_BRANCH_NAME>
+```
+
+17. To create a Pull Request, click on ```compare and pull requests```.
+
+18. Add an appropriate title and description to your PR explaining your changes.
+
+19. Click on ```Create pull request```.
+
+Congratulations🎉, you have made a PR to the Web Resources Project. Wait for your submission to be accepted and your PR to be merged by a maintainer.
+
+If you have any doubts please let us know in the comments.
 
 ## ⬇️ Prerequisites
   - **Node JS**

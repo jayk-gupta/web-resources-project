@@ -33,12 +33,5 @@
     "description": "This is a guide intended to introduce new developers to JavaScript and help experienced developers learn more about its best practices.Despite the name, this guide doesn't necessarily mean the only way to do JavaScript.We just gather all the articles, tips, and tricks from top developers and put it here. Since it comes from exceptional folks, we could say that it is the right way, or the best way to do so.",
     "link": "https://jstherightway.org/",
     "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
-  },
-  {
-    "tag": "js",
-    "title": "Eloquent JavaScript - Third Edition",
-    "description": "Eloquent JavaScript is a book providing an introduction to the JavaScript programming language and programming in general. A concise and balanced mix of principles and pragmatics.",
-    "link": "https://drive.google.com/file/d/161ZaoGPvOe65hS6zxyPdSAgs_dR12pcv/view?usp=sharing",
-    "img": "https://user-images.githubusercontent.com/100681165/238345276-e3dde5b5-f7d2-46ea-a485-26a43df1f8c4.jpg"
   }
 ]

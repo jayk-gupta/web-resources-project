@@ -40,5 +40,12 @@
     "description": "Learn how to use JavaScript — Simple yet flexible JavaScript charting library for the modern web.",
     "link": "https://www.chartjs.org/",
     "img": "https://github.com/jayk-gupta/web-resources-project/assets/114330097/7179245f-e697-48df-a04a-7dcfd56a51d8"
+  },
+  {
+    "tag": "js",
+    "title": "DevDocs",
+    "description":"DevDocs combines multiple developer documentations in a clean and organized web UI with instant search, offline support, mobile version, dark theme, keyboard shortcuts, and more.",
+    "link":"https://devdocs.io/",
+    "img":"https://rb.gy/9z0te"
   }
 ]

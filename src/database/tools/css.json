@@ -74,6 +74,13 @@
     "description": "You write code in the editors, the results of that code are shown to you in the preview area. It's simple, but powerful!",
     "link": "https://codepen.io/pen/",
     "img": "https://github.com/Sch476/CV1/assets/127319225/8546a8db-906c-4d8a-b923-41a518cee99e"
+  },
+  {
+    "tag": "css",
+    "title": "CSS Animation",
+    "description": "Add your own animations easily",
+    "link": "https://michalsnik.github.io/aos/",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/04a7d5ad-c1f7-44bf-8547-d02de2ae7f96"
   }
 
 ]

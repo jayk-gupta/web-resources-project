@@ -215,7 +215,7 @@ To star this repository, simply click on the **Star** button at the top-right co
 
 
 # License
-MIT License. This project is licensed under the MIT License.
+[MIT License](./LICENSE). This project is licensed under the MIT License.
 <p align="right"><a href="#top">Back to top</a></p>
 </div>
 

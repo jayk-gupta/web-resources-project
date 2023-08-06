@@ -47,5 +47,13 @@
     "description": "Discover Coding Step-by-Step: Learn interactively with simple lessons and coding exercises",
     "link": "https://www.studytonight.com/",
     "img": "https://rb.gy/scnw5"
+  },
+  {
+    "tag": "js"
+    "title": "W3School",
+    "description": "JavaScript is the programming language of the Web. This tutorial will teach you JavaScript from basic to advanced.",
+    "link": "https://www.w3schools.com/js/",
+    "img": "https://raw.githubusercontent.com/jayk-gupta/web-resources-project/main/public/images%20original/jsw_w3.png"
+
   }
 ]

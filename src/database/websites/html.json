@@ -40,6 +40,7 @@
     "description": "It is a documentation repository and learning resource for web developers. It was started by Mozilla in 2005 as a unified place for documentation about open web standards, Mozilla's own projects, and developer guides.Topics include HTML5, JavaScript, CSS, Web APIs, Django, Node.js, WebExtensions, MathML, and others.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "img": "https://user-images.githubusercontent.com/100681165/238201937-8affcc7c-7915-4bb0-ac80-ed904fbb263a.png"
+
   },
   {
     "tag": "html",
@@ -54,5 +55,6 @@
     "description":"DevDocs combines multiple developer documentations in a clean and organized web UI with instant search, offline support, mobile version, dark theme, keyboard shortcuts, and more.",
     "link":"https://devdocs.io/html/",
     "img":"https://rb.gy/9z0te"
+
   }
 ]

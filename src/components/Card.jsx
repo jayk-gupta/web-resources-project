@@ -1,18 +1,35 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { FaShareAlt } from "react-icons/fa";
 
 const Card = ({ title, link, description, i, img }) => {
+  const handleShare = () => {
+    const tweetText =
+      "Hey guys, I found a cool resource which can help you excel in your development career! -";
+    const tweetUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(
+      link
+    )}&text=${encodeURIComponent(`${tweetText} ${title}`)}`;
+
+    window.open(tweetUrl, "_blank");
+  };
+
   return (
-    <a href={link} target={"_blank"} rel="noreferrer">
+    <a href={link} target="_blank" rel="noreferrer">
       <motion.div
-        className="card border-b-2 bg-gradient-to-r from-[#545454] to-[#807f7f]  border-b-[#000000] flex flex-col rounded-lg  gap-4 p-4 shadow-3xl h-[16rem] w-[24rem] hover:shadow-4xl "
+        className="card border-b-2 bg-gradient-to-r from-[#545454] to-[#807f7f] border-b-[#000000] flex flex-col rounded-lg gap-4 p-4 shadow-3xl h-[16rem] w-[24rem] hover:shadow-4xl relative"
         key={i}
         initial={{ opacity: 0, translateX: -100 }}
         animate={{ opacity: 1, translateX: 0 }}
         transition={{ duration: 0.2, delay: i * 0.2 }}
       >
+        <button
+        className="absolute top-2 right-2 p-2 hover:text-blue-500 hover:scale-110 duration-500"
+        onClick={handleShare}
+      >
+        <FaShareAlt />
+      </button>
+
         <div className="img img-container self-center">
-          {/* src={`'${img}'`} */}
           <img className="rounded-sm w-40 h-20" src={img} alt="img" />
         </div>
 

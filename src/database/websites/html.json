@@ -40,6 +40,7 @@
     "description": "It is a documentation repository and learning resource for web developers. It was started by Mozilla in 2005 as a unified place for documentation about open web standards, Mozilla's own projects, and developer guides.Topics include HTML5, JavaScript, CSS, Web APIs, Django, Node.js, WebExtensions, MathML, and others.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "img": "https://user-images.githubusercontent.com/100681165/238201937-8affcc7c-7915-4bb0-ac80-ed904fbb263a.png"
+
   },
   {
     "tag": "html",
@@ -47,5 +48,13 @@
     "description": "W3Schools is a freemium educational website for learning coding online. Initially released in 1998, it derives its name from the World Wide Web but is not affiliated with the W3 Consortium. W3Schools offers courses covering all aspects of web development. W3Schools also publishes free HTML templates.",
     "link": "https://www.w3schools.com/js/",
     "img": "https://user-images.githubusercontent.com/100681165/238201938-132a1bd3-d1a1-4139-8759-e96474e81a02.png"
+  },
+  {
+    "tag": "html",
+    "title": "DevDocs",
+    "description":"DevDocs combines multiple developer documentations in a clean and organized web UI with instant search, offline support, mobile version, dark theme, keyboard shortcuts, and more.",
+    "link":"https://devdocs.io/html/",
+    "img":"https://rb.gy/9z0te"
+
   }
 ]

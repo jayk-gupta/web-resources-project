@@ -50,5 +50,12 @@
     "description": "It covers all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
     "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d",
     "img": "https://user-images.githubusercontent.com/100681165/238199161-9310a468-c7ce-4514-b5bb-761f9a4b3d7a.png"
+  },
+   {
+    "tag": "react",
+    "title": "Do Some Coding",
+    "description": "Learn react by building 10 simple projects, and get hands-on experience",
+    "link": "https://www.youtube.com/playlist?list=PLPppPPmk0i3j_DW1T-UbryDVhBDgaAfEp",
+    "img": "https://i.ibb.co/c38Vbzp/do-some-coding.png"
   }
 ]

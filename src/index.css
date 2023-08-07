@@ -23,3 +23,15 @@
 .img-container img:hover {
     transform: scale(0.7);
 }
+
+.text-white{
+    color:white;
+}
+
+.bg-gray-800{
+    background-color: rgb(70,70,70);
+}
+
+.animateClick {
+    background-color: rgb(130,130,130);
+}

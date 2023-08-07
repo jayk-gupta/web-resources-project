@@ -1,4 +1,5 @@
 import React,{lazy, Suspense} from "react";
+import './App.css';
 import { Route, Routes, NavLink } from "react-router-dom";
 // import Nav from './components/nav/Nav.jsx';
 import SideNav from "./components/nav/SideNav.jsx";

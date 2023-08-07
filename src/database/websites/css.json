@@ -47,5 +47,12 @@
     "description": "Grid Garden, where you write CSS code to grow your carrot garden! Water only the areas that have carrots by using the grid property.",
     "link": "http://cssgridgarden.com/",
     "img": "https://github.com/jayk-gupta/web-resources-project/assets/114330097/025e7600-b45c-40a5-9971-8275275b5758"
+  },
+  {
+    "tag": "css",
+    "title": "DevDocs",
+    "description":"DevDocs combines multiple developer documentations in a clean and organized web UI with instant search, offline support, mobile version, dark theme, keyboard shortcuts, and more.",
+    "link":"https://devdocs.io/css/",
+    "img":"https://rb.gy/9z0te"
   }
 ]

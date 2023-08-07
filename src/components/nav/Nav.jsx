@@ -9,7 +9,7 @@ import { BsBookHalf } from "react-icons/bs";
 
 const Nav = () => {
   return (
-    <div className="flex flex-col fixed h-screen bg-[#76118f] py-2 px-4 text-xl w-[5%] items-center gap-20 z-50 ">
+    <div className="flex flex-col h-screen bg-grape-200 py-2 px-4 text-xl w-[5%] items-center gap-20 z-50 ">
       <NavLink to="/">
         <img
           className="s"
@@ -56,6 +56,14 @@ const Nav = () => {
             <BsTools className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />
             <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100 text-[white]">
               Tools
+            </h6>
+          </div>
+        </NavLink>
+         <NavLink to="/Editors">
+          <div className="group flex flex-col gap-3 justify-center items-center">
+            <BsTools className="text-[white] hover:text-grape-100 group-hover:scale-125 duration-200" />
+            <h6 className="text-grape-100 text-xs opacity-0 group-hover:opacity-100 text-[white]">
+              Editors
             </h6>
           </div>
         </NavLink>

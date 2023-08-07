@@ -5,6 +5,8 @@ import html from '../../database/websites/html.json';
 import css from '../../database/websites/css.json';
 import js from '../../database/websites/javascript.json';
 import react from '../../database/websites/reactjs.json';
+import tailwind from '../../database/websites/tailwindcss.json';
+
 
 const Index = () => {
   const [filter, setFilter] = useState('html');
@@ -17,8 +19,12 @@ const Index = () => {
       setData([...css]);
     } else if (filter === 'js') {
       setData([...js]);
-    } else {
+    } else if (filter === 'react') {
       setData([...react]);
+    } else if (filter === 'tailwind') {
+      setData([...tailwind]);
+    } else {
+      setData([]); // Set empty array if no matching filter is found
     }
   }, [filter]);
 
@@ -27,7 +33,7 @@ const Index = () => {
   };
 
   return (
-    <div className='m-8'>
+    <div className='m-8 mt-32 lg:mt-8'>
       <Filter onStateChange={handleFilterChange} />
       <div className='flex flex-wrap gap-5'>
         {data.length > 0 ? (

@@ -5,6 +5,7 @@ import * as GiIcons from "react-icons/gi";
 import * as RiIcons from "react-icons/ri";
 import * as BiIcons from "react-icons/bi";
 import NavUI from './NavUI'
+import {useLocation } from "react-router-dom";
 
 const icons = [
   {
@@ -21,20 +22,35 @@ const icons = [
   { icon: <GiIcons.GiBookshelf />, iconName: "Books", navlink: "Books" },
   { icon: <BsIcons.BsTools />, iconName: "Tools", navlink: "Tools" },
   { icon: <BiIcons.BiBullseye />, iconName: "Challenges", navlink: "challenges" },
+
   { icon: <BiIcons.BiBullseye />, iconName: "Contributor", navlink: "Contributor" },
   
+
+  { icon: <BiIcons.BiCodeAlt />, iconName: "Editors", navlink: "editor" },
+  { icon: <BiIcons.BiBullseye />, iconName: "Challenges", navlink: "Challenges" },
+
 ];
 
 function NavItem() {
-  const item = icons.map((item, index) => (
+  let location = useLocation();
+
+  return(
+    <div className="overflow-hidden h-screen ">
+      { icons.map((item, index) => (
     <NavUI
       key={index}
+      // Index shouldn't be used as key
       icon={item.icon}
       iconName={item.iconName}
       navlink={item.navlink}
+      activeTab={
+        location.pathname == `/${item.iconName}` ? "bg-[#444a4f]" : ""
+      }
     />
-  ));
-  return item;
+  ))}
+      
+    </div>
+  )
 }
 
 export default NavItem;

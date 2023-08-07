@@ -1,11 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Card from '../Card';
 import Filter from '../filter/index';
-import html from '../../database/videos/html.json';
-import css from '../../database/videos/css.json';
-import js from '../../database/videos/javascript.json';
-import react from '../../database/videos/reactjs.json';
-import tailwind from '../../database/videos/tailwindcss.json';
+import html from '../../database/editor/html.json';
+import css from '../../database/editor/css.json';
+import js from '../../database/editor/javascript.json';
+import react from '../../database/editor/reactjs.json';
 
 const Index = () => {
   const [filter, setFilter] = useState('html');
@@ -18,8 +17,6 @@ const Index = () => {
       setData([...css]);
     } else if (filter === 'js') {
       setData([...js]);
-    } else if (filter === 'tailwind') {
-      setData([...tailwind]);
     } else {
       setData([...react]);
     }
@@ -30,7 +27,7 @@ const Index = () => {
   };
 
   return (
-    <div className='m-8 mt-32 lg:mt-8'>
+    <div className='m-8'>
       <Filter onStateChange={handleFilterChange} />
       <div className='flex flex-wrap gap-5'>
         {data.length > 0 ? (

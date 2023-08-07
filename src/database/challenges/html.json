@@ -19,5 +19,12 @@
     "description": "Explore and attempt front-end coding challenges.",
     "link": "https://codier.io/",
     "img": "https://user-images.githubusercontent.com/100681165/238244445-9140c4c4-b4ff-41ec-a006-e3c4d019f8fc.png"
+  },
+  {
+    "tag": "html",
+    "title": "Frontend Practice",
+    "description": "Take your frontend skills to the next level by recreating real websites from real companies.",
+    "link": "https://www.frontendpractice.com/",
+    "img": "https://user-images.githubusercontent.com/92252895/256259552-9a0f552b-55f3-4afa-9e42-b0c8e1fa6679.png"
   }
 ]

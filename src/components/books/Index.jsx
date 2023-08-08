@@ -45,7 +45,7 @@ const Index = () => {
             />
           ))
         ) : (
-          <p>No data found.</p>
+          <p>No Data Found.</p>
         )}
       </div>
     </div>

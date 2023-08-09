@@ -5,10 +5,25 @@ import SideNavMobile from "./SideNavMobile";
 
 function SideNav() {
   const [showSideNav, setShowSideNav] = useState(false);
+  const [searchResult,setSearchResult] = useState("");
+  let debounceTimer;
+
 
   const clickHandler = () => {
     setShowSideNav(!showSideNav);
   };
+
+  const handleInputChange = (event) => {
+    setSearchResult(event.target.value);
+    // Perform any other actions here, if needed
+  };
+
+  // Debounce function
+  const debounce = (func, delay) => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(func, delay);
+  };  
+
   return (
     <>
       <div
@@ -18,6 +33,7 @@ function SideNav() {
         <div className="search flex items-center gap-4 bg-[#2E2D2D] rounded-2xl px-2 py-[4px] mt-12">
           <AiOutlineSearch />
           <input
+          onChange={(e)=>debounce(() => handleInputChange(e), 1500)}
             style={{ background: "transparent", outline: "none",width:"100%" }}
             placeholder="search..."
           ></input>
@@ -25,7 +41,7 @@ function SideNav() {
 
         {/* nav */}
         <div className="flex flex-col p-2 mt-24  gap-6 ">
-          <NavItem />
+          <NavItem searchResult={searchResult}/>
         </div>
       </div>
 

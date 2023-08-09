@@ -5,7 +5,8 @@ import * as GiIcons from "react-icons/gi";
 import * as RiIcons from "react-icons/ri";
 import * as BiIcons from "react-icons/bi";
 import NavUI from './NavUI'
-import {useLocation } from "react-router-dom";
+import {useLocation} from "react-router-dom";
+
 
 const icons = [
   {
@@ -26,7 +27,7 @@ const icons = [
   { icon: <BiIcons.BiBullseye />, iconName: "Challenges", navlink: "Challenges" },
 ];
 
-function NavItem() {
+function NavItem({searchResult}) {
   let location = useLocation();
 
   return(
@@ -38,6 +39,7 @@ function NavItem() {
       icon={item.icon}
       iconName={item.iconName}
       navlink={item.navlink}
+      searchResult = {searchResult}
       activeTab={
         location.pathname == `/${item.iconName}` ? "bg-[#444a4f]" : ""
       }

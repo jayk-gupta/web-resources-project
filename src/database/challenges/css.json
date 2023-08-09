@@ -45,5 +45,12 @@
     "description": "Interactive game to learn CSS concepts - ideal for CSS beginners.",
     "link": "https://www.guess-css.app/",
     "img": "https://user-images.githubusercontent.com/80768852/257275148-9b084dce-342a-4c8b-9aff-69cde3a260a7.png"
+  },
+  {
+    "tag": "css",
+    "title": "Fruitbox Flex",
+    "description": "Wlecome to Fruitbox Froggy, a game help users to practice about flex in CSS code.",
+    "link": "https://labs.thecodehelp.in/fruitbox-flex",
+    "img": "https://i.ibb.co/2tgzzWH/cssflex.png"
   }
 ]

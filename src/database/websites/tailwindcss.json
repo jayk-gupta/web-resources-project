@@ -1,9 +1,16 @@
 [
-  {
+ {
     "tag": "tailwind",
     "title": "Tailwind CSS",
     "description": "Tailwind CSS is a highly customizable and utility-first CSS framework, designed to speed up web development by providing an extensive set of pre-built classes that can be combined to build modern and responsive user interfaces.",
     "link": "https://tailwindcss.com/docs/installation",
     "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/b62ee237-d96e-4199-841e-cecd917967c5"
+  },
+  {
+    "tag": "tailwind",
+    "title": "DevDocs",
+    "description":"DevDocs combines multiple developer documentations in a clean and organized web UI with instant search, offline support, mobile version, dark theme, keyboard shortcuts, and more.",
+    "link":"https://devdocs.io/tailwindcss/",
+    "img":"https://rb.gy/9z0te"
   }
 ]

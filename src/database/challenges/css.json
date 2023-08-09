@@ -52,5 +52,26 @@
     "description": "Wlecome to Fruitbox Froggy, a game help users to practice about flex in CSS code.",
     "link": "https://labs.thecodehelp.in/fruitbox-flex",
     "img": "https://i.ibb.co/2tgzzWH/cssflex.png"
+  },
+  {
+    "tag": "css",
+    "title": " https://css-speedrun.netlify.app/",
+    "description": "Optimize CSS for blazing website load: selectors, minify, compress, cache.",
+    "link": "https://css-speedrun.netlify.app/",
+    "img": "https://user-images.githubusercontent.com/80768852/258640094-c82e2853-f70e-4416-896c-0abbc29a66fd.png"
+  },
+  {
+    "tag": "css",
+    "title": "Codepip",
+    "description": "Rapidly learn coding through interactive hands-on projects.",
+    "link": " https://codepip.com/",
+    "img": "https://user-images.githubusercontent.com/80768852/258640150-8a6c8ff6-3c84-4c0f-8db6-ec664b9c838f.png"
+  },
+  {
+    "tag": "css",
+    "title": "CSS-Diner",
+    "description": " Learn CSS selectors with interactive game challenges.",
+    "link": "https://flukeout.github.io/",
+    "img": "https://user-images.githubusercontent.com/80768852/258640252-d0d23766-894c-4d93-a75b-6f0cf85da29b.png"
   }
 ]

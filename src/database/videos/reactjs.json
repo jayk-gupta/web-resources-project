@@ -57,5 +57,12 @@
     "description": "Learn react by building 10 simple projects, and get hands-on experience",
     "link": "https://www.youtube.com/playlist?list=PLPppPPmk0i3j_DW1T-UbryDVhBDgaAfEp",
     "img": "https://i.ibb.co/c38Vbzp/do-some-coding.png"
+  },
+   {
+    "tag": "react",
+    "title": "Codestoic",
+    "description": "React JS Tutorial For Beginners",
+    "link": " https://www.youtube.com/playlist?list=PLSsAz5wf2lkK_ekd0J__44KG6QoXetZza",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/f4c1a56d-9445-4be6-a121-e87eceec04e8"
   }
 ]

@@ -50,7 +50,7 @@
     "img": "https://rb.gy/j1mth"
   },
   {
-    "tag": "html"
+    "tag": "html",
     "title": "DevDocs",
     "description":"DevDocs combines multiple developer documentations in a clean and organized web UI with instant search, offline support, mobile version, dark theme, keyboard shortcuts, and more.",
     "link":"https://devdocs.io/html/",

@@ -33,5 +33,11 @@
     "description": "Web Development Resources and Community that help you to become a Web Developer by working with Real-life projects and practices.",
     "link": "https://devchallenges.io/",
     "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/65bf1e83-b6d0-4a93-8c1b-09b7efae1304"
+  },
+  {
+    "title": "Codewars",
+    "description": "Improve your development skills by training with your peers on code kata that continuously challenge and push your coding practice.",
+    "link": "https://www.codewars.com/",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/0c86b6c9-15d2-47cb-9908-8b8ecbe86cba"
   }	  
 ]

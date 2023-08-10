@@ -53,11 +53,33 @@
     "link": "https://labs.thecodehelp.in/fruitbox-flex",
     "img": "https://i.ibb.co/2tgzzWH/cssflex.png"
   },
+  {
+    "tag": "css",
+    "title": "Css-Speedrun",
+    "description": "Optimize CSS for blazing website load: selectors, minify, compress, cache.",
+    "link": "https://css-speedrun.netlify.app/",
+    "img": "https://user-images.githubusercontent.com/80768852/258640094-c82e2853-f70e-4416-896c-0abbc29a66fd.png"
+  },
+  {
+    "tag": "css",
+    "title": "Codepip",
+    "description": "Rapidly learn coding through interactive hands-on projects.",
+    "link": " https://codepip.com/",
+    "img": "https://user-images.githubusercontent.com/80768852/258640150-8a6c8ff6-3c84-4c0f-8db6-ec664b9c838f.png"
+  },
+  {
+    "tag": "css",
+    "title": "CSS-Diner",
+    "description": " Learn CSS selectors with interactive game challenges.",
+    "link": "https://flukeout.github.io/",
+    "img": "https://user-images.githubusercontent.com/80768852/258640252-d0d23766-894c-4d93-a75b-6f0cf85da29b.png"
+
    {
     "tag": "css",
     "title": "CSS Battle",
     "description": "Replicate the target images using CSS - the shorter your code, the higher your score! Happy coding!",
     "link": "https://cssbattle.dev/",
     "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/e32c7690-aec6-483d-ab7e-8584f25c5c17"
+
   }
 ]

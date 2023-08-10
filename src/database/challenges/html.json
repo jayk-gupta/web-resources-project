@@ -26,5 +26,12 @@
     "description": "Take your frontend skills to the next level by recreating real websites from real companies.",
     "link": "https://www.frontendpractice.com/",
     "img": "https://user-images.githubusercontent.com/92252895/256259552-9a0f552b-55f3-4afa-9e42-b0c8e1fa6679.png"
+  },
+  {
+    "tag": "html",
+    "title": "Codewell",
+    "description": "Improve your HTML skills by practicing on real design templates.",
+    "link": " https://www.codewell.cc/",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/5df5abb8-d9f8-4623-b735-cac0b9fc96d4"
   }
 ]

@@ -1,6 +1,3 @@
-## Note: 
-### UI of site is under-development
-
 
 <div id="top">
 <h1 align="center">Web Resource Hub 👨‍💻</h1>
@@ -44,7 +41,7 @@
 
 
 ## 🛠️ Tech Stack
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)     ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+[![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://react.dev/)     [![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://v2.tailwindcss.com/docs)
 
 ## ✅ Getting Started
 1. Fork the project, Click on create new fork.
@@ -215,7 +212,7 @@ To star this repository, simply click on the **Star** button at the top-right co
 
 
 # License
-MIT License. This project is licensed under the MIT License.
+[MIT License](./LICENSE). This project is licensed under the MIT License.
 <p align="right"><a href="#top">Back to top</a></p>
 </div>
 

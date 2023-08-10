@@ -49,8 +49,15 @@
   {
     "tag": "css",
     "title": "Fruitbox Flex",
-    "description": "Wlecome to Fruitbox Froggy, a game help users to practice about flex in CSS code.",
+    "description": "Welcome to Fruitbox Froggy, a game help users to practice about flex in CSS code.",
     "link": "https://labs.thecodehelp.in/fruitbox-flex",
     "img": "https://i.ibb.co/2tgzzWH/cssflex.png"
+  },
+   {
+    "tag": "css",
+    "title": "CSS Battle",
+    "description": "Replicate the target images using CSS - the shorter your code, the higher your score! Happy coding!",
+    "link": "https://cssbattle.dev/",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/e32c7690-aec6-483d-ab7e-8584f25c5c17"
   }
 ]

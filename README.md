@@ -1,6 +1,3 @@
-## Note: 
-### UI of site is under-development
-
 
 <div id="top">
 <h1 align="center">Web Resource Hub 👨‍💻</h1>

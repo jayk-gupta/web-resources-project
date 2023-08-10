@@ -24,7 +24,6 @@ const icons = [
   { icon: <BsIcons.BsTools />, iconName: "Tools", navlink: "Tools" },
   { icon: <BiIcons.BiBullseye />, iconName: "Challenges", navlink: "challenges" },
   { icon: <BiIcons.BiCodeAlt />, iconName: "Editors", navlink: "editor" },
-  { icon: <BiIcons.BiBullseye />, iconName: "Challenges", navlink: "Challenges" },
 ];
 
 function NavItem({searchResult}) {

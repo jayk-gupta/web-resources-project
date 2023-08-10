@@ -33,5 +33,12 @@
     "description":"DevDocs combines multiple developer documentations in a clean and organized web UI with instant search, offline support, mobile version, dark theme, keyboard shortcuts, and more.",
     "link":"https://devdocs.io/react/",
     "img":"https://rb.gy/9z0te"
+  },
+  {
+    "tag": "react",
+    "title": "React Org",
+    "description":"DevDocs combines multiple developer documentations in a clean and organized web UI with instant search, offline support, mobile version, dark theme, keyboard shortcuts, and more.",
+    "link":"https://react.dev/",
+    "img":"https://github.com/jayk-gupta/web-resources-project/assets/104543751/015ace02-223b-40e8-89fc-8274a15b740b"
   }
 ]

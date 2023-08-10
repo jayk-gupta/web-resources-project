@@ -6,6 +6,7 @@ import css from '../../database/tools/css.json';
 import js from '../../database/tools/javascript.json';
 import react from '../../database/tools/reactjs.json';
 import tailwind from '../../database/tools/tailwindcss.json';
+import nextjs from '../../database/tools/nextjs.json';
 import { useLocation } from "react-router-dom";
 
 
@@ -24,6 +25,8 @@ const Index = () => {
       setData([...js]);
     } else if (filter === 'tailwind') {
       setData([...tailwind]);
+    }else if (filter === 'nextjs') {
+      setData([...nextjs]);
     } else {
       setData([...react]);
     }

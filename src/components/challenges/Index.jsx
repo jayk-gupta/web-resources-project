@@ -6,10 +6,15 @@ import css from '../../database/challenges/css.json';
 import js from '../../database/challenges/javascript.json';
 import react from '../../database/challenges/reactjs.json';
 import tailwind from '../../database/challenges/tailwindcss.json';
+import { useLocation } from "react-router-dom";
+
 
 const Index = () => {
   const [filter, setFilter] = useState('html');
   const [data, setData] = useState([]);
+  const [searchData, setSearchData] = useState();
+  let location = useLocation();
+
 
   useEffect(() => {
     if (filter === 'html') {
@@ -29,12 +34,23 @@ const Index = () => {
     setFilter(target);
   };
 
+  const index = location.search.indexOf("=");
+
+  let searchItem = location.search.slice(index + 1);
+
+  useEffect(() => {
+    const value = data.filter((item) => {
+      return `${item.title.toLowerCase()}`.includes(searchItem.toLowerCase());
+    });
+    setSearchData(value);
+  }, [searchItem]);
+
   return (
     <div className='m-8 mt-32 lg:mt-8'>
       <Filter onStateChange={handleFilterChange} />
       <div className='flex flex-wrap gap-5'>
         {data.length > 0 ? (
-          data.map(
+          (location.search !== "" ? searchData : data).map(
             (res, i) =>
               filter === res.tag && (
                 <Card

@@ -26,5 +26,12 @@
     "description": "30 Day Vanilla JS Coding Challenge",
     "link": "https://javascript30.com/",
     "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/4f319ef3-a04d-4722-8abf-f17652520aef"
-  }
+  },
+  {
+    "tag": "js",
+    "title": "Codewars",
+    "description": "Improve your development skills by training with your peers on code kata that continuously challenge and push your coding practice.",
+    "link": "https://www.codewars.com/",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/0c86b6c9-15d2-47cb-9908-8b8ecbe86cba"
+  }	  
 ]

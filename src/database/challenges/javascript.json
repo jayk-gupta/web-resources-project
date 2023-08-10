@@ -16,8 +16,28 @@
   {
     "tag": "js",
     "title": "Leetcode",
-    "description": "Pratice Javascript with Leetcode daily challenges.",
+    "description": "Practice Javascript with Leetcode daily challenges.",
     "link": "https://leetcode.com/discuss/study-guide/3458761/Open-to-Registration!-30-Days-of-LC-JavaScript-Challenge/?utm_campaign=Banner11&utm_medium=Banner&utm_source=Banner&gio_link_id=a9a5VxA9",
     "img": "  https://user-images.githubusercontent.com/100681165/238245407-3fae4e49-7400-4fda-bc78-1b514e2f7df7.png"
-  }
+  },
+  {
+    "tag": "js",
+    "title": "Javascript 30",
+    "description": "30 Day Vanilla JS Coding Challenge",
+    "link": "https://javascript30.com/",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/4f319ef3-a04d-4722-8abf-f17652520aef"
+  },
+  {
+    "tag": "js",
+    "title": "Dev Challenges",
+    "description": "Web Development Resources and Community that help you to become a Web Developer by working with Real-life projects and practices.",
+    "link": "https://devchallenges.io/",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/65bf1e83-b6d0-4a93-8c1b-09b7efae1304"
+  },
+  {
+    "title": "Codewars",
+    "description": "Improve your development skills by training with your peers on code kata that continuously challenge and push your coding practice.",
+    "link": "https://www.codewars.com/",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/0c86b6c9-15d2-47cb-9908-8b8ecbe86cba"
+  }	  
 ]

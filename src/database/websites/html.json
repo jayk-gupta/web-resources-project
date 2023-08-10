@@ -1,13 +1,6 @@
 [
   {
     "tag": "html",
-    "title": "W3Schools",
-    "description": "W3Schools is a freemium educational website for learning coding online. Initially released in 1998, it derives its name from the World Wide Web but is not affiliated with the W3 Consortium. W3Schools offers courses covering all aspects of web development. W3Schools also publishes free HTML templates.",
-    "link": "https://www.w3schools.com/html//",
-    "img": "https://user-images.githubusercontent.com/100681165/238203316-41682e54-ee23-41ac-8e62-5e1de9bf7503.png"
-  },
-  {
-    "tag": "html",
     "title": "MDN Web Docs",
     "description": "It is a documentation repository and learning resource for web developers. It was started by Mozilla in 2005 as a unified place for documentation about open web standards, Mozilla's own projects, and developer guides.Topics include HTML5, JavaScript, CSS, Web APIs, Django, Node.js, WebExtensions, MathML, and others.",
     "link": "https://developer.mozilla.org/en-US/",
@@ -55,6 +48,13 @@
     "description": "Discover Coding Step-by-Step: Learn interactively with simple lessons and coding exercises",
     "link": "https://www.studytonight.com/",
     "img": "https://rb.gy/scnw5"
+  },
+  {
+    "tag": "html"
+    "title": "Programiz",
+    "description": "Learn to code in Python, C/C++, Java, and other popular programming languages with our easy to follow tutorials, examples, online compiler and references.",
+    "link": "https://www.programiz.com/",
+    "img": "https://rb.gy/j1mth"
   },
   {
     "tag": "html",

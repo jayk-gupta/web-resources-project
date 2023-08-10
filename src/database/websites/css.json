@@ -50,7 +50,6 @@
   },
   {
     "tag": "css",
-
     "title": "Studytonight",
     "description": "Discover Coding Step-by-Step: Learn interactively with simple lessons and coding exercises",
     "link": "https://www.studytonight.com/",
@@ -62,6 +61,5 @@
     "description":"DevDocs combines multiple developer documentations in a clean and organized web UI with instant search, offline support, mobile version, dark theme, keyboard shortcuts, and more.",
     "link":"https://devdocs.io/css/",
     "img":"https://rb.gy/9z0te"
-
   }
 ]

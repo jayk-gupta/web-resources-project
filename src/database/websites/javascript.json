@@ -64,5 +64,13 @@
     "link": "https://www.w3schools.com/js/",
     "img": "https://raw.githubusercontent.com/jayk-gupta/web-resources-project/main/public/images%20original/jsw_w3.png"
 
+  },
+   {
+    "tag": "js",
+    "title": "Clean Code JS",
+    "description": " It's a guide to producing readable, reusable, and refactorable software in JavaScript.",
+    "link": "https://github.com/ryanmcdermott/clean-code-javascript",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/1992045e-6db8-4efa-ae87-d203947abf0b"
+
   }
 ]

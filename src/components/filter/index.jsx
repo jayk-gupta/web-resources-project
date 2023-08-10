@@ -9,9 +9,9 @@ const index = ({ onStateChange }) => {
   };
 
   return (
-    <div className="flex space-x-6 items-center mb-10">
+    <div className="flex md:space-x-6 space-x-2 items-center mb-10">
       <p
-        className={`px-3 py-1 rounded-xl cursor-pointer bg-[#ddd] ${
+        className={`px-3 py-1 rounded-xl cursor-pointer bg-[#ddd] text-xs lg:text-base ${
           filter === "html" ? "border" : ""
         }`}
         onClick={() => handleFilterChange("html")}
@@ -19,7 +19,7 @@ const index = ({ onStateChange }) => {
         HTML
       </p>
       <p
-        className={`px-3 py-1 rounded-xl cursor-pointer bg-[#ddd]  ${
+        className={`px-3 py-1 rounded-xl cursor-pointer bg-[#ddd] text-xs lg:text-base ${
           filter === "css" ? "border" : ""
         }`}
         onClick={() => handleFilterChange("css")}
@@ -27,7 +27,7 @@ const index = ({ onStateChange }) => {
         CSS
       </p>
       <p
-        className={`px-3 py-1 rounded-xl cursor-pointer bg-[#ddd]  ${
+        className={`px-3 py-1 rounded-xl cursor-pointer bg-[#ddd] text-xs lg:text-base ${
           filter === "js" ? "border" : ""
         }`}
         onClick={() => handleFilterChange("js")}
@@ -35,7 +35,7 @@ const index = ({ onStateChange }) => {
         Javascript
       </p>
       <p
-        className={`px-3 py-1 rounded-xl cursor-pointer bg-[#ddd]  ${
+        className={`px-3 py-1 rounded-xl cursor-pointer bg-[#ddd] text-xs lg:text-base ${
           filter === "tailwind" ? "border" : ""
         }`}
         onClick={() => handleFilterChange("tailwind")}
@@ -43,7 +43,7 @@ const index = ({ onStateChange }) => {
         Tailwind CSS
       </p>
       <p
-        className={`px-3 py-1 rounded-xl cursor-pointer bg-[#ddd]  ${
+        className={`px-3 py-1 rounded-xl cursor-pointer bg-[#ddd] text-xs lg:text-base ${
           filter === "react" ? "border" : ""
         }`}
         onClick={() => handleFilterChange("react")}

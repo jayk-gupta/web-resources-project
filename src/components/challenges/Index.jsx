@@ -43,7 +43,7 @@ const Index = () => {
       return `${item.title.toLowerCase()}`.includes(searchItem.toLowerCase());
     });
     setSearchData(value);
-  }, [searchItem]);
+  }, [searchItem, data]);
 
   return (
     <div className='m-8 mt-32 lg:mt-8'>

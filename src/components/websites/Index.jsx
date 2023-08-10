@@ -1,33 +1,29 @@
-import { useState, useEffect } from 'react';
-import Card from '../Card';
-import Filter from '../filter/index';
-import html from '../../database/websites/html.json';
-import css from '../../database/websites/css.json';
-import js from '../../database/websites/javascript.json';
-import react from '../../database/websites/reactjs.json';
-import tailwind from '../../database/websites/tailwindcss.json';
+import { useState, useEffect } from "react";
+import Card from "../Card";
+import Filter from "../filter/index";
+import html from "../../database/websites/html.json";
+import css from "../../database/websites/css.json";
+import js from "../../database/websites/javascript.json";
+import react from "../../database/websites/reactjs.json";
+import tailwind from "../../database/websites/tailwindcss.json";
 import { useLocation } from "react-router-dom";
 
-
-
 const Index = () => {
-  const [filter, setFilter] = useState('html');
+  const [filter, setFilter] = useState("html");
   const [data, setData] = useState([]);
   const [searchData, setSearchData] = useState();
   let location = useLocation();
 
-
-
   useEffect(() => {
-    if (filter === 'html') {
+    if (filter === "html") {
       setData([...html]);
-    } else if (filter === 'css') {
+    } else if (filter === "css") {
       setData([...css]);
-    } else if (filter === 'js') {
+    } else if (filter === "js") {
       setData([...js]);
-    } else if (filter === 'react') {
+    } else if (filter === "react") {
       setData([...react]);
-    } else if (filter === 'tailwind') {
+    } else if (filter === "tailwind") {
       setData([...tailwind]);
     } else {
       setData([]); // Set empty array if no matching filter is found
@@ -47,12 +43,13 @@ const Index = () => {
       return `${item.title.toLowerCase()}`.includes(searchItem.toLowerCase());
     });
     setSearchData(value);
-  }, [searchItem]);
+  }, [searchItem,data]
+  )
 
   return (
-    <div className='m-8 mt-32 lg:mt-8'>
+    <div className="m-8 mt-32 lg:mt-8">
       <Filter onStateChange={handleFilterChange} />
-      <div className='flex flex-wrap gap-5'>
+      <div className="flex flex-wrap gap-5">
         {data.length > 0 ? (
           (location.search !== "" ? searchData : data).map((res, i) => (
             <Card

@@ -57,5 +57,12 @@
     "description": "Learn react by building 10 simple projects, and get hands-on experience",
     "link": "https://www.youtube.com/playlist?list=PLPppPPmk0i3j_DW1T-UbryDVhBDgaAfEp",
     "img": "https://i.ibb.co/c38Vbzp/do-some-coding.png"
+  },
+   {
+    "tag": "react",
+    "title": "Code with Harry",
+    "description": "Complete React Course by CodeWithHarry Learn ReactJs from scratch in 2023 for FREE.",
+    "link": "https://youtube.com/playlist?list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt",
+    "img": "https://i.ibb.co/YkN7nCS/reactjs-codewithharry.png"
   }
 ]

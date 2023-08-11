@@ -43,7 +43,13 @@
   },
   {
     "tag": "js",
-
+    "title": "Studytonight",
+    "description": "Discover Coding Step-by-Step: Learn interactively with simple lessons and coding exercises",
+    "link": "https://www.studytonight.com/",
+    "img": "https://rb.gy/scnw5"
+  },
+  {
+    "tag": "js"
     "title": "Programiz",
     "description": "Learn to code in Python, C/C++, Java, and other popular programming languages with our easy to follow tutorials, examples, online compiler and references.",
     "link": "https://www.programiz.com/",
@@ -63,7 +69,7 @@
     "link": "https://www.w3schools.com/js/",
     "img": "https://raw.githubusercontent.com/jayk-gupta/web-resources-project/main/public/images%20original/jsw_w3.png"
   },
-   {
+  {
     "tag": "js",
     "title": "33 JS Concepts",
     "description": "33 Concepts Every JavaScript Developer Should Know.",

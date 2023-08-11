@@ -6,6 +6,7 @@ export default function Home() {
   const text = "Web Resources Hub";
   const [currentText, setCurrentText] = useState("");
   const fixedCharacter = "W";
+  const [showCursor, setShowCursor] = useState(true); // State to control cursor visibility
 
   const startTypewriter = () => {
     let index = currentText.length;
@@ -16,17 +17,26 @@ export default function Home() {
       } else {
         clearInterval(interval);
         setTimeout(() => {
-          setCurrentText(fixedCharacter); // Set the fixed character
-          startTypewriter(); // Restart typewriter effect
-        }, 1000); // Pause before restarting
+          setCurrentText(fixedCharacter);
+          startTypewriter();
+        }, 500);
       }
-    }, 350);
+    }, 200);
   };
 
   useEffect(() => {
     setShowText(true);
-    setCurrentText(fixedCharacter); // Set the fixed character initially
+    setCurrentText(fixedCharacter);
     startTypewriter();
+
+    // Toggle cursor visibility with a blinking effect
+    const cursorInterval = setInterval(() => {
+      setShowCursor((prevShowCursor) => !prevShowCursor);
+    }, 250);
+
+    return () => {
+      clearInterval(cursorInterval); // Clear interval on unmount
+    };
   }, []);
 
   return (
@@ -39,6 +49,7 @@ export default function Home() {
       >
         <h1 className="text-7xl text-[#444a4f] leading-[5rem] tracking-wider drop-shadow-xl font-bold">
           {currentText}
+          {showCursor && <span className="cursor-blink">|</span>}
         </h1>
         <h2 className="text-4xl text-[#3f454a] leading-[4rem] tracking-wider drop-shadow-xl">
           Get Empowered <span className="text-[]"> with </span> <br />

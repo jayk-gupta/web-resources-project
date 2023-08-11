@@ -43,7 +43,13 @@
   },
   {
     "tag": "js",
-
+    "title": "Studytonight",
+    "description": "Discover Coding Step-by-Step: Learn interactively with simple lessons and coding exercises",
+    "link": "https://www.studytonight.com/",
+    "img": "https://rb.gy/scnw5"
+  },
+  {
+    "tag": "js"
     "title": "Programiz",
     "description": "Learn to code in Python, C/C++, Java, and other popular programming languages with our easy to follow tutorials, examples, online compiler and references.",
     "link": "https://www.programiz.com/",
@@ -55,7 +61,6 @@
     "description":"DevDocs combines multiple developer documentations in a clean and organized web UI with instant search, offline support, mobile version, dark theme, keyboard shortcuts, and more.",
     "link":"https://devdocs.io/javascript/",
     "img":"https://rb.gy/9z0te"
-
   },
   {
     "tag": "js",
@@ -63,6 +68,5 @@
     "description": "JavaScript is the programming language of the Web. This tutorial will teach you JavaScript from basic to advanced.",
     "link": "https://www.w3schools.com/js/",
     "img": "https://raw.githubusercontent.com/jayk-gupta/web-resources-project/main/public/images%20original/jsw_w3.png"
-
   }
 ]

@@ -6,6 +6,7 @@ import css from '../../database/challenges/css.json';
 import js from '../../database/challenges/javascript.json';
 import react from '../../database/challenges/reactjs.json';
 import tailwind from '../../database/challenges/tailwindcss.json';
+import nextjs from '../../database/challenges/nextjs.json';
 import { useLocation } from "react-router-dom";
 
 
@@ -25,6 +26,8 @@ const Index = () => {
       setData([...js]);
     } else if (filter === 'tailwind') {
       setData([...tailwind]);
+    }else if (filter === 'nextjs') {
+      setData([...nextjs]);
     } else {
       setData([...react]);
     }

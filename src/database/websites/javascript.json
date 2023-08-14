@@ -68,5 +68,12 @@
     "description": "JavaScript is the programming language of the Web. This tutorial will teach you JavaScript from basic to advanced.",
     "link": "https://www.w3schools.com/js/",
     "img": "https://raw.githubusercontent.com/jayk-gupta/web-resources-project/main/public/images%20original/jsw_w3.png"
+  },
+  {
+    "tag": "js",
+    "title": "33 JS Concepts",
+    "description": "33 Concepts Every JavaScript Developer Should Know.",
+    "link": " https://github.com/leonardomso/33-js-concepts",
+    "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/8b73bcd4-325a-40b3-a536-fe721172d3a6"
   }
 ]

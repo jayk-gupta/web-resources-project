@@ -131,8 +131,8 @@ If you have any doubts please let us know in the comments.
 ## 👉 Running the Project Locally
 1. Open a terminal or command prompt on your computer.
 2. Navigate to the directory where the repository was cloned.
-3. Run the following command: `npm install` (This command installs the project dependencies).
-4. After the installation is complete, run the following command: `npm run dev` (This command launches the project in your local browser or terminal).
+3. Run the following command: `pnpm install` (This command installs the project dependencies).
+4. After the installation is complete, run the following command: `pnpm run dev` (This command launches the project in your local browser or terminal).
 
 ## 💪 Adding new resource 
 1. Navigate to the `src/database`.

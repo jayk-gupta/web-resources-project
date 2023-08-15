@@ -6,6 +6,7 @@ import css from "../../database/videos/css.json";
 import js from "../../database/videos/javascript.json";
 import react from "../../database/videos/reactjs.json";
 import tailwind from "../../database/videos/tailwindcss.json";
+import nextjs from '../../database/videos/nextjs.json';
 import { useLocation } from "react-router-dom";
 
 const Index = () => {
@@ -24,7 +25,9 @@ const Index = () => {
       setData([...js]);
     } else if (filter === "tailwind") {
       setData([...tailwind]);
-    } else {
+    } else if (filter === "nextjs") {
+      setData([...nextjs]);
+    }  else {
       setData([...react]);
     }
   }, [filter]);

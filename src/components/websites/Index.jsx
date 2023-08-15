@@ -6,6 +6,7 @@ import css from "../../database/websites/css.json";
 import js from "../../database/websites/javascript.json";
 import react from "../../database/websites/reactjs.json";
 import tailwind from "../../database/websites/tailwindcss.json";
+import nextjs from '../../database/websites/nextjs.json';
 import { useLocation } from "react-router-dom";
 
 const Index = () => {
@@ -25,7 +26,9 @@ const Index = () => {
       setData([...react]);
     } else if (filter === "tailwind") {
       setData([...tailwind]);
-    } else {
+    } else if (filter === "nextjs") {
+      setData([...nextjs]);
+    }  else {
       setData([]); // Set empty array if no matching filter is found
     }
   }, [filter]);

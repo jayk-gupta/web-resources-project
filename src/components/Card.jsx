@@ -1,7 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import { BiSolidShareAlt } from "react-icons/bi";
 const Card = ({ title, link, description, i, img }) => {
+  const handleShareClick = () => {
+    const tweetText = encodeURIComponent(
+      "Just stumbled upon an amazing free resource for learning programming! 🚀 Sharing the wealth of knowledge, check it out! 💻 Link :- https://web-resources-hub-project.vercel.app/" + "    " + "#Programming #LearningJourney"
+    );
+    const twitterURL = `https://twitter.com/intent/tweet?text=${tweetText}`;
+    window.open(twitterURL, "_blank");
+  };
+
   return (
     <a href={link} target={"_blank"} rel="noreferrer">
       <motion.div
@@ -11,6 +19,14 @@ const Card = ({ title, link, description, i, img }) => {
         animate={{ opacity: 1, translateX: 0 }}
         transition={{ duration: 0.2, delay: i * 0.2 }}
       >
+        <div className="relative">
+          <button
+            className="twt-icon absolute top-0 right-0 -mt-2 -mr-2"
+            onClick={handleShareClick}
+          >
+            <BiSolidShareAlt />
+          </button>
+        </div>
         <div className="img img-container self-center">
           {/* src={`'${img}'`} */}
           <img className="rounded-sm w-40 h-20" src={img} alt="img" />

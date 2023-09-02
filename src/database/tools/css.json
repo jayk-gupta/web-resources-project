@@ -81,6 +81,35 @@
     "description": "Add your own animations easily",
     "link": "https://michalsnik.github.io/aos/",
     "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/04a7d5ad-c1f7-44bf-8547-d02de2ae7f96"
+  },
+  {
+    "tag": "css",
+    "title": "CSS Flex Generator",
+    "description": "Create Flex Container without Writing any Code",
+    "link": "https://cssflex-generator.netlify.app/",
+    "img": "https://i.postimg.cc/mg3KgKk0/Screenshot-2023-09-02-152225.png"
+  },
+  {
+    "tag": "css",
+    "title": "Fance CSS Border Generator",
+    "description": "When you use eight values specifying border-radius in CSS, you can build organic looking shapes : Use This Generator",
+    "link": "https://9elements.github.io/fancy-border-radius/#41.30.22.43--.",
+    "img": "https://i.postimg.cc/13kRk84y/Screenshot-2023-09-02-153550.png"
+  },
+  {
+    "tag": "css",
+    "title": "CSS Grid Generator",
+    "description": "Create Grid without Writing any Code",
+    "link": "https://cssgrid-generator.netlify.app/",
+    "img": "https://i.postimg.cc/3Ry3Hkt8/Screenshot-2023-09-02-153232.png"
+  },
+  {
+    "tag": "css",
+    "title": "CSS Template UI Elements",
+    "description": "Beautiful custom elements and templates made with CSS",
+    "link": "https://uiverse.io/",
+    "img": "https://i.postimg.cc/VLmVHDDg/Screenshot-2023-09-02-152925.png"
   }
+  
 
 ]

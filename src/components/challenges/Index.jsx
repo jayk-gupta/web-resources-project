@@ -1,30 +1,32 @@
-import { useEffect, useState } from "react";
-import Card from "../Card";
-import Filter from "../filter/index";
-import html from "../../database/challenges/html.json";
-import css from "../../database/challenges/css.json";
-import js from "../../database/challenges/javascript.json";
-import react from "../../database/challenges/reactjs.json";
-import tailwind from "../../database/challenges/tailwindcss.json";
-import nextjs from "../../database/challenges/nextjs.json";
+import { useEffect, useState } from 'react';
+import Card from '../Card';
+import Filter from '../filter/index';
+import html from '../../database/challenges/html.json';
+import css from '../../database/challenges/css.json';
+import js from '../../database/challenges/javascript.json';
+import react from '../../database/challenges/reactjs.json';
+import tailwind from '../../database/challenges/tailwindcss.json';
+import nextjs from '../../database/challenges/nextjs.json';
 import { useLocation } from "react-router-dom";
 
+
 const Index = () => {
-  const [filter, setFilter] = useState("html");
+  const [filter, setFilter] = useState('html');
   const [data, setData] = useState([]);
   const [searchData, setSearchData] = useState();
   let location = useLocation();
 
+
   useEffect(() => {
-    if (filter === "html") {
+    if (filter === 'html') {
       setData([...html]);
-    } else if (filter === "css") {
+    } else if (filter === 'css') {
       setData([...css]);
-    } else if (filter === "js") {
+    } else if (filter === 'js') {
       setData([...js]);
-    } else if (filter === "tailwind") {
+    } else if (filter === 'tailwind') {
       setData([...tailwind]);
-    } else if (filter === "nextjs") {
+    }else if (filter === 'nextjs') {
       setData([...nextjs]);
     } else {
       setData([...react]);
@@ -47,9 +49,9 @@ const Index = () => {
   }, [searchItem, data]);
 
   return (
-    <div className="m-8 mt-32 lg:mt-8">
+    <div className='m-8 mt-32 lg:mt-8'>
       <Filter onStateChange={handleFilterChange} />
-      <div className="flex flex-wrap gap-5">
+      <div className='flex flex-wrap gap-5'>
         {data.length > 0 ? (
           (location.search !== "" ? searchData : data).map(
             (res, i) =>

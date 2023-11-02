@@ -6,7 +6,7 @@ import css from "../../database/videos/css.json";
 import js from "../../database/videos/javascript.json";
 import react from "../../database/videos/reactjs.json";
 import tailwind from "../../database/videos/tailwindcss.json";
-import nextjs from '../../database/videos/nextjs.json';
+import nextjs from "../../database/videos/nextjs.json";
 import { useLocation } from "react-router-dom";
 
 const Index = () => {
@@ -14,7 +14,6 @@ const Index = () => {
   const [data, setData] = useState([]);
   const [searchData, setSearchData] = useState();
   let location = useLocation();
-
 
   useEffect(() => {
     if (filter === "html") {
@@ -27,7 +26,7 @@ const Index = () => {
       setData([...tailwind]);
     } else if (filter === "nextjs") {
       setData([...nextjs]);
-    }  else {
+    } else {
       setData([...react]);
     }
   }, [filter]);
@@ -35,7 +34,6 @@ const Index = () => {
   const handleFilterChange = (target) => {
     setFilter(target);
   };
-
 
   const index = location.search.indexOf("=");
 

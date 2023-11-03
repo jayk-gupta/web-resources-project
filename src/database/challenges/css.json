@@ -1,12 +1,14 @@
 [
   {
     "tag": "css",
+    "title": "Title",
     "description": "Improve your HTML and CSS skills by practicing on real design templates.With Codewell, you can browse high quality Figma templates that you can use to sharpen your HTML and CSS skills.",
     "link": "https://www.codewell.cc/",
     "img": "https://user-images.githubusercontent.com/100681165/238244473-00725538-ef4d-4ece-8fd7-11e6b999b895.png"
   },
   {
     "tag": "css",
+    "title": "Title",
     "description": "CSS code-golfing game is here! Use your CSS skills to replicate targets with smallest possible code. Feel free to check out the targets below and put your CSS skills to test.",
     "link": "https://cssbattle.dev/",
     "img": "https://user-images.githubusercontent.com/100681165/238244467-6534a6f4-f996-4fef-893b-25eb2948e4f5.png"
@@ -75,12 +77,11 @@
     "img": "https://user-images.githubusercontent.com/80768852/258640252-d0d23766-894c-4d93-a75b-6f0cf85da29b.png"
   },
 
-   {
+  {
     "tag": "css",
     "title": "CSS Battle",
     "description": "Replicate the target images using CSS - the shorter your code, the higher your score! Happy coding!",
     "link": "https://cssbattle.dev/",
     "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/e32c7690-aec6-483d-ab7e-8584f25c5c17"
-
   }
 ]

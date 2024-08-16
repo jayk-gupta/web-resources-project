@@ -27,6 +27,7 @@ export default {
         200: "#862e9c",
         300: "#4b005e",
       },
+      white:"#fff" ,
       extend: {},
     },
     plugins: [],

@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import { useEffect, useState } from 'react';
+import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 export default function Home() {
   const [showText, setShowText] = useState(false);
@@ -59,7 +59,8 @@ export default function Home() {
         </h2>
         <p className="text-lg w-4/5 text-[#858585]">
           Explore our vast collection of web development resources, designed to
-          give you the knowledge and tools you need to succeed in the world of web development!
+          give you the knowledge and tools you need to succeed in the world of
+          web development!
         </p>
       </motion.div>
     </div>

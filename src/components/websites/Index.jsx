@@ -6,7 +6,7 @@ import css from "../../database/websites/css.json";
 import js from "../../database/websites/javascript.json";
 import react from "../../database/websites/reactjs.json";
 import tailwind from "../../database/websites/tailwindcss.json";
-import nextjs from '../../database/websites/nextjs.json';
+import nextjs from "../../database/websites/nextjs.json";
 import { useLocation } from "react-router-dom";
 
 const Index = () => {
@@ -28,7 +28,7 @@ const Index = () => {
       setData([...tailwind]);
     } else if (filter === "nextjs") {
       setData([...nextjs]);
-    }  else {
+    } else {
       setData([]); // Set empty array if no matching filter is found
     }
   }, [filter]);
@@ -46,8 +46,7 @@ const Index = () => {
       return `${item.title.toLowerCase()}`.includes(searchItem.toLowerCase());
     });
     setSearchData(value);
-  }, [searchItem,data]
-  )
+  }, [searchItem, data]);
 
   return (
     <div className="m-8 mt-32 lg:mt-8">

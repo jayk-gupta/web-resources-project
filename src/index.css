@@ -7,34 +7,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-200;
+  }
 
-/* Css for cards hover effect */
-.img-container {
+  /* Code tag styles */
+  code, pre, kbd, samp {
+    color: black !important;
+  }
+
+  .dark code, .dark pre, .dark kbd, .dark samp {
+    color: black !important;
+  }
+}
+
+@layer components {
+  /* Css for cards hover effect */
+  .img-container {
     overflow: hidden;
-}
-.img-container img {
+  }
+
+  .img-container img {
     transition: transform 0.5s;
-}
-.img-container img:hover {
+  }
+
+  .img-container img:hover {
     transform: scale(0.7);
+  }
 }
 
-/* =========================== SCROLLBAR ================ */
-::-webkit-scrollbar {
+@layer utilities {
+  /* Scrollbar styles */
+  ::-webkit-scrollbar {
     width: 8px;
   }
-  
+
   ::-webkit-scrollbar-thumb {
     background-color: #8e8e8e;
     border-radius: 20px;
   }
-  
+
   ::-webkit-scrollbar-track {
     background-color: #fff;
     border-radius: 20px;
   }
+
+  /* Cursor blink animation
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  } */
+
+  /* .cursor-blink {
+    animation: blink 1s step-end infinite;
+  } */
+}

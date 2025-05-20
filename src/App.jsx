@@ -1,64 +1,46 @@
-import React,{lazy, Suspense} from "react";
-import { Route, Routes, NavLink } from "react-router-dom";
-// import Nav from './components/nav/Nav.jsx';
-import SideNav from "./components/nav/SideNav.jsx";
-import ScrollToTopButton from "./components/ScrollToTopButton.jsx";
+import { lazy, Suspense } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import { ThemeProvider } from './context/ThemeContext';
+import Sidebar from './components/Sidebar';
 
-const Home = lazy(() => import("./components/Home.jsx"));
-const Books = lazy(() => import("./components/books/Index.jsx"));
-const Tools = lazy(() => import("./components/tools/Index.jsx"));
-const Videos = lazy(() => import("./components/videos/Index.jsx"));
-const Editors = lazy(() => import("./components/editor/Index.jsx"));
-const Websites = lazy(() => import("./components/websites/Index.jsx"));
-const Challenges = lazy(() => import("./components/challenges/Index.jsx"));
+// Lazy load components
+const Home = lazy(() => import('./components/Home'));
+const About = lazy(() => import('./components/About'));
+const Videos = lazy(() => import('./components/videos/Index'));
+const Websites = lazy(() => import('./components/websites/Index'));
+const Challenges = lazy(() => import('./components/challenges/Index'));
+const Books = lazy(() => import('./components/books/Index'));
+const Tools = lazy(() => import('./components/tools/Index'));
+const Editors = lazy(() => import('./components/editor/Index'));
+const Resources = lazy(() => import('./components/Resources'));
 
-const App = () => {
+function App() {
   return (
-    <div className="flex">
-      <SideNav className="" />
-      <div className="lg:pl-60">
-        <Routes location={location} key={location.key}>
-          {/* Home */}
-          <Route path="/" element={
-            <Suspense fallback={<p>Loading</p>}>
-              <Home />
-            </Suspense>
-          } />
-          <Route path="/Videos" element={
-            <Suspense fallback={<p>Loading</p>}>
-              <Videos />
-            </Suspense>
-          } />
-          <Route path="/Websites" element={
-            <Suspense fallback={<p>Loading</p>}>
-              <Websites />
-            </Suspense>
-          } />
-          <Route path="/Challenges" element={
-            <Suspense fallback={<p>Loading</p>}>
-              <Challenges />
-            </Suspense>
-          } />
-          <Route path="/Books" element={
-            <Suspense fallback={<p>Loading</p>}>
-              <Books />
-            </Suspense>
-          } />
-          <Route path="/Tools" element={
-            <Suspense fallback={<p>Loading</p>}>
-              <Tools />
-            </Suspense>
-          } />
-            <Route path="/Editors" element={
-            <Suspense fallback={<p>Loading</p>}>
-              <Editors />
-            </Suspense>
-          } />
-        </Routes>
+    <ThemeProvider>
+      <div className="flex min-h-screen bg-gray-100 dark:bg-gray-900">
+        <Sidebar />
+        <main className="flex-1 ml-64 relative">
+          <Suspense fallback={
+            <div className="flex items-center justify-center h-screen">
+              <div className="text-2xl text-gray-600 dark:text-gray-300">Loading...</div>
+            </div>
+          }>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/videos" element={<Videos />} />
+              <Route path="/websites" element={<Websites />} />
+              <Route path="/challenges" element={<Challenges />} />
+              <Route path="/books" element={<Books />} />
+              <Route path="/tools" element={<Tools />} />
+              <Route path="/editors" element={<Editors />} />
+              <Route path="/resources" element={<Resources />} />
+            </Routes>
+          </Suspense>
+        </main>
       </div>
-      <ScrollToTopButton />
-    </div>
+    </ThemeProvider>
   );
-};
+}
 
 export default App;

@@ -9,6 +9,14 @@
     <link rel="icon" type="image/png" sizes="16x16" href="src/assets/favicon_io/favicon-16x16.png" />
     <link rel="manifest" href="src/assets/favicon_io/site.webmanifest" />
     <script src="https://kit.fontawesome.com/6dca7316ef.js" crossorigin="anonymous"></script>
+    <script>
+      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    </script>
   </head>
 
   <!-- Google tag (gtag.js) -->

@@ -6,7 +6,7 @@ export default function Home() {
   const text = "Web Resources Hub";
   const [currentText, setCurrentText] = useState("");
   const fixedCharacter = "W";
-  const [showCursor, setShowCursor] = useState(true); // State to control cursor visibility
+  const [showCursor, setShowCursor] = useState(true);
 
   const startTypewriter = () => {
     let index = currentText.length;
@@ -29,35 +29,34 @@ export default function Home() {
     setCurrentText(fixedCharacter);
     startTypewriter();
 
-    // Toggle cursor visibility with a blinking effect
     const cursorInterval = setInterval(() => {
       setShowCursor((prevShowCursor) => !prevShowCursor);
     }, 250);
 
     return () => {
-      clearInterval(cursorInterval); // Clear interval on unmount
+      clearInterval(cursorInterval);
     };
   }, []);
 
   return (
-    <div className="flex relative justify-start w-full h-screen mt-6">
+    <div className="flex flex-col justify-start w-full p-8">
       <motion.div
-        className="p-4 flex flex-col gap-8 ml-2 lg:ml-20 mt-20 lg:mt-8"
+        className="flex flex-col gap-8 max-w-4xl"
         initial={{ opacity: 0, translateX: -100 }}
         animate={{ opacity: 1, translateX: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <h1 className="text-7xl text-[#444a4f] leading-[5rem] tracking-wider drop-shadow-xl font-bold">
+        <h1 className="text-7xl text-gray-900 dark:text-white leading-[5rem] tracking-wider drop-shadow-xl font-bold">
           {currentText}
           {showCursor && <span className="cursor-blink">|</span>}
         </h1>
-        <h2 className="text-4xl text-[#3f454a] leading-[4rem] tracking-wider drop-shadow-xl">
-          Get Empowered <span className="text-[]"> with </span> <br />
+        <h2 className="text-4xl text-gray-800 dark:text-gray-200 leading-[4rem] tracking-wider drop-shadow-xl">
+          Get Empowered <span className="text-gray-700 dark:text-gray-300"> with </span> <br />
           Web Development
           <br />
-          <span className="text-[]"> Resources </span>
+          <span className="text-gray-700 dark:text-gray-300"> Resources </span>
         </h2>
-        <p className="text-lg w-4/5 text-[#858585]">
+        <p className="text-lg text-gray-600 dark:text-gray-400">
           Explore our vast collection of web development resources, designed to
           give you the knowledge and tools you need to succeed in the world of web development!
         </p>

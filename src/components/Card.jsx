@@ -1,28 +1,71 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Card = ({ title, link, description, i, img }) => {
+const Card = ({ title, link, description = "", i, img }) => {
+  // Define the primary red glow/accent color for Tailwind shadows
+  const RED_GLOW_SHADOW = "shadow-[0_0_15px_rgba(220,38,38,0.7)]";
+
   return (
-    <a href={link} target={"_blank"} rel="noreferrer">
+    <a
+      href={link}
+      target="_blank"
+      rel="noreferrer"
+      aria-label={`Open ${title}`}
+      className="group block relative"
+    >
       <motion.div
-        className="card border-b-2 bg-gradient-to-r from-[#545454] to-[#807f7f]  border-b-[#000000] flex flex-col rounded-lg  gap-4 p-4 shadow-3xl h-[16rem] w-[24rem] hover:shadow-4xl "
+        className={`
+          card 
+          relative 
+          // 1. Theme: Dark background, border, and aggressive shadow on hover
+          bg-gray-900 
+          border border-gray-700 
+          flex flex-col rounded-xl 
+          shadow-lg 
+          h-[18rem] w-[22rem] 
+          transition-all duration-300 ease-in-out 
+          
+          // Apply red accent hover styles
+          hover:border-red-600 
+          hover:shadow-xl hover:${RED_GLOW_SHADOW}
+          hover:-translate-y-2
+        `}
         key={i}
-        initial={{ opacity: 0, translateX: -100 }}
-        animate={{ opacity: 1, translateX: 0 }}
-        transition={{ duration: 0.2, delay: i * 0.2 }}
+        initial={{ opacity: 0, scale: 0.9 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.3, delay: i * 0.1 }}
       >
-        <div className="img img-container self-center">
-          {/* src={`'${img}'`} */}
-          <img className="rounded-sm w-40 h-20" src={img} alt="img" />
+        {/* Image Section - Make image more prominent, like a game cover */}
+        <div className="img-container h-[70%] w-full relative">
+          <img
+            // Fill container, sharp corners, and transition
+            className="w-full h-full object-cover rounded-t-xl border-b border-gray-700 transition-all duration-300 group-hover:border-red-600"
+            src={img}
+            alt={title}
+          />
+          {/* Subtle overlay for image to help text contrast */}
+          <div className="absolute inset-0 bg-gradient-to-t from-gray-900/50 to-transparent rounded-t-xl"></div>
         </div>
 
-        <div className="content flex flex-col gap-4 items-center">
-          <h2 className="text-[#e5e5e5] hover:text-[#fff] text-lg font-bold hover:text-orange-500">
+        {/* Content Section - Minimal padding for content block */}
+        <div className="content flex flex-col gap-1 items-start text-left p-3">
+          <h2 
+            // 2. Title Styling: Bold white text, transition to Red accent on hover
+            className="
+              text-lg font-extrabold text-white uppercase
+              transition-colors duration-200 
+              group-hover:text-red-500 
+              group-hover:drop-shadow-[0_0_5px_rgba(220,38,38,0.8)]
+            "
+          >
             {title}
           </h2>
 
-          <p className="text-[0.9rem] text-[#e2e1e1] w-4/5 font-inter tracking-wide leading-5">
-            {description.slice(0, 120) + "..."}
+          {/* 3. Description Styling: Muted gray text */}
+          <p className="text-xs text-gray-400 w-full tracking-wide leading-4">
+            {description.length > 80 // Reduced description length for compact look
+              ? description.slice(0, 80) + "..."
+              : description}
           </p>
         </div>
       </motion.div>

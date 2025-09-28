@@ -49,18 +49,18 @@
     "img": "https://rb.gy/scnw5"
   },
   {
-    "tag": "js"
+    "tag": "js",
     "title": "Programiz",
     "description": "Learn to code in Python, C/C++, Java, and other popular programming languages with our easy to follow tutorials, examples, online compiler and references.",
     "link": "https://www.programiz.com/",
     "img": "https://rb.gy/j1mth"
   },
   {
-    "tag":"js",
+    "tag": "js",
     "title": "DevDocs",
-    "description":"DevDocs combines multiple developer documentations in a clean and organized web UI with instant search, offline support, mobile version, dark theme, keyboard shortcuts, and more.",
-    "link":"https://devdocs.io/javascript/",
-    "img":"https://rb.gy/9z0te"
+    "description": "DevDocs combines multiple developer documentations in a clean and organized web UI with instant search, offline support, mobile version, dark theme, keyboard shortcuts, and more.",
+    "link": "https://devdocs.io/javascript/",
+    "img": "https://rb.gy/9z0te"
   },
   {
     "tag": "js",
@@ -73,7 +73,7 @@
     "tag": "js",
     "title": "33 JS Concepts",
     "description": "33 Concepts Every JavaScript Developer Should Know.",
-    "link": " https://github.com/leonardomso/33-js-concepts",
+    "link": "https://github.com/leonardomso/33-js-concepts",
     "img": "https://github.com/jayk-gupta/web-resources-project/assets/104543751/8b73bcd4-325a-40b3-a536-fe721172d3a6"
   }
 ]

@@ -6,70 +6,91 @@ import css from "../../database/websites/css.json";
 import js from "../../database/websites/javascript.json";
 import react from "../../database/websites/reactjs.json";
 import tailwind from "../../database/websites/tailwindcss.json";
-import nextjs from '../../database/websites/nextjs.json';
+import nextjs from "../../database/websites/nextjs.json";
 import { useLocation } from "react-router-dom";
 
+// Lookup object for datasets
+const datasets = {
+  html,
+  css,
+  js,
+  react,
+  tailwind,
+  nextjs,
+};
+
 const Index = () => {
-  const [filter, setFilter] = useState("html");
-  const [data, setData] = useState([]);
-  const [searchData, setSearchData] = useState();
-  let location = useLocation();
+  const [filter, setFilter] = useState("html");
+  const [data, setData] = useState([]);
+  const [searchData, setSearchData] = useState([]);
+  let location = useLocation();
 
-  useEffect(() => {
-    if (filter === "html") {
-      setData([...html]);
-    } else if (filter === "css") {
-      setData([...css]);
-    } else if (filter === "js") {
-      setData([...js]);
-    } else if (filter === "react") {
-      setData([...react]);
-    } else if (filter === "tailwind") {
-      setData([...tailwind]);
-    } else if (filter === "nextjs") {
-      setData([...nextjs]);
-    }  else {
-      setData([]); // Set empty array if no matching filter is found
-    }
-  }, [filter]);
+  // Update data when filter changes
+  useEffect(() => {
+    setData(datasets[filter] ? [...datasets[filter]] : []);
+  }, [filter]);
 
-  const handleFilterChange = (target) => {
-    setFilter(target);
-  };
+  const handleFilterChange = (target) => {
+    setFilter(target);
+  };
 
-  const index = location.search.indexOf("=");
+  // Extract query string (?search=...)
+  const index = location.search.indexOf("=");
+  let searchItem = location.search.slice(index + 1);
 
-  let searchItem = location.search.slice(index + 1);
+  // Apply search filter
+  useEffect(() => {
+    if (searchItem) {
+      const value = data.filter((item) =>
+        item.title.toLowerCase().includes(searchItem.toLowerCase())
+      );
+      setSearchData(value);
+    } else {
+      setSearchData(data);
+    }
+  }, [searchItem, data]);
 
-  useEffect(() => {
-    const value = data.filter((item) => {
-      return `${item.title.toLowerCase()}`.includes(searchItem.toLowerCase());
-    });
-    setSearchData(value);
-  }, [searchItem,data]
-  )
+  return (
+    // 1. Set the deep black background and center container
+    <div className="min-h-screen bg-gray-950 p-8 pt-32 lg:pt-8 max-w-7xl mx-auto">
+      
+      {/* NEW: Title Section - CODE QUEST - PRACTICE EDITOR */}
+      <header className="text-center mb-12">
+        {/* Main Title Line */}
+        <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-pixel leading-tight tracking-wider">
+          <span className="text-red-500">🎮</span>WEBSITES
+        </h1>
+        
+        {/* Sub Title Line */}
+        <p className="text-white text-3xl sm:text-4xl md:text-5xl font-pixel leading-tight tracking-wider">
+          EDITOR
+        </p>
+      </header>
 
-  return (
-    <div className="m-8 mt-32 lg:mt-8">
-      <Filter onStateChange={handleFilterChange} />
-      <div className="flex flex-wrap gap-5">
-        {data.length > 0 ? (
-          (location.search !== "" ? searchData : data).map((res, i) => (
-            <Card
-              key={res.title}
-              title={res.title}
-              link={res.link}
-              description={res.description}
-              i={i}
-              img={res.img}
-            />
-          ))
-        ) : (
-          <p>No data found.</p>
-        )}
-      </div>
-    </div>
-  );
+      {/* Filter Component */}
+      <Filter onStateChange={handleFilterChange} />
+
+      {/* Cards Section */}
+      <div className="flex flex-wrap gap-5 mt-6 justify-center lg:justify-start">
+        {searchData.length > 0 ? (
+          searchData.map((res, i) => (
+            <Card
+              key={res.title}
+              title={res.title}
+              link={res.link}
+              description={res.description}
+              i={i}
+              img={res.img}
+            />
+          ))
+        ) : (
+          <p className="w-full text-center text-lg text-[#ff6b6b] mt-10 animate-pulse">
+            🚫 No websites found 🚫
+          </p>
+        )}
+      </div>
+    </div>
+  );
 };
 
 export default Index;

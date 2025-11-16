@@ -11,6 +11,7 @@ const Videos = lazy(() => import("./components/videos/Index.jsx"));
 const Editors = lazy(() => import("./components/editor/Index.jsx"));
 const Websites = lazy(() => import("./components/websites/Index.jsx"));
 const Challenges = lazy(() => import("./components/challenges/Index.jsx"));
+const Favorites = lazy(() => import("./components/favorites/Index.jsx"));
 
 const App = () => {
   return (
@@ -54,6 +55,11 @@ const App = () => {
               <Editors />
             </Suspense>
           } />
+            <Route path="/Favorites" element={
+              <Suspense fallback={<p>Loading</p>}>
+                <Favorites />
+              </Suspense>
+            } />
         </Routes>
       </div>
       <ScrollToTopButton />

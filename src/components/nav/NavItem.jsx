@@ -8,7 +8,9 @@ import NavUI from './NavUI'
 import {useLocation} from "react-router-dom";
 
 
-const icons = [
+  { icon: <BiIcons.BiCodeAlt />, iconName: "Editors", navlink: "Editors" },
+  { icon: <FaIcons.FaStar />, iconName: "Favorites", navlink: "/Favorites" },
+  
   {
     icon: <FaIcons.FaHome />,
     iconName: "Home",

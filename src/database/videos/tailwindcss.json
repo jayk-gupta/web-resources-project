@@ -5,5 +5,12 @@
     "description": "Tailwind CSS is a highly customizable and utility-first CSS framework, designed to speed up web development by providing an extensive set of pre-built classes that can be combined to build modern and responsive user interfaces.",
     "link": "#",
     "img": "#"
+  },
+  {
+    "tag": "tailwind",
+    "title": "JavaScript Mastery - Tailwind CSS",
+    "description": "A practical tutorial explaining how to handle and amange CSS effectively using Javascript, focusing on real-world frontend development patterns.",
+    "link": "https://youtu.be/6biMWgD6_JY?si=78mWNOd3TFXt-_0P",
+    "img": "#"
   }
 ]
